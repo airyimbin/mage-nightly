@@ -16,11 +16,14 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v4
 
-      - name: Set up Java 8 (Temurin) + Maven cache
+      - name: Set up Java 8 (Liberica Full with JavaFX) + Maven cache
         uses: actions/setup-java@v4
         with:
-          distribution: temurin
-          java-version: "8"
+          distribution: liberica
+          java-version: '8'
+          # This selects the "Full" (with JavaFX) flavor automatically for Liberica
+          # (setup-java picks FX build for Liberica 8). If not, add:
+          # java-package: jdk+fx
           cache: maven
 
       # 1) Root build: mvn clean install -DskipTests
