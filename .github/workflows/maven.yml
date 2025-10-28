@@ -88,22 +88,28 @@ jobs:
             exit 1
           fi
 
-          XMAGE_DIR="${RELEASE_DIR}"
-          if [ ! -d "${XMAGE_DIR}" ]; then
-            echo "Expected xmage/ folder not found at: ${XMAGE_DIR}"
-            echo "Release root content:"
-            find "${RELEASE_DIR}" -maxdepth 2 -type d -print
+          # Find xmage directory
+          XMAGE_DIR=$(find work -maxdepth 2 -type d -name "xmage" | head -n 1)
+          
+          if [ -z "$XMAGE_DIR" ]; then
+            echo "Could not locate xmage directory after extracting base XMage."
+            find work -maxdepth 3 -type d
             exit 1
           fi
+          
+          echo "XMAGE_DIR: $XMAGE_DIR"
+          echo "Target mage-client: $XMAGE_DIR/mage-client"
+          echo "Target mage-server: $XMAGE_DIR/mage-server"
+          
+          # Ensure the subfolders exist (some XMage builds extract empty folders)
+          mkdir -p "$XMAGE_DIR/mage-client" "$XMAGE_DIR/mage-server"
+          
+          echo "Extracting mage-client.zip into mage-client folder..."
+          7z x -y -o"$XMAGE_DIR/mage-client" Mage.Client/target/mage-client.zip
+          
+          echo "Extracting mage-server.zip into mage-server folder..."
+          7z x -y -o"$XMAGE_DIR/mage-server" Mage.Server/target/mage-server.zip
 
-          echo "Release folder: ${RELEASE_DIR}"
-          echo "XMAGE directory: ${XMAGE_DIR}"
-
-          echo "Overlaying nightly mage-client.zip into xmage/..."
-          7z x -y -o"${XMAGE_DIR}" Mage.Client/target/mage-client.zip
-
-          echo "Overlaying nightly mage-server.zip into xmage/..."
-          7z x -y -o"${XMAGE_DIR}" Mage.Server/target/mage-server.zip
 
           echo "Repacking as mage-nightly.zip..."
           (cd work && zip -qr ../mage-nightly.zip .)
