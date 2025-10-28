@@ -2,17 +2,17 @@ name: Nightly Maven Build (Java 11 + JavaFX)
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # 06:00 UTC, runs after sync workflow
+    - cron: "0 6 * * *"   # 06:00 UTC; make sure your fork sync workflow runs before this
   workflow_dispatch: {}
 
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # create releases & upload assets
+      contents: write   # needed to create releases & upload assets
 
     steps:
-      - name: Check out repo (full)
+      - name: Check out repo (full history)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
@@ -25,74 +25,108 @@ jobs:
           java-package: jdk+fx
           cache: maven
 
-      - name: Build root
+      # 1) Root build: mvn clean install -DskipTests
+      - name: Build root (skip tests)
         run: mvn -B -ntp clean install -DskipTests
 
+      # 2) Mage.Client assembly (no clean/package)
       - name: Build Mage.Client assembly
         working-directory: Mage.Client
         run: mvn -B -ntp -DskipTests assembly:single
 
+      # 3) Mage.Server assembly (no clean/package)
       - name: Build Mage.Server assembly
         working-directory: Mage.Server
         run: mvn -B -ntp -DskipTests assembly:single
 
       - name: Verify artifacts exist
         run: |
+          ls -l Mage.Client/target || true
+          ls -l Mage.Server/target || true
           test -f Mage.Client/target/mage-client.zip
           test -f Mage.Server/target/mage-server.zip
 
-      - name: Build combined mage-nightly.zip from upstream
+      # ===== Download latest XMage, overlay fresh client/server into xmage/, repack =====
+      - name: Build combined mage-nightly.zip from latest upstream
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
+          export LANG=C.UTF-8
+
           sudo apt-get update -y
-          sudo apt-get install -y jq unzip zip
+          sudo apt-get install -y jq p7zip-full zip
 
-          echo "Fetching latest XMage release from magefree/mage..."
-          rel_json=$(curl -sS -H "Authorization: Bearer ${GH_TOKEN}" https://api.github.com/repos/magefree/mage/releases/latest)
+          echo "Fetching latest XMage release metadata..."
+          rel_json=$(curl -sS -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json" \
+                     https://api.github.com/repos/magefree/mage/releases/latest)
 
+          # Prefer an asset named like xmage*.zip (case-insensitive), otherwise first .zip
           asset_url=$(echo "$rel_json" | jq -r '
             (.assets[] | select(.name | test("(?i)^x?mage.*\\.zip$")) | .browser_download_url) // empty
           ')
-          if [ -z "$asset_url" ] || [ "$asset_url" = "null" ]; then
+          if [ -z "${asset_url}" ] || [ "${asset_url}" = "null" ]; then
             asset_url=$(echo "$rel_json" | jq -r '
               (.assets[] | select(.name | endswith(".zip")) | .browser_download_url) // empty
             ')
           fi
+          if [ -z "${asset_url}" ] || [ "${asset_url}" = "null" ]; then
+            echo "Could not find a suitable .zip asset in magefree/mage latest release."
+            exit 1
+          fi
 
-          echo "Downloading: $asset_url"
-          curl -L -H "Authorization: Bearer ${GH_TOKEN}" -o base-xmage.zip "$asset_url"
+          echo "Downloading base XMage zip: ${asset_url}"
+          curl -L -H "Authorization: Bearer ${GH_TOKEN}" -o base-xmage.zip "${asset_url}"
 
           mkdir -p work
-          unzip -q base-xmage.zip -d work
+          7z x -y -owork base-xmage.zip
 
-          XMAGE_DIR=$(find work -maxdepth 1 -mindepth 1 -type d | head -n 1)
-          echo "Base directory: $XMAGE_DIR"
+          # The release structure is: work/<release-root>/xmage/...
+          RELEASE_DIR=$(find work -maxdepth 1 -mindepth 1 -type d | head -n 1)
+          if [ -z "${RELEASE_DIR}" ]; then
+            echo "Failed to detect release root folder."
+            exit 1
+          fi
 
-          unzip -o -q Mage.Client/target/mage-client.zip -d "$XMAGE_DIR"
-          unzip -o -q Mage.Server/target/mage-server.zip -d "$XMAGE_DIR"
+          XMAGE_DIR="${RELEASE_DIR}/xmage"
+          if [ ! -d "${XMAGE_DIR}" ]; then
+            echo "Expected xmage/ folder not found at: ${XMAGE_DIR}"
+            echo "Release root content:"
+            find "${RELEASE_DIR}" -maxdepth 2 -type d -print
+            exit 1
+          fi
 
+          echo "Release folder: ${RELEASE_DIR}"
+          echo "XMAGE directory: ${XMAGE_DIR}"
+
+          echo "Overlaying nightly mage-client.zip into xmage/..."
+          7z x -y -o"${XMAGE_DIR}" Mage.Client/target/mage-client.zip
+
+          echo "Overlaying nightly mage-server.zip into xmage/..."
+          7z x -y -o"${XMAGE_DIR}" Mage.Server/target/mage-server.zip
+
+          echo "Repacking as mage-nightly.zip..."
           (cd work && zip -qr ../mage-nightly.zip .)
 
           ls -lh mage-nightly.zip
+      # ===== end combine block =====
 
-      - name: Compute nightly tag
-        id: tag
+      - name: Compute nightly tag & title
+        id: meta
         run: |
           DATE_UTC=$(date -u +'%Y-%m-%d')
           TAG="nightly-${DATE_UTC}-${GITHUB_RUN_NUMBER}"
-          echo "tag=${TAG}" >> $GITHUB_OUTPUT
-          echo "title=Nightly ${DATE_UTC}" >> $GITHUB_OUTPUT
+          echo "tag=${TAG}"   >> "$GITHUB_OUTPUT"
+          echo "title=Nightly ${DATE_UTC}" >> "$GITHUB_OUTPUT"
 
-      - name: Release
+      - name: Create GitHub Release and upload zips
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ steps.tag.outputs.tag }}
-          name: ${{ steps.tag.outputs.title }}
+          tag_name: ${{ steps.meta.outputs.tag }}
+          name: ${{ steps.meta.outputs.title }}
           prerelease: true
           body: |
-            Nightly Build of XMage.
+            Nightly Build of XMage. 
 
             Only run Update once to install Java. Running a second time will overwrite with latest official release.
           files: |
