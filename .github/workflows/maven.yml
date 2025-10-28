@@ -88,7 +88,7 @@ jobs:
             exit 1
           fi
 
-          XMAGE_DIR="${RELEASE_DIR}/xmage"
+          XMAGE_DIR="${RELEASE_DIR}"
           if [ ! -d "${XMAGE_DIR}" ]; then
             echo "Expected xmage/ folder not found at: ${XMAGE_DIR}"
             echo "Release root content:"
