@@ -1,0 +1,69 @@
+name: Nightly Maven Build (Java 8)
+
+on:
+  schedule:
+    # Nightly at 06:00 UTC (1–2am ET depending on DST)
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to create releases and upload assets
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Java 8 (Temurin) + Maven cache
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "8"
+          cache: maven
+
+      # 1) Root build: mvn clean install -DskipTests
+      - name: Build root (skip tests)
+        run: mvn -B -ntp clean install -DskipTests
+
+      # 2) Mage.Client assembly (no clean/package)
+      - name: Build Mage.Client assembly
+        working-directory: Mage.Client
+        run: mvn -B -ntp -DskipTests assembly:single
+
+      # 3) Mage.Server assembly (no clean/package)
+      - name: Build Mage.Server assembly
+        working-directory: Mage.Server
+        run: mvn -B -ntp -DskipTests assembly:single
+
+      - name: Verify expected ZIPs exist
+        run: |
+          ls -l Mage.Client/target || true
+          ls -l Mage.Server/target || true
+          test -f Mage.Client/target/mage-client.zip
+          test -f Mage.Server/target/mage-server.zip
+
+      - name: Compute nightly tag and title
+        id: meta
+        run: |
+          DATE_UTC=$(date -u +'%Y-%m-%d')
+          TAG="nightly-${DATE_UTC}-${GITHUB_RUN_NUMBER}"
+          echo "tag=${TAG}" >> "$GITHUB_OUTPUT"
+          echo "title=Nightly ${DATE_UTC}" >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub Release and upload zips
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.meta.outputs.tag }}
+          name: ${{ steps.meta.outputs.title }}
+          prerelease: true
+          body: |
+            Nightly Build of XMage. 
+
+            Only run Update once to install Java. Running a second time will overwrite with latest official release.
+          files: |
+            Mage.Client/target/mage-client.zip
+            Mage.Server/target/mage-server.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
