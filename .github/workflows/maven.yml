@@ -30,12 +30,12 @@ jobs:
       # 2) Mage.Client assembly (no clean/package)
       - name: Build Mage.Client assembly
         working-directory: Mage.Client
-        run: mvn -B -ntp -DskipTests assembly:single
+        run: mvn -B -ntp assembly:single
 
       # 3) Mage.Server assembly (no clean/package)
       - name: Build Mage.Server assembly
         working-directory: Mage.Server
-        run: mvn -B -ntp -DskipTests assembly:single
+        run: mvn -B -ntp assembly:single
 
       - name: Verify expected ZIPs exist
         run: |
