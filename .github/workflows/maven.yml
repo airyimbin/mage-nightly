@@ -1,20 +1,21 @@
-name: Nightly Maven Build (Java 8)
+name: Nightly Maven Build (Java 11 + JavaFX)
 
 on:
   schedule:
-    # Nightly at 06:00 UTC (1–2am ET depending on DST)
-    - cron: "0 6 * * *"
+    - cron: "0 6 * * *"   # 06:00 UTC, runs after sync workflow
   workflow_dispatch: {}
 
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # needed to create releases and upload assets
+      contents: write   # create releases & upload assets
 
     steps:
-      - name: Check out repo
+      - name: Check out repo (full)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Liberica JDK 11 (with JavaFX) + Maven cache
         uses: actions/setup-java@v4
@@ -24,47 +25,79 @@ jobs:
           java-package: jdk+fx
           cache: maven
 
-      # 1) Root build: mvn clean install -DskipTests
-      - name: Build root (skip tests)
+      - name: Build root
         run: mvn -B -ntp clean install -DskipTests
 
-      # 2) Mage.Client assembly (no clean/package)
       - name: Build Mage.Client assembly
         working-directory: Mage.Client
-        run: mvn -B -ntp assembly:single
+        run: mvn -B -ntp -DskipTests assembly:single
 
-      # 3) Mage.Server assembly (no clean/package)
       - name: Build Mage.Server assembly
         working-directory: Mage.Server
-        run: mvn -B -ntp assembly:single
+        run: mvn -B -ntp -DskipTests assembly:single
 
-      - name: Verify expected ZIPs exist
+      - name: Verify artifacts exist
         run: |
-          ls -l Mage.Client/target || true
-          ls -l Mage.Server/target || true
           test -f Mage.Client/target/mage-client.zip
           test -f Mage.Server/target/mage-server.zip
 
-      - name: Compute nightly tag and title
-        id: meta
+      - name: Build combined mage-nightly.zip from upstream
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          sudo apt-get update -y
+          sudo apt-get install -y jq unzip zip
+
+          echo "Fetching latest XMage release from magefree/mage..."
+          rel_json=$(curl -sS -H "Authorization: Bearer ${GH_TOKEN}" https://api.github.com/repos/magefree/mage/releases/latest)
+
+          asset_url=$(echo "$rel_json" | jq -r '
+            (.assets[] | select(.name | test("(?i)^x?mage.*\\.zip$")) | .browser_download_url) // empty
+          ')
+          if [ -z "$asset_url" ] || [ "$asset_url" = "null" ]; then
+            asset_url=$(echo "$rel_json" | jq -r '
+              (.assets[] | select(.name | endswith(".zip")) | .browser_download_url) // empty
+            ')
+          fi
+
+          echo "Downloading: $asset_url"
+          curl -L -H "Authorization: Bearer ${GH_TOKEN}" -o base-xmage.zip "$asset_url"
+
+          mkdir -p work
+          unzip -q base-xmage.zip -d work
+
+          XMAGE_DIR=$(find work -maxdepth 1 -mindepth 1 -type d | head -n 1)
+          echo "Base directory: $XMAGE_DIR"
+
+          unzip -o -q Mage.Client/target/mage-client.zip -d "$XMAGE_DIR"
+          unzip -o -q Mage.Server/target/mage-server.zip -d "$XMAGE_DIR"
+
+          (cd work && zip -qr ../mage-nightly.zip .)
+
+          ls -lh mage-nightly.zip
+
+      - name: Compute nightly tag
+        id: tag
         run: |
           DATE_UTC=$(date -u +'%Y-%m-%d')
           TAG="nightly-${DATE_UTC}-${GITHUB_RUN_NUMBER}"
-          echo "tag=${TAG}" >> "$GITHUB_OUTPUT"
-          echo "title=Nightly ${DATE_UTC}" >> "$GITHUB_OUTPUT"
+          echo "tag=${TAG}" >> $GITHUB_OUTPUT
+          echo "title=Nightly ${DATE_UTC}" >> $GITHUB_OUTPUT
 
-      - name: Create GitHub Release and upload zips
+      - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ steps.meta.outputs.tag }}
-          name: ${{ steps.meta.outputs.title }}
+          tag_name: ${{ steps.tag.outputs.tag }}
+          name: ${{ steps.tag.outputs.title }}
           prerelease: true
           body: |
-            Nightly Build of XMage. 
+            Nightly Build of XMage.
 
             Only run Update once to install Java. Running a second time will overwrite with latest official release.
           files: |
             Mage.Client/target/mage-client.zip
             Mage.Server/target/mage-server.zip
+            mage-nightly.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
