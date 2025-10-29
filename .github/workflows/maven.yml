@@ -1,21 +1,28 @@
 name: Nightly Maven Build (Java 11 + JavaFX)
 
 on:
-  schedule:
-    - cron: "0 6 * * *"   # 06:00 UTC; make sure your fork sync workflow runs before this
+  repository_dispatch:
+    types: [nightly-sync-trigger]
   workflow_dispatch: {}
+
+permissions:
+  contents: write
 
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write   # needed to create releases & upload assets
 
     steps:
       - name: Check out repo (full history)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      - name: Show trigger info
+        run: |
+          echo "Triggered by: ${{ github.event.action || 'manual' }}"
+          echo "Ref from payload: ${{ github.event.client_payload.ref }}"
+          echo "SHA from payload: ${{ github.event.client_payload.sha }}"
 
       - name: Set up Liberica JDK 11 (with JavaFX) + Maven cache
         uses: actions/setup-java@v4
@@ -130,7 +137,7 @@ jobs:
         with:
           tag_name: ${{ steps.meta.outputs.tag }}
           name: ${{ steps.meta.outputs.title }}
-          prerelease: true
+          prerelease: false
           body: |
             Nightly Build of XMage. 
 
