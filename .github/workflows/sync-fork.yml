@@ -1,0 +1,119 @@
+name: Nightly — Sync Fork then Trigger Build
+
+on:
+  schedule:
+    - cron: "50 5 * * *"   # 05:50 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  sync-and-dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Discover upstream & default branch
+        id: meta
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          api="https://api.github.com/repos/${REPO}"
+          json=$(curl -sS -H "Authorization: Bearer ${GH_TOKEN}" -H "Accept: application/vnd.github+json" "$api")
+          upstream_url=$(echo "$json" | jq -r '.parent.clone_url // empty')
+          default_branch=$(echo "$json" | jq -r '.default_branch // "main"')
+          echo "upstream_url=${upstream_url}" >> "$GITHUB_OUTPUT"
+          echo "branch=${default_branch}" >> "$GITHUB_OUTPUT"
+          if [ -z "$upstream_url" ]; then
+            echo "Not a fork; nothing to sync."
+            echo "updated=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+      - name: Configure git identity
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream & fetch
+        run: |
+          git remote add upstream "${{ steps.meta.outputs.upstream_url }}" 2>/dev/null || \
+          git remote set-url upstream "${{ steps.meta.outputs.upstream_url }}"
+          git fetch upstream --tags --prune
+          git fetch origin  --tags --prune
+
+      - name: Compare histories
+        id: cmp
+        env:
+          BRANCH: ${{ steps.meta.outputs.branch }}
+        run: |
+          set -euo pipefail
+          git checkout "$BRANCH"
+          git branch --set-upstream-to="origin/$BRANCH" || true
+          read ORIGIN_ONLY UPSTREAM_ONLY < <(git rev-list --left-right --count "origin/$BRANCH...upstream/$BRANCH" || echo "0 0")
+          echo "origin-only=${ORIGIN_ONLY}"   >> "$GITHUB_OUTPUT"
+          echo "upstream-only=${UPSTREAM_ONLY}" >> "$GITHUB_OUTPUT"
+          echo "origin-only: ${ORIGIN_ONLY}, upstream-only: ${UPSTREAM_ONLY}"
+
+      - name: Fast-forward if possible
+        id: ff
+        if: ${{ steps.cmp.outputs.upstream-only != '0' && steps.cmp.outputs.origin-only == '0' }}
+        env:
+          BRANCH: ${{ steps.meta.outputs.branch }}
+        run: |
+          set -euo pipefail
+          BEFORE=$(git rev-parse "origin/$BRANCH" || true)
+          git checkout "$BRANCH"
+          git merge --ff-only "upstream/$BRANCH"
+          git push origin "HEAD:$BRANCH"
+          AFTER=$(git rev-parse "origin/$BRANCH" || true)
+          echo "updated=true"       >> "$GITHUB_OUTPUT"
+          echo "after_sha=${AFTER}" >> "$GITHUB_OUTPUT"
+          echo "Fast-forwarded: $BEFORE -> $AFTER"
+
+      - name: Merge (create a merge commit) when fork has unique commits
+        id: mrge
+        if: ${{ steps.cmp.outputs.upstream-only != '0' && steps.cmp.outputs.origin-only != '0' }}
+        env:
+          BRANCH: ${{ steps.meta.outputs.branch }}
+        run: |
+          set -euo pipefail
+          BEFORE=$(git rev-parse "origin/$BRANCH" || true)
+          git checkout "$BRANCH"
+          # Merge upstream into fork, keeping your workflow commits
+          git merge --no-edit "upstream/$BRANCH"
+          git push origin "HEAD:$BRANCH"
+          AFTER=$(git rev-parse "origin/$BRANCH" || true)
+          echo "updated=true"       >> "$GITHUB_OUTPUT"
+          echo "after_sha=${AFTER}" >> "$GITHUB_OUTPUT"
+          echo "Merged upstream: $BEFORE -> $AFTER"
+
+      - name: Mark not updated
+        if: ${{ steps.cmp.outputs.upstream-only == '0' }}
+        run: echo "updated=false" >> "$GITHUB_OUTPUT"
+        id: noop
+
+      - name: Trigger build workflow (repository_dispatch)
+        if: ${{ (steps.ff.outputs.updated == 'true') || (steps.mrge.outputs.updated == 'true') }}
+        env:
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+          TOKEN: ${{ secrets.ACTIONS_TOKEN != '' && secrets.ACTIONS_TOKEN || secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          payload=$(jq -n --arg branch "${{ steps.meta.outputs.branch }}" \
+                          --arg sha    "${{ steps.ff.outputs.after_sha || steps.mrge.outputs.after_sha }}" \
+                          '{"ref":$branch, "sha":$sha}')
+          curl -sS -X POST \
+            -H "Authorization: Bearer ${TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${OWNER}/${REPO}/dispatches" \
+            -d "{\"event_type\":\"nightly-sync-trigger\",\"client_payload\":${payload}}"
+          echo "Dispatched nightly-sync-trigger to ${OWNER}/${REPO}"
