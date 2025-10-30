@@ -12,7 +12,7 @@ import java.util.List;
  */
 public final class AvatarTheLastAirbender extends ExpansionSet {
 
-    private static final List<String> unfinished = Arrays.asList("Aang's Iceberg", "Avatar Aang", "Flexible Waterbender", "Geyser Leaper", "Giant Koi", "Hama, the Bloodbender", "Katara, Bending Prodigy", "Katara, Water Tribe's Hope", "North Pole Patrol", "Secret of Bloodbending", "The Legend of Kuruk", "Waterbending Lesson", "Water Tribe Rallier", "Watery Grasp", "Yue, the Moon Spirit");
+    private static final List<String> unfinished = Arrays.asList("Aang's Iceberg", "Avatar Aang", "Flexible Waterbender", "Foggy Swamp Visions", "Geyser Leaper", "Giant Koi", "Hama, the Bloodbender", "Katara, Bending Prodigy", "Katara, Water Tribe's Hope", "North Pole Patrol", "Secret of Bloodbending", "The Legend of Kuruk", "Waterbending Lesson", "Water Tribe Rallier", "Watery Grasp", "Yue, the Moon Spirit");
     private static final AvatarTheLastAirbender instance = new AvatarTheLastAirbender();
 
     public static AvatarTheLastAirbender getInstance() {
@@ -42,9 +42,9 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Avatar Enthusiasts", 11, Rarity.COMMON, mage.cards.a.AvatarEnthusiasts.class));
         cards.add(new SetCardInfo("Azula Always Lies", 84, Rarity.COMMON, mage.cards.a.AzulaAlwaysLies.class));
         cards.add(new SetCardInfo("Azula, On the Hunt", 85, Rarity.UNCOMMON, mage.cards.a.AzulaOnTheHunt.class));
-        cards.add(new SetCardInfo("Badgermole", 166, Rarity.COMMON, mage.cards.b.Badgermole.class));
         cards.add(new SetCardInfo("Badgermole Cub", 167, Rarity.MYTHIC, mage.cards.b.BadgermoleCub.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Badgermole Cub", 326, Rarity.MYTHIC, mage.cards.b.BadgermoleCub.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Badgermole", 166, Rarity.COMMON, mage.cards.b.Badgermole.class));
         cards.add(new SetCardInfo("Barrels of Blasting Jelly", 254, Rarity.COMMON, mage.cards.b.BarrelsOfBlastingJelly.class));
         cards.add(new SetCardInfo("Beetle-Headed Merchants", 86, Rarity.COMMON, mage.cards.b.BeetleHeadedMerchants.class));
         cards.add(new SetCardInfo("Bender's Waterskin", 255, Rarity.COMMON, mage.cards.b.BendersWaterskin.class));
@@ -61,6 +61,7 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Earth Village Ruffians", 219, Rarity.COMMON, mage.cards.e.EarthVillageRuffians.class));
         cards.add(new SetCardInfo("Earthbending Lesson", 176, Rarity.COMMON, mage.cards.e.EarthbendingLesson.class));
         cards.add(new SetCardInfo("Epic Downfall", 96, Rarity.UNCOMMON, mage.cards.e.EpicDownfall.class));
+        cards.add(new SetCardInfo("Fancy Footwork", 19, Rarity.UNCOMMON, mage.cards.f.FancyFootwork.class));
         cards.add(new SetCardInfo("Fated Firepower", 132, Rarity.MYTHIC, mage.cards.f.FatedFirepower.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Fated Firepower", 297, Rarity.MYTHIC, mage.cards.f.FatedFirepower.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Fated Firepower", 341, Rarity.MYTHIC, mage.cards.f.FatedFirepower.class, NON_FULL_USE_VARIOUS));
@@ -79,6 +80,7 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("First-Time Flyer", 49, Rarity.COMMON, mage.cards.f.FirstTimeFlyer.class));
         cards.add(new SetCardInfo("Flexible Waterbender", 50, Rarity.COMMON, mage.cards.f.FlexibleWaterbender.class));
         cards.add(new SetCardInfo("Flopsie, Bumi's Buddy", 179, Rarity.UNCOMMON, mage.cards.f.FlopsieBumisBuddy.class));
+        cards.add(new SetCardInfo("Forecasting Fortune Teller", 51, Rarity.COMMON, mage.cards.f.ForecastingFortuneTeller.class));
         cards.add(new SetCardInfo("Forest", 286, Rarity.LAND, mage.cards.basiclands.Forest.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Forest", 291, Rarity.LAND, mage.cards.basiclands.Forest.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Forest", 296, Rarity.LAND, mage.cards.basiclands.Forest.class, FULL_ART_BFZ_VARIOUS));
@@ -115,6 +117,7 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Momo, Friendly Flier", 29, Rarity.RARE, mage.cards.m.MomoFriendlyFlier.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Momo, Friendly Flier", 317, Rarity.RARE, mage.cards.m.MomoFriendlyFlier.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Momo, Friendly Flier", 394, Rarity.RARE, mage.cards.m.MomoFriendlyFlier.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Momo, Playful Pet", 30, Rarity.UNCOMMON, mage.cards.m.MomoPlayfulPet.class));
         cards.add(new SetCardInfo("Mongoose Lizard", 148, Rarity.COMMON, mage.cards.m.MongooseLizard.class));
         cards.add(new SetCardInfo("Mountain", 285, Rarity.LAND, mage.cards.basiclands.Mountain.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mountain", 290, Rarity.LAND, mage.cards.basiclands.Mountain.class, FULL_ART_BFZ_VARIOUS));
@@ -154,6 +157,7 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Sozin's Comet", 309, Rarity.MYTHIC, mage.cards.s.SozinsComet.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sozin's Comet", 332, Rarity.MYTHIC, mage.cards.s.SozinsComet.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Suki, Kyoshi Warrior", 243, Rarity.UNCOMMON, mage.cards.s.SukiKyoshiWarrior.class));
+        cards.add(new SetCardInfo("Sun Warriors", 244, Rarity.UNCOMMON, mage.cards.s.SunWarriors.class));
         cards.add(new SetCardInfo("Swamp", 284, Rarity.LAND, mage.cards.basiclands.Swamp.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Swamp", 289, Rarity.LAND, mage.cards.basiclands.Swamp.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Swamp", 294, Rarity.LAND, mage.cards.basiclands.Swamp.class, FULL_ART_BFZ_VARIOUS));
@@ -166,8 +170,12 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Toph, the First Metalbender", 247, Rarity.RARE, mage.cards.t.TophTheFirstMetalbender.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Toph, the First Metalbender", 353, Rarity.RARE, mage.cards.t.TophTheFirstMetalbender.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Toph, the First Metalbender", 362, Rarity.RARE, mage.cards.t.TophTheFirstMetalbender.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("True Ancestry", 199, Rarity.UNCOMMON, mage.cards.t.TrueAncestry.class));
         cards.add(new SetCardInfo("Turtle-Duck", 200, Rarity.COMMON, mage.cards.t.TurtleDuck.class));
+        cards.add(new SetCardInfo("Ty Lee, Artful Acrobat", 158, Rarity.UNCOMMON, mage.cards.t.TyLeeArtfulAcrobat.class));
+        cards.add(new SetCardInfo("Uncle Iroh", 248, Rarity.UNCOMMON, mage.cards.u.UncleIroh.class));
         cards.add(new SetCardInfo("Vindictive Warden", 249, Rarity.COMMON, mage.cards.v.VindictiveWarden.class));
+        cards.add(new SetCardInfo("War Balloon", 159, Rarity.UNCOMMON, mage.cards.w.WarBalloon.class));
         cards.add(new SetCardInfo("Waterbending Lesson", 80, Rarity.COMMON, mage.cards.w.WaterbendingLesson.class));
         cards.add(new SetCardInfo("Watery Grasp", 82, Rarity.COMMON, mage.cards.w.WateryGrasp.class));
         cards.add(new SetCardInfo("White Lotus Reinforcements", 251, Rarity.UNCOMMON, mage.cards.w.WhiteLotusReinforcements.class));
