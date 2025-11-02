@@ -12,7 +12,7 @@ import java.util.List;
  */
 public final class AvatarTheLastAirbender extends ExpansionSet {
 
-    private static final List<String> unfinished = Arrays.asList("Aang's Iceberg", "Avatar Aang", "Flexible Waterbender", "Foggy Swamp Visions", "Geyser Leaper", "Giant Koi", "Hama, the Bloodbender", "Invasion Submersible", "Katara, Bending Prodigy", "Katara, Water Tribe's Hope", "North Pole Patrol", "Secret of Bloodbending", "The Legend of Kuruk", "Waterbending Lesson", "Water Tribe Rallier", "Watery Grasp", "Yue, the Moon Spirit");
+    private static final List<String> unfinished = Arrays.asList("Aang's Iceberg", "Aang, Swift Savior", "Avatar Aang", "Flexible Waterbender", "Foggy Swamp Visions", "Geyser Leaper", "Giant Koi", "Hama, the Bloodbender", "Invasion Submersible", "Katara, Bending Prodigy", "Katara, Water Tribe's Hope", "North Pole Patrol", "Secret of Bloodbending", "Spirit Water Revival", "The Legend of Kuruk", "Waterbending Lesson", "Water Tribe Rallier", "Watery Grasp", "Yue, the Moon Spirit");
     private static final AvatarTheLastAirbender instance = new AvatarTheLastAirbender();
 
     public static AvatarTheLastAirbender getInstance() {
@@ -124,6 +124,7 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Leaves from the Vine", 185, Rarity.UNCOMMON, mage.cards.l.LeavesFromTheVine.class));
         cards.add(new SetCardInfo("Lightning Strike", 146, Rarity.COMMON, mage.cards.l.LightningStrike.class));
         cards.add(new SetCardInfo("Long Feng, Grand Secretariat", 233, Rarity.UNCOMMON, mage.cards.l.LongFengGrandSecretariat.class));
+        cards.add(new SetCardInfo("Mai, Jaded Edge", 147, Rarity.UNCOMMON, mage.cards.m.MaiJadedEdge.class));
         cards.add(new SetCardInfo("Master Pakku", 63, Rarity.UNCOMMON, mage.cards.m.MasterPakku.class));
         cards.add(new SetCardInfo("Master Piandao", 28, Rarity.UNCOMMON, mage.cards.m.MasterPiandao.class));
         cards.add(new SetCardInfo("Merchant of Many Hats", 110, Rarity.COMMON, mage.cards.m.MerchantOfManyHats.class));
@@ -175,6 +176,7 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Sozin's Comet", 154, Rarity.MYTHIC, mage.cards.s.SozinsComet.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sozin's Comet", 309, Rarity.MYTHIC, mage.cards.s.SozinsComet.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sozin's Comet", 332, Rarity.MYTHIC, mage.cards.s.SozinsComet.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Suki, Courageous Rescuer", 37, Rarity.RARE, mage.cards.s.SukiCourageousRescuer.class));
         cards.add(new SetCardInfo("Suki, Kyoshi Warrior", 243, Rarity.UNCOMMON, mage.cards.s.SukiKyoshiWarrior.class));
         cards.add(new SetCardInfo("Sun Warriors", 244, Rarity.UNCOMMON, mage.cards.s.SunWarriors.class));
         cards.add(new SetCardInfo("Swamp", 284, Rarity.LAND, mage.cards.basiclands.Swamp.class, NON_FULL_USE_VARIOUS));
@@ -191,11 +193,13 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Toph, the First Metalbender", 247, Rarity.RARE, mage.cards.t.TophTheFirstMetalbender.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Toph, the First Metalbender", 353, Rarity.RARE, mage.cards.t.TophTheFirstMetalbender.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Toph, the First Metalbender", 362, Rarity.RARE, mage.cards.t.TophTheFirstMetalbender.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Treetop Freedom Fighters", 156, Rarity.COMMON, mage.cards.t.TreetopFreedomFighters.class));
         cards.add(new SetCardInfo("True Ancestry", 199, Rarity.UNCOMMON, mage.cards.t.TrueAncestry.class));
         cards.add(new SetCardInfo("Tundra Tank", 121, Rarity.UNCOMMON, mage.cards.t.TundraTank.class));
         cards.add(new SetCardInfo("Turtle-Duck", 200, Rarity.COMMON, mage.cards.t.TurtleDuck.class));
         cards.add(new SetCardInfo("Ty Lee, Artful Acrobat", 158, Rarity.UNCOMMON, mage.cards.t.TyLeeArtfulAcrobat.class));
         cards.add(new SetCardInfo("Uncle Iroh", 248, Rarity.UNCOMMON, mage.cards.u.UncleIroh.class));
+        cards.add(new SetCardInfo("United Front", 39, Rarity.MYTHIC, mage.cards.u.UnitedFront.class));
         cards.add(new SetCardInfo("Vindictive Warden", 249, Rarity.COMMON, mage.cards.v.VindictiveWarden.class));
         cards.add(new SetCardInfo("War Balloon", 159, Rarity.UNCOMMON, mage.cards.w.WarBalloon.class));
         cards.add(new SetCardInfo("Waterbending Lesson", 80, Rarity.COMMON, mage.cards.w.WaterbendingLesson.class));
