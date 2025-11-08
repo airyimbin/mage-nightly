@@ -41,6 +41,7 @@ public final class AvatarTheLastAirbenderEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Arcane Signet", 315, Rarity.RARE, mage.cards.a.ArcaneSignet.class));
         cards.add(new SetCardInfo("Avatar Kyoshi, Earthbender", 130, Rarity.MYTHIC, mage.cards.a.AvatarKyoshiEarthbender.class));
         cards.add(new SetCardInfo("Avatar Roku, Firebender", 112, Rarity.MYTHIC, mage.cards.a.AvatarRokuFirebender.class));
+        cards.add(new SetCardInfo("Azula, Ruthless Firebender", 101, Rarity.MYTHIC, mage.cards.a.AzulaRuthlessFirebender.class));
         cards.add(new SetCardInfo("Bastion of Remembrance", 160, Rarity.UNCOMMON, mage.cards.b.BastionOfRemembrance.class));
         cards.add(new SetCardInfo("Beastmaster Ascension", 39, Rarity.MYTHIC, mage.cards.b.BeastmasterAscension.class));
         cards.add(new SetCardInfo("Beastmaster's Magemark", 9999, Rarity.MYTHIC, mage.cards.b.BeastmastersMagemark.class));
@@ -114,6 +115,7 @@ public final class AvatarTheLastAirbenderEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Inspiring Call", 168, Rarity.UNCOMMON, mage.cards.i.InspiringCall.class));
         cards.add(new SetCardInfo("Insurrection", 31, Rarity.MYTHIC, mage.cards.i.Insurrection.class));
         cards.add(new SetCardInfo("Intruder Alarm", 15, Rarity.MYTHIC, mage.cards.i.IntruderAlarm.class));
+        cards.add(new SetCardInfo("Iroh, Dragon of the West", 119, Rarity.RARE, mage.cards.i.IrohDragonOfTheWest.class));
         cards.add(new SetCardInfo("Iroh, Firebending Instructor", 240, Rarity.UNCOMMON, mage.cards.i.IrohFirebendingInstructor.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Iroh, Firebending Instructor", 282, Rarity.UNCOMMON, mage.cards.i.IrohFirebendingInstructor.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Katara, Heroic Healer", 215, Rarity.UNCOMMON, mage.cards.k.KataraHeroicHealer.class, NON_FULL_USE_VARIOUS));
@@ -217,6 +219,7 @@ public final class AvatarTheLastAirbenderEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Zuko's Offense", 288, Rarity.COMMON, mage.cards.z.ZukosOffense.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Zuko, Avatar Hunter", 246, Rarity.RARE, mage.cards.z.ZukoAvatarHunter.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Zuko, Avatar Hunter", 287, Rarity.RARE, mage.cards.z.ZukoAvatarHunter.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Zuko, Firebending Master", 127, Rarity.MYTHIC, mage.cards.z.ZukoFirebendingMaster.class));
 
         cards.removeIf(setCardInfo -> unfinished.contains(setCardInfo.getName()));
     }

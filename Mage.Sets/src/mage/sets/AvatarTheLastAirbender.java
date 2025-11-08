@@ -110,6 +110,8 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Fire Nation Raider", 135, Rarity.COMMON, mage.cards.f.FireNationRaider.class));
         cards.add(new SetCardInfo("Fire Nation Warship", 256, Rarity.UNCOMMON, mage.cards.f.FireNationWarship.class));
         cards.add(new SetCardInfo("Fire Sages", 136, Rarity.UNCOMMON, mage.cards.f.FireSages.class));
+        cards.add(new SetCardInfo("Firebender Ascension", 137, Rarity.RARE, mage.cards.f.FirebenderAscension.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Firebender Ascension", 312, Rarity.RARE, mage.cards.f.FirebenderAscension.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Firebending Student", 139, Rarity.RARE, mage.cards.f.FirebendingStudent.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Firebending Student", 342, Rarity.RARE, mage.cards.f.FirebendingStudent.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Firebending Student", 393, Rarity.RARE, mage.cards.f.FirebendingStudent.class, NON_FULL_USE_VARIOUS));
@@ -186,6 +188,9 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Ostrich-Horse", 188, Rarity.COMMON, mage.cards.o.OstrichHorse.class));
         cards.add(new SetCardInfo("Otter-Penguin", 67, Rarity.COMMON, mage.cards.o.OtterPenguin.class));
         cards.add(new SetCardInfo("Ozai's Cruelty", 113, Rarity.UNCOMMON, mage.cards.o.OzaisCruelty.class));
+        cards.add(new SetCardInfo("Ozai, the Phoenix King", 235, Rarity.MYTHIC, mage.cards.o.OzaiThePhoenixKing.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Ozai, the Phoenix King", 311, Rarity.MYTHIC, mage.cards.o.OzaiThePhoenixKing.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Ozai, the Phoenix King", 335, Rarity.MYTHIC, mage.cards.o.OzaiThePhoenixKing.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Path to Redemption", 31, Rarity.COMMON, mage.cards.p.PathToRedemption.class));
         cards.add(new SetCardInfo("Pillar Launch", 189, Rarity.COMMON, mage.cards.p.PillarLaunch.class));
         cards.add(new SetCardInfo("Plains", 282, Rarity.LAND, mage.cards.basiclands.Plains.class, NON_FULL_USE_VARIOUS));
