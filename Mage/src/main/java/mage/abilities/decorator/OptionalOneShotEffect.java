@@ -4,6 +4,7 @@ import mage.abilities.Ability;
 import mage.abilities.Mode;
 import mage.abilities.effects.Effects;
 import mage.abilities.effects.OneShotEffect;
+import mage.constants.Outcome;
 import mage.game.Game;
 import mage.players.Player;
 import mage.target.targetpointer.TargetPointer;
@@ -18,12 +19,12 @@ public class OptionalOneShotEffect extends OneShotEffect {
 
     private final Effects effects = new Effects();
 
-    public OptionalOneShotEffect(OneShotEffect effect, String text) {
-        super(effect.getOutcome());
-        if (effect != null) {
-            this.effects.add(effect);
+    public OptionalOneShotEffect(OneShotEffect effect) {
+        super(effect != null ? effect.getOutcome() : Outcome.Benefit); // must be first line, can't error for null effect here.
+        if (effect == null) {
+            throw new IllegalArgumentException("Wrong code usage: OptionalOneShotEffect should start with an effect to generate Outcome.");
         }
-        this.staticText = text;
+        this.effects.add(effect);
     }
 
     protected OptionalOneShotEffect(final OptionalOneShotEffect effect) {
@@ -38,7 +39,12 @@ public class OptionalOneShotEffect extends OneShotEffect {
             return true;
         }
         Player player = game.getPlayer(source.getControllerId());
-        if (player != null && player.chooseUse(outcome, staticText, source, game)) {
+        String chooseText = staticText;
+        if (chooseText == null || chooseText.isEmpty()) {
+            chooseText = getText(source.getModes().getMode());
+            chooseText = Character.toUpperCase(chooseText.charAt(0)) + chooseText.substring(1);
+        }
+        if (player != null && player.chooseUse(outcome, chooseText, source, game)) {
             effects.setTargetPointer(this.getTargetPointer().copy());
             effects.forEach(effect -> effect.apply(game, source));
             return true;
