@@ -37,6 +37,7 @@ public final class AvatarTheLastAirbenderEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Aardvark Sloth", 267, Rarity.COMMON, mage.cards.a.AardvarkSloth.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Acrobatic Leap", 151, Rarity.COMMON, mage.cards.a.AcrobaticLeap.class));
         cards.add(new SetCardInfo("Agent of Treachery", 9, Rarity.MYTHIC, mage.cards.a.AgentOfTreachery.class));
+        cards.add(new SetCardInfo("Air Nomad Student", 75, Rarity.UNCOMMON, mage.cards.a.AirNomadStudent.class));
         cards.add(new SetCardInfo("Allied Teamwork", 213, Rarity.RARE, mage.cards.a.AlliedTeamwork.class));
         cards.add(new SetCardInfo("Appa, Aang's Companion", 214, Rarity.UNCOMMON, mage.cards.a.AppaAangsCompanion.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Appa, Aang's Companion", 268, Rarity.UNCOMMON, mage.cards.a.AppaAangsCompanion.class, NON_FULL_USE_VARIOUS));
@@ -47,12 +48,17 @@ public final class AvatarTheLastAirbenderEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Avatar Roku, Firebender", 191, Rarity.MYTHIC, mage.cards.a.AvatarRokuFirebender.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Azula, Ruthless Firebender", 101, Rarity.MYTHIC, mage.cards.a.AzulaRuthlessFirebender.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Azula, Ruthless Firebender", 184, Rarity.MYTHIC, mage.cards.a.AzulaRuthlessFirebender.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Baboon Spirit", 177, Rarity.RARE, mage.cards.b.BaboonSpirit.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Baboon Spirit", 89, Rarity.RARE, mage.cards.b.BaboonSpirit.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Bastion of Remembrance", 160, Rarity.UNCOMMON, mage.cards.b.BastionOfRemembrance.class));
         cards.add(new SetCardInfo("Beastmaster Ascension", 39, Rarity.MYTHIC, mage.cards.b.BeastmasterAscension.class));
+        cards.add(new SetCardInfo("Bison Whistle", 131, Rarity.RARE, mage.cards.b.BisonWhistle.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Bison Whistle", 202, Rarity.RARE, mage.cards.b.BisonWhistle.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Black Sun's Zenith", 22, Rarity.MYTHIC, mage.cards.b.BlackSunsZenith.class));
         cards.add(new SetCardInfo("Blasphemous Act", 26, Rarity.MYTHIC, mage.cards.b.BlasphemousAct.class));
         cards.add(new SetCardInfo("Bloodchief Ascension", 23, Rarity.MYTHIC, mage.cards.b.BloodchiefAscension.class));
         cards.add(new SetCardInfo("Bolt Bend", 163, Rarity.UNCOMMON, mage.cards.b.BoltBend.class));
+        cards.add(new SetCardInfo("Bosco, Just a Bear", 132, Rarity.UNCOMMON, mage.cards.b.BoscoJustABear.class));
         cards.add(new SetCardInfo("Brainstorm", 155, Rarity.COMMON, mage.cards.b.Brainstorm.class));
         cards.add(new SetCardInfo("Bribery", 10, Rarity.MYTHIC, mage.cards.b.Bribery.class));
         cards.add(new SetCardInfo("Brought Back", 1, Rarity.MYTHIC, mage.cards.b.BroughtBack.class));
