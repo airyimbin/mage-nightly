@@ -66,6 +66,10 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Avatar Aang", 308, Rarity.MYTHIC, mage.cards.a.AvatarAang.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Avatar Aang", 363, Rarity.MYTHIC, mage.cards.a.AvatarAang.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Avatar Enthusiasts", 11, Rarity.COMMON, mage.cards.a.AvatarEnthusiasts.class));
+        cards.add(new SetCardInfo("Avatar Kuruk", 355, Rarity.MYTHIC, mage.cards.a.AvatarKuruk.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Avatar Kuruk", 61, Rarity.MYTHIC, mage.cards.a.AvatarKuruk.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Avatar Roku", 145, Rarity.MYTHIC, mage.cards.a.AvatarRoku.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Avatar Roku", 357, Rarity.MYTHIC, mage.cards.a.AvatarRoku.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Avatar's Wrath", 12, Rarity.RARE, mage.cards.a.AvatarsWrath.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Avatar's Wrath", 365, Rarity.RARE, mage.cards.a.AvatarsWrath.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Azula Always Lies", 84, Rarity.COMMON, mage.cards.a.AzulaAlwaysLies.class));
@@ -111,6 +115,7 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Day of Black Sun", 94, Rarity.RARE, mage.cards.d.DayOfBlackSun.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Deadly Precision", 95, Rarity.COMMON, mage.cards.d.DeadlyPrecision.class));
         cards.add(new SetCardInfo("Deserter's Disciple", 131, Rarity.COMMON, mage.cards.d.DesertersDisciple.class));
+        cards.add(new SetCardInfo("Destined Confrontation", 15, Rarity.UNCOMMON, mage.cards.d.DestinedConfrontation.class));
         cards.add(new SetCardInfo("Diligent Zookeeper", 171, Rarity.RARE, mage.cards.d.DiligentZookeeper.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Diligent Zookeeper", 327, Rarity.RARE, mage.cards.d.DiligentZookeeper.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Dragonfly Swarm", 215, Rarity.UNCOMMON, mage.cards.d.DragonflySwarm.class));
@@ -128,6 +133,8 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Earthbending Lesson", 176, Rarity.COMMON, mage.cards.e.EarthbendingLesson.class));
         cards.add(new SetCardInfo("Earthen Ally", 177, Rarity.RARE, mage.cards.e.EarthenAlly.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Earthen Ally", 377, Rarity.RARE, mage.cards.e.EarthenAlly.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Elemental Teachings", 178, Rarity.RARE, mage.cards.e.ElementalTeachings.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Elemental Teachings", 378, Rarity.RARE, mage.cards.e.ElementalTeachings.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ember Island Production", 48, Rarity.UNCOMMON, mage.cards.e.EmberIslandProduction.class));
         cards.add(new SetCardInfo("Energybending", 2, Rarity.UNCOMMON, mage.cards.e.Energybending.class));
         cards.add(new SetCardInfo("Enter the Avatar State", 18, Rarity.UNCOMMON, mage.cards.e.EnterTheAvatarState.class));
@@ -252,6 +259,8 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Ozai, the Phoenix King", 311, Rarity.MYTHIC, mage.cards.o.OzaiThePhoenixKing.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ozai, the Phoenix King", 335, Rarity.MYTHIC, mage.cards.o.OzaiThePhoenixKing.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Path to Redemption", 31, Rarity.COMMON, mage.cards.p.PathToRedemption.class));
+        cards.add(new SetCardInfo("Phoenix Fleet Airship", 114, Rarity.MYTHIC, mage.cards.p.PhoenixFleetAirship.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Phoenix Fleet Airship", 323, Rarity.MYTHIC, mage.cards.p.PhoenixFleetAirship.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Pillar Launch", 189, Rarity.COMMON, mage.cards.p.PillarLaunch.class));
         cards.add(new SetCardInfo("Pirate Peddlers", 115, Rarity.COMMON, mage.cards.p.PiratePeddlers.class));
         cards.add(new SetCardInfo("Plains", 282, Rarity.LAND, mage.cards.basiclands.Plains.class, NON_FULL_USE_VARIOUS));
@@ -261,11 +270,14 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Planetarium of Wan Shi Tong", 385, Rarity.MYTHIC, mage.cards.p.PlanetariumOfWanShiTong.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Platypus-Bear", 236, Rarity.COMMON, mage.cards.p.PlatypusBear.class));
         cards.add(new SetCardInfo("Pretending Poxbearers", 237, Rarity.COMMON, mage.cards.p.PretendingPoxbearers.class));
+        cards.add(new SetCardInfo("Price of Freedom", 149, Rarity.UNCOMMON, mage.cards.p.PriceOfFreedom.class));
         cards.add(new SetCardInfo("Professor Zei, Anthropologist", 238, Rarity.UNCOMMON, mage.cards.p.ProfessorZeiAnthropologist.class));
         cards.add(new SetCardInfo("Rabaroo Troop", 32, Rarity.COMMON, mage.cards.r.RabarooTroop.class));
         cards.add(new SetCardInfo("Ran and Shaw", 150, Rarity.RARE, mage.cards.r.RanAndShaw.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ran and Shaw", 325, Rarity.RARE, mage.cards.r.RanAndShaw.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Raucous Audience", 190, Rarity.COMMON, mage.cards.r.RaucousAudience.class));
+        cards.add(new SetCardInfo("Raven Eagle", 116, Rarity.RARE, mage.cards.r.RavenEagle.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Raven Eagle", 324, Rarity.RARE, mage.cards.r.RavenEagle.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Razor Rings", 33, Rarity.COMMON, mage.cards.r.RazorRings.class));
         cards.add(new SetCardInfo("Realm of Koh", 276, Rarity.RARE, mage.cards.r.RealmOfKoh.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Realm of Koh", 391, Rarity.RARE, mage.cards.r.RealmOfKoh.class, NON_FULL_USE_VARIOUS));
@@ -299,6 +311,7 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Sozin's Comet", 154, Rarity.MYTHIC, mage.cards.s.SozinsComet.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sozin's Comet", 309, Rarity.MYTHIC, mage.cards.s.SozinsComet.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sozin's Comet", 332, Rarity.MYTHIC, mage.cards.s.SozinsComet.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Sparring Dummy", 197, Rarity.UNCOMMON, mage.cards.s.SparringDummy.class));
         cards.add(new SetCardInfo("Suki, Courageous Rescuer", 368, Rarity.RARE, mage.cards.s.SukiCourageousRescuer.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Suki, Courageous Rescuer", 37, Rarity.RARE, mage.cards.s.SukiCourageousRescuer.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Suki, Kyoshi Warrior", 243, Rarity.UNCOMMON, mage.cards.s.SukiKyoshiWarrior.class));
@@ -311,6 +324,10 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Teo, Spirited Glider", 74, Rarity.UNCOMMON, mage.cards.t.TeoSpiritedGlider.class));
         cards.add(new SetCardInfo("The Boulder, Ready to Rumble", 168, Rarity.UNCOMMON, mage.cards.t.TheBoulderReadyToRumble.class));
         cards.add(new SetCardInfo("The Cave of Two Lovers", 126, Rarity.UNCOMMON, mage.cards.t.TheCaveOfTwoLovers.class));
+        cards.add(new SetCardInfo("The Legend of Kuruk", 355, Rarity.MYTHIC, mage.cards.t.TheLegendOfKuruk.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("The Legend of Kuruk", 61, Rarity.MYTHIC, mage.cards.t.TheLegendOfKuruk.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("The Legend of Roku", 145, Rarity.MYTHIC, mage.cards.t.TheLegendOfRoku.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("The Legend of Roku", 357, Rarity.MYTHIC, mage.cards.t.TheLegendOfRoku.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Lion-Turtle", 232, Rarity.RARE, mage.cards.t.TheLionTurtle.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Lion-Turtle", 328, Rarity.RARE, mage.cards.t.TheLionTurtle.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Mechanist, Aerial Artisan", 369, Rarity.RARE, mage.cards.t.TheMechanistAerialArtisan.class, NON_FULL_USE_VARIOUS));
