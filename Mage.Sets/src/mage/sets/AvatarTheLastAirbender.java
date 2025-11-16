@@ -68,6 +68,8 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Avatar Enthusiasts", 11, Rarity.COMMON, mage.cards.a.AvatarEnthusiasts.class));
         cards.add(new SetCardInfo("Avatar Kuruk", 355, Rarity.MYTHIC, mage.cards.a.AvatarKuruk.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Avatar Kuruk", 61, Rarity.MYTHIC, mage.cards.a.AvatarKuruk.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Avatar Kyoshi", 186, Rarity.MYTHIC, mage.cards.a.AvatarKyoshi.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Avatar Kyoshi", 358, Rarity.MYTHIC, mage.cards.a.AvatarKyoshi.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Avatar Roku", 145, Rarity.MYTHIC, mage.cards.a.AvatarRoku.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Avatar Roku", 357, Rarity.MYTHIC, mage.cards.a.AvatarRoku.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Avatar's Wrath", 12, Rarity.RARE, mage.cards.a.AvatarsWrath.class, NON_FULL_USE_VARIOUS));
@@ -92,6 +94,7 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Boiling Rock Rioter", 87, Rarity.RARE, mage.cards.b.BoilingRockRioter.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Boomerang Basics", 46, Rarity.UNCOMMON, mage.cards.b.BoomerangBasics.class));
         cards.add(new SetCardInfo("Bumi Bash", 125, Rarity.COMMON, mage.cards.b.BumiBash.class));
+        cards.add(new SetCardInfo("Bumi, King of Three Trials", 169, Rarity.UNCOMMON, mage.cards.b.BumiKingOfThreeTrials.class));
         cards.add(new SetCardInfo("Bumi, Unleashed", 211, Rarity.MYTHIC, mage.cards.b.BumiUnleashed.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Bumi, Unleashed", 348, Rarity.MYTHIC, mage.cards.b.BumiUnleashed.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Buzzard-Wasp Colony", 88, Rarity.UNCOMMON, mage.cards.b.BuzzardWaspColony.class));
@@ -99,6 +102,7 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Canyon Crawler", 90, Rarity.COMMON, mage.cards.c.CanyonCrawler.class));
         cards.add(new SetCardInfo("Cat-Gator", 91, Rarity.UNCOMMON, mage.cards.c.CatGator.class));
         cards.add(new SetCardInfo("Cat-Owl", 212, Rarity.COMMON, mage.cards.c.CatOwl.class));
+        cards.add(new SetCardInfo("Combustion Man", 127, Rarity.UNCOMMON, mage.cards.c.CombustionMan.class));
         cards.add(new SetCardInfo("Combustion Technique", 128, Rarity.UNCOMMON, mage.cards.c.CombustionTechnique.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Combustion Technique", 301, Rarity.UNCOMMON, mage.cards.c.CombustionTechnique.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Compassionate Healer", 13, Rarity.COMMON, mage.cards.c.CompassionateHealer.class));
@@ -228,6 +232,7 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Lightning Strike", 146, Rarity.COMMON, mage.cards.l.LightningStrike.class));
         cards.add(new SetCardInfo("Lo and Li, Twin Tutors", 108, Rarity.UNCOMMON, mage.cards.l.LoAndLiTwinTutors.class));
         cards.add(new SetCardInfo("Long Feng, Grand Secretariat", 233, Rarity.UNCOMMON, mage.cards.l.LongFengGrandSecretariat.class));
+        cards.add(new SetCardInfo("Lost Days", 62, Rarity.COMMON, mage.cards.l.LostDays.class));
         cards.add(new SetCardInfo("Mai, Jaded Edge", 147, Rarity.UNCOMMON, mage.cards.m.MaiJadedEdge.class));
         cards.add(new SetCardInfo("Mai, Scornful Striker", 109, Rarity.RARE, mage.cards.m.MaiScornfulStriker.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mai, Scornful Striker", 374, Rarity.RARE, mage.cards.m.MaiScornfulStriker.class, NON_FULL_USE_VARIOUS));
@@ -326,6 +331,8 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("The Cave of Two Lovers", 126, Rarity.UNCOMMON, mage.cards.t.TheCaveOfTwoLovers.class));
         cards.add(new SetCardInfo("The Legend of Kuruk", 355, Rarity.MYTHIC, mage.cards.t.TheLegendOfKuruk.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Legend of Kuruk", 61, Rarity.MYTHIC, mage.cards.t.TheLegendOfKuruk.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("The Legend of Kyoshi", 186, Rarity.MYTHIC, mage.cards.t.TheLegendOfKyoshi.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("The Legend of Kyoshi", 358, Rarity.MYTHIC, mage.cards.t.TheLegendOfKyoshi.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Legend of Roku", 145, Rarity.MYTHIC, mage.cards.t.TheLegendOfRoku.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Legend of Roku", 357, Rarity.MYTHIC, mage.cards.t.TheLegendOfRoku.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Lion-Turtle", 232, Rarity.RARE, mage.cards.t.TheLionTurtle.class, NON_FULL_USE_VARIOUS));
