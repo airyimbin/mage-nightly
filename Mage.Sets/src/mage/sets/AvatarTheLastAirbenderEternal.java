@@ -144,8 +144,11 @@ public final class AvatarTheLastAirbenderEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Giant Fly", 107, Rarity.COMMON, mage.cards.g.GiantFly.class));
         cards.add(new SetCardInfo("Gilacorn", 231, Rarity.COMMON, mage.cards.g.Gilacorn.class));
         cards.add(new SetCardInfo("Heartbeat of Spring", 42, Rarity.MYTHIC, mage.cards.h.HeartbeatOfSpring.class));
+        cards.add(new SetCardInfo("Hei Bai, Forest Guardian", 139, Rarity.MYTHIC, mage.cards.h.HeiBaiForestGuardian.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Hei Bai, Forest Guardian", 205, Rarity.MYTHIC, mage.cards.h.HeiBaiForestGuardian.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Heroic Intervention", 43, Rarity.MYTHIC, mage.cards.h.HeroicIntervention.class));
         cards.add(new SetCardInfo("Hippo-Cows", 252, Rarity.COMMON, mage.cards.h.HippoCows.class));
+        cards.add(new SetCardInfo("Hog-Monkey Rampage", 255, Rarity.UNCOMMON, mage.cards.h.HogMonkeyRampage.class));
         cards.add(new SetCardInfo("Hook Swords", 147, Rarity.UNCOMMON, mage.cards.h.HookSwords.class));
         cards.add(new SetCardInfo("Humble Defector", 30, Rarity.MYTHIC, mage.cards.h.HumbleDefector.class));
         cards.add(new SetCardInfo("Imprisoned in the Moon", 14, Rarity.MYTHIC, mage.cards.i.ImprisonedInTheMoon.class));
@@ -220,6 +223,7 @@ public final class AvatarTheLastAirbenderEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Plains", 302, Rarity.LAND, mage.cards.basiclands.Plains.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Plains", 303, Rarity.LAND, mage.cards.basiclands.Plains.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Plains", 304, Rarity.LAND, mage.cards.basiclands.Plains.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Princess Yue", 95, Rarity.UNCOMMON, mage.cards.p.PrincessYue.class));
         cards.add(new SetCardInfo("Prosperity", 17, Rarity.MYTHIC, mage.cards.p.Prosperity.class));
         cards.add(new SetCardInfo("Purple Pentapus", 233, Rarity.COMMON, mage.cards.p.PurplePentapus.class));
         cards.add(new SetCardInfo("Razor Rings", 272, Rarity.COMMON, mage.cards.r.RazorRings.class));
@@ -262,6 +266,8 @@ public final class AvatarTheLastAirbenderEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Swiftfoot Boots", 317, Rarity.RARE, mage.cards.s.SwiftfootBoots.class));
         cards.add(new SetCardInfo("Tarnished Citadel", 59, Rarity.MYTHIC, mage.cards.t.TarnishedCitadel.class));
         cards.add(new SetCardInfo("Taunting Challenge", 46, Rarity.MYTHIC, mage.cards.t.TauntingChallenge.class));
+        cards.add(new SetCardInfo("Tectonic Split", 144, Rarity.RARE, mage.cards.t.TectonicSplit.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Tectonic Split", 208, Rarity.RARE, mage.cards.t.TectonicSplit.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Teferi's Protection", 7, Rarity.MYTHIC, mage.cards.t.TeferisProtection.class));
         cards.add(new SetCardInfo("The Art of Tea", 129, Rarity.COMMON, mage.cards.t.TheArtOfTea.class));
         cards.add(new SetCardInfo("The Blue Spirit", 178, Rarity.RARE, mage.cards.t.TheBlueSpirit.class, NON_FULL_USE_VARIOUS));

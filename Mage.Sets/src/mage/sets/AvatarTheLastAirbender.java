@@ -77,6 +77,8 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Avatar's Wrath", 12, Rarity.RARE, mage.cards.a.AvatarsWrath.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Avatar's Wrath", 365, Rarity.RARE, mage.cards.a.AvatarsWrath.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Azula Always Lies", 84, Rarity.COMMON, mage.cards.a.AzulaAlwaysLies.class));
+        cards.add(new SetCardInfo("Azula, Cunning Usurper", 208, Rarity.RARE, mage.cards.a.AzulaCunningUsurper.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Azula, Cunning Usurper", 303, Rarity.RARE, mage.cards.a.AzulaCunningUsurper.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Azula, On the Hunt", 85, Rarity.UNCOMMON, mage.cards.a.AzulaOnTheHunt.class));
         cards.add(new SetCardInfo("Ba Sing Se", 266, Rarity.RARE, mage.cards.b.BaSingSe.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ba Sing Se", 388, Rarity.RARE, mage.cards.b.BaSingSe.class, NON_FULL_USE_VARIOUS));
@@ -209,6 +211,8 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Iroh's Demonstration", 141, Rarity.UNCOMMON, mage.cards.i.IrohsDemonstration.class));
         cards.add(new SetCardInfo("Iroh, Grand Lotus", 227, Rarity.RARE, mage.cards.i.IrohGrandLotus.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Iroh, Grand Lotus", 349, Rarity.RARE, mage.cards.i.IrohGrandLotus.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Iroh, Tea Master", 228, Rarity.RARE, mage.cards.i.IrohTeaMaster.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Iroh, Tea Master", 381, Rarity.RARE, mage.cards.i.IrohTeaMaster.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Island", 283, Rarity.LAND, mage.cards.basiclands.Island.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Island", 288, Rarity.LAND, mage.cards.basiclands.Island.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Island", 293, Rarity.LAND, mage.cards.basiclands.Island.class, FULL_ART_BFZ_VARIOUS));
@@ -361,6 +365,8 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Tiger-Seal", 318, Rarity.RARE, mage.cards.t.TigerSeal.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Tiger-Seal", 75, Rarity.RARE, mage.cards.t.TigerSeal.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Tolls of War", 245, Rarity.UNCOMMON, mage.cards.t.TollsOfWar.class));
+        cards.add(new SetCardInfo("Toph, Hardheaded Teacher", 246, Rarity.RARE, mage.cards.t.TophHardheadedTeacher.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Toph, Hardheaded Teacher", 384, Rarity.RARE, mage.cards.t.TophHardheadedTeacher.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Toph, the Blind Bandit", 198, Rarity.UNCOMMON, mage.cards.t.TophTheBlindBandit.class));
         cards.add(new SetCardInfo("Toph, the First Metalbender", 247, Rarity.RARE, mage.cards.t.TophTheFirstMetalbender.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Toph, the First Metalbender", 353, Rarity.RARE, mage.cards.t.TophTheFirstMetalbender.class, NON_FULL_USE_VARIOUS));
@@ -371,6 +377,8 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Turtle-Duck", 200, Rarity.COMMON, mage.cards.t.TurtleDuck.class));
         cards.add(new SetCardInfo("Twin Blades", 157, Rarity.UNCOMMON, mage.cards.t.TwinBlades.class));
         cards.add(new SetCardInfo("Ty Lee, Artful Acrobat", 158, Rarity.UNCOMMON, mage.cards.t.TyLeeArtfulAcrobat.class));
+        cards.add(new SetCardInfo("Ty Lee, Chi Blocker", 371, Rarity.RARE, mage.cards.t.TyLeeChiBlocker.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Ty Lee, Chi Blocker", 76, Rarity.RARE, mage.cards.t.TyLeeChiBlocker.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Uncle Iroh", 248, Rarity.UNCOMMON, mage.cards.u.UncleIroh.class));
         cards.add(new SetCardInfo("United Front", 331, Rarity.MYTHIC, mage.cards.u.UnitedFront.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("United Front", 39, Rarity.MYTHIC, mage.cards.u.UnitedFront.class, NON_FULL_USE_VARIOUS));
