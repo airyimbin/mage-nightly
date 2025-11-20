@@ -116,6 +116,8 @@ public final class AvatarTheLastAirbenderEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Explosive Shot", 236, Rarity.COMMON, mage.cards.e.ExplosiveShot.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Explosive Shot", 279, Rarity.COMMON, mage.cards.e.ExplosiveShot.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Fabled Passage", 57, Rarity.MYTHIC, mage.cards.f.FabledPassage.class));
+        cards.add(new SetCardInfo("Fang, Roku's Companion", 115, Rarity.RARE, mage.cards.f.FangRokusCompanion.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Fang, Roku's Companion", 193, Rarity.RARE, mage.cards.f.FangRokusCompanion.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Feed the Swarm", 257, Rarity.COMMON, mage.cards.f.FeedTheSwarm.class));
         cards.add(new SetCardInfo("Fervor", 29, Rarity.MYTHIC, mage.cards.f.Fervor.class));
         cards.add(new SetCardInfo("Fevered Visions", 49, Rarity.MYTHIC, mage.cards.f.FeveredVisions.class));
@@ -163,6 +165,7 @@ public final class AvatarTheLastAirbenderEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Jet, Rebel Leader", 172, Rarity.RARE, mage.cards.j.JetRebelLeader.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Jet, Rebel Leader", 78, Rarity.RARE, mage.cards.j.JetRebelLeader.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Join the Dance", 50, Rarity.MYTHIC, mage.cards.j.JoinTheDance.class));
+        cards.add(new SetCardInfo("Katara's Reversal", 63, Rarity.RARE, mage.cards.k.KatarasReversal.class));
         cards.add(new SetCardInfo("Katara, Heroic Healer", 215, Rarity.UNCOMMON, mage.cards.k.KataraHeroicHealer.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Katara, Heroic Healer", 269, Rarity.UNCOMMON, mage.cards.k.KataraHeroicHealer.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Katara, Seeking Revenge", 148, Rarity.UNCOMMON, mage.cards.k.KataraSeekingRevenge.class));
@@ -257,6 +260,7 @@ public final class AvatarTheLastAirbenderEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Sokka, Wolf Cove's Protector", 274, Rarity.UNCOMMON, mage.cards.s.SokkaWolfCovesProtector.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sol Ring", 316, Rarity.RARE, mage.cards.s.SolRing.class));
         cards.add(new SetCardInfo("Solid Ground", 142, Rarity.UNCOMMON, mage.cards.s.SolidGround.class));
+        cards.add(new SetCardInfo("Stand United", 149, Rarity.COMMON, mage.cards.s.StandUnited.class));
         cards.add(new SetCardInfo("Standstill", 19, Rarity.MYTHIC, mage.cards.s.Standstill.class));
         cards.add(new SetCardInfo("Suki, Kyoshi Captain", 175, Rarity.RARE, mage.cards.s.SukiKyoshiCaptain.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Suki, Kyoshi Captain", 85, Rarity.RARE, mage.cards.s.SukiKyoshiCaptain.class, NON_FULL_USE_VARIOUS));
@@ -300,6 +304,8 @@ public final class AvatarTheLastAirbenderEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Valorous Stance", 154, Rarity.UNCOMMON, mage.cards.v.ValorousStance.class));
         cards.add(new SetCardInfo("Visions of Beyond", 21, Rarity.MYTHIC, mage.cards.v.VisionsOfBeyond.class));
         cards.add(new SetCardInfo("Volcanic Torrent", 37, Rarity.MYTHIC, mage.cards.v.VolcanicTorrent.class));
+        cards.add(new SetCardInfo("Wan Shi Tong, All-Knowing", 182, Rarity.MYTHIC, mage.cards.w.WanShiTongAllKnowing.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Wan Shi Tong, All-Knowing", 98, Rarity.MYTHIC, mage.cards.w.WanShiTongAllKnowing.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Warship Scout", 244, Rarity.COMMON, mage.cards.w.WarshipScout.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Warship Scout", 285, Rarity.COMMON, mage.cards.w.WarshipScout.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Warstorm Surge", 38, Rarity.MYTHIC, mage.cards.w.WarstormSurge.class));

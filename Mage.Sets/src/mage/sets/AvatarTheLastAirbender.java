@@ -25,6 +25,9 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         this.rotationSet = true;
         this.hasBasicLands = true;
 
+        this.enablePlayBooster(Integer.MAX_VALUE);
+        this.numBoosterDoubleFaced = -1;
+
         cards.add(new SetCardInfo("Aang and La, Ocean's Fury", 204, Rarity.RARE, mage.cards.a.AangAndLaOceansFury.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Aang and La, Ocean's Fury", 298, Rarity.RARE, mage.cards.a.AangAndLaOceansFury.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Aang and La, Ocean's Fury", 347, Rarity.RARE, mage.cards.a.AangAndLaOceansFury.class, NON_FULL_USE_VARIOUS));
@@ -65,6 +68,8 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Avatar Aang", 207, Rarity.MYTHIC, mage.cards.a.AvatarAang.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Avatar Aang", 308, Rarity.MYTHIC, mage.cards.a.AvatarAang.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Avatar Aang", 363, Rarity.MYTHIC, mage.cards.a.AvatarAang.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Avatar Destiny", 165, Rarity.RARE, mage.cards.a.AvatarDestiny.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Avatar Destiny", 333, Rarity.RARE, mage.cards.a.AvatarDestiny.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Avatar Enthusiasts", 11, Rarity.COMMON, mage.cards.a.AvatarEnthusiasts.class));
         cards.add(new SetCardInfo("Avatar Kuruk", 355, Rarity.MYTHIC, mage.cards.a.AvatarKuruk.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Avatar Kuruk", 61, Rarity.MYTHIC, mage.cards.a.AvatarKuruk.class, NON_FULL_USE_VARIOUS));
@@ -201,6 +206,7 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Haru, Hidden Talent", 182, Rarity.UNCOMMON, mage.cards.h.HaruHiddenTalent.class));
         cards.add(new SetCardInfo("Heartless Act", 103, Rarity.UNCOMMON, mage.cards.h.HeartlessAct.class));
         cards.add(new SetCardInfo("Hei Bai, Spirit of Balance", 225, Rarity.UNCOMMON, mage.cards.h.HeiBaiSpiritOfBalance.class));
+        cards.add(new SetCardInfo("Hermitic Herbalist", 226, Rarity.UNCOMMON, mage.cards.h.HermiticHerbalist.class));
         cards.add(new SetCardInfo("Hog-Monkey", 104, Rarity.COMMON, mage.cards.h.HogMonkey.class));
         cards.add(new SetCardInfo("Honest Work", 55, Rarity.UNCOMMON, mage.cards.h.HonestWork.class));
         cards.add(new SetCardInfo("How to Start a Riot", 140, Rarity.COMMON, mage.cards.h.HowToStartARiot.class));
@@ -217,6 +223,8 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Island", 288, Rarity.LAND, mage.cards.basiclands.Island.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Island", 293, Rarity.LAND, mage.cards.basiclands.Island.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("It'll Quench Ya!", 58, Rarity.COMMON, mage.cards.i.ItllQuenchYa.class));
+        cards.add(new SetCardInfo("Jasmine Dragon Tea Shop", 270, Rarity.RARE, mage.cards.j.JasmineDragonTeaShop.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Jasmine Dragon Tea Shop", 390, Rarity.RARE, mage.cards.j.JasmineDragonTeaShop.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Jeong Jeong's Deserters", 25, Rarity.COMMON, mage.cards.j.JeongJeongsDeserters.class));
         cards.add(new SetCardInfo("Jeong Jeong, the Deserter", 142, Rarity.UNCOMMON, mage.cards.j.JeongJeongTheDeserter.class));
         cards.add(new SetCardInfo("Jet's Brainwashing", 143, Rarity.UNCOMMON, mage.cards.j.JetsBrainwashing.class));
@@ -340,8 +348,12 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Teo, Spirited Glider", 74, Rarity.UNCOMMON, mage.cards.t.TeoSpiritedGlider.class));
         cards.add(new SetCardInfo("The Boulder, Ready to Rumble", 168, Rarity.UNCOMMON, mage.cards.t.TheBoulderReadyToRumble.class));
         cards.add(new SetCardInfo("The Cave of Two Lovers", 126, Rarity.UNCOMMON, mage.cards.t.TheCaveOfTwoLovers.class));
+        cards.add(new SetCardInfo("The Earth King", 172, Rarity.RARE, mage.cards.t.TheEarthKing.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("The Earth King", 344, Rarity.RARE, mage.cards.t.TheEarthKing.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Fire Nation Drill", 321, Rarity.RARE, mage.cards.t.TheFireNationDrill.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Fire Nation Drill", 98, Rarity.RARE, mage.cards.t.TheFireNationDrill.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("The Last Agni Kai", 144, Rarity.RARE, mage.cards.t.TheLastAgniKai.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("The Last Agni Kai", 314, Rarity.RARE, mage.cards.t.TheLastAgniKai.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Legend of Kuruk", 355, Rarity.MYTHIC, mage.cards.t.TheLegendOfKuruk.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Legend of Kuruk", 61, Rarity.MYTHIC, mage.cards.t.TheLegendOfKuruk.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Legend of Kyoshi", 186, Rarity.MYTHIC, mage.cards.t.TheLegendOfKyoshi.class, NON_FULL_USE_VARIOUS));
@@ -373,6 +385,7 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Toph, the First Metalbender", 362, Rarity.RARE, mage.cards.t.TophTheFirstMetalbender.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Treetop Freedom Fighters", 156, Rarity.COMMON, mage.cards.t.TreetopFreedomFighters.class));
         cards.add(new SetCardInfo("True Ancestry", 199, Rarity.UNCOMMON, mage.cards.t.TrueAncestry.class));
+        cards.add(new SetCardInfo("Trusty Boomerang", 260, Rarity.UNCOMMON, mage.cards.t.TrustyBoomerang.class));
         cards.add(new SetCardInfo("Tundra Tank", 121, Rarity.UNCOMMON, mage.cards.t.TundraTank.class));
         cards.add(new SetCardInfo("Turtle-Duck", 200, Rarity.COMMON, mage.cards.t.TurtleDuck.class));
         cards.add(new SetCardInfo("Twin Blades", 157, Rarity.UNCOMMON, mage.cards.t.TwinBlades.class));
@@ -382,6 +395,7 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Uncle Iroh", 248, Rarity.UNCOMMON, mage.cards.u.UncleIroh.class));
         cards.add(new SetCardInfo("United Front", 331, Rarity.MYTHIC, mage.cards.u.UnitedFront.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("United Front", 39, Rarity.MYTHIC, mage.cards.u.UnitedFront.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Unlucky Cabbage Merchant", 201, Rarity.UNCOMMON, mage.cards.u.UnluckyCabbageMerchant.class));
         cards.add(new SetCardInfo("Vengeful Villagers", 40, Rarity.UNCOMMON, mage.cards.v.VengefulVillagers.class));
         cards.add(new SetCardInfo("Vindictive Warden", 249, Rarity.COMMON, mage.cards.v.VindictiveWarden.class));
         cards.add(new SetCardInfo("Walltop Sentries", 202, Rarity.COMMON, mage.cards.w.WalltopSentries.class));
@@ -398,6 +412,7 @@ public final class AvatarTheLastAirbender extends ExpansionSet {
         cards.add(new SetCardInfo("Waterbending Lesson", 80, Rarity.COMMON, mage.cards.w.WaterbendingLesson.class));
         cards.add(new SetCardInfo("Waterbending Scroll", 81, Rarity.UNCOMMON, mage.cards.w.WaterbendingScroll.class));
         cards.add(new SetCardInfo("Watery Grasp", 82, Rarity.COMMON, mage.cards.w.WateryGrasp.class));
+        cards.add(new SetCardInfo("White Lotus Hideout", 281, Rarity.UNCOMMON, mage.cards.w.WhiteLotusHideout.class));
         cards.add(new SetCardInfo("White Lotus Reinforcements", 251, Rarity.UNCOMMON, mage.cards.w.WhiteLotusReinforcements.class));
         cards.add(new SetCardInfo("White Lotus Tile", 262, Rarity.MYTHIC, mage.cards.w.WhiteLotusTile.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("White Lotus Tile", 330, Rarity.MYTHIC, mage.cards.w.WhiteLotusTile.class, NON_FULL_USE_VARIOUS));
