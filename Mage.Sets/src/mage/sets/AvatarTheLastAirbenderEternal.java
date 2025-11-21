@@ -93,6 +93,8 @@ public final class AvatarTheLastAirbenderEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Deflecting Swat", 311, Rarity.RARE, mage.cards.d.DeflectingSwat.class));
         cards.add(new SetCardInfo("Deny Entry", 222, Rarity.COMMON, mage.cards.d.DenyEntry.class));
         cards.add(new SetCardInfo("Descendants' Path", 167, Rarity.RARE, mage.cards.d.DescendantsPath.class));
+        cards.add(new SetCardInfo("Desperate Plea", 103, Rarity.RARE, mage.cards.d.DesperatePlea.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Desperate Plea", 185, Rarity.RARE, mage.cards.d.DesperatePlea.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Diaochan, Artful Beauty", 27, Rarity.MYTHIC, mage.cards.d.DiaochanArtfulBeauty.class));
         cards.add(new SetCardInfo("Diresight", 162, Rarity.COMMON, mage.cards.d.Diresight.class));
         cards.add(new SetCardInfo("Dockside Extortionist", 28, Rarity.MYTHIC, mage.cards.d.DocksideExtortionist.class));
@@ -267,12 +269,16 @@ public final class AvatarTheLastAirbenderEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Sunbaked Canyon", 58, Rarity.MYTHIC, mage.cards.s.SunbakedCanyon.class));
         cards.add(new SetCardInfo("Sundial of the Infinite", 55, Rarity.MYTHIC, mage.cards.s.SundialOfTheInfinite.class));
         cards.add(new SetCardInfo("Suspicious Bookcase", 170, Rarity.UNCOMMON, mage.cards.s.SuspiciousBookcase.class));
+        cards.add(new SetCardInfo("Swampbenders", 65, Rarity.RARE, mage.cards.s.Swampbenders.class));
         cards.add(new SetCardInfo("Swiftfoot Boots", 317, Rarity.RARE, mage.cards.s.SwiftfootBoots.class));
+        cards.add(new SetCardInfo("Tale of Momo", 176, Rarity.RARE, mage.cards.t.TaleOfMomo.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Tale of Momo", 86, Rarity.RARE, mage.cards.t.TaleOfMomo.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Tarnished Citadel", 59, Rarity.MYTHIC, mage.cards.t.TarnishedCitadel.class));
         cards.add(new SetCardInfo("Taunting Challenge", 46, Rarity.MYTHIC, mage.cards.t.TauntingChallenge.class));
         cards.add(new SetCardInfo("Tectonic Split", 144, Rarity.RARE, mage.cards.t.TectonicSplit.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Tectonic Split", 208, Rarity.RARE, mage.cards.t.TectonicSplit.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Teferi's Protection", 7, Rarity.MYTHIC, mage.cards.t.TeferisProtection.class));
+        cards.add(new SetCardInfo("That's Rough Buddy", 87, Rarity.UNCOMMON, mage.cards.t.ThatsRoughBuddy.class));
         cards.add(new SetCardInfo("The Art of Tea", 129, Rarity.COMMON, mage.cards.t.TheArtOfTea.class));
         cards.add(new SetCardInfo("The Blue Spirit", 178, Rarity.RARE, mage.cards.t.TheBlueSpirit.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Blue Spirit", 90, Rarity.RARE, mage.cards.t.TheBlueSpirit.class, NON_FULL_USE_VARIOUS));
