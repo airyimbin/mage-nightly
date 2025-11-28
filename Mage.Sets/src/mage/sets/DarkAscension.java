@@ -4,7 +4,6 @@ package mage.sets;
 import mage.cards.Card;
 import mage.cards.ExpansionSet;
 import mage.cards.repository.CardInfo;
-import mage.cards.repository.CardRepository;
 import mage.collation.BoosterCollator;
 import mage.collation.BoosterStructure;
 import mage.collation.CardRun;
@@ -155,7 +154,6 @@ public final class DarkAscension extends ExpansionSet {
         cards.add(new SetCardInfo("Niblis of the Urn", 16, Rarity.UNCOMMON, mage.cards.n.NiblisOfTheUrn.class));
         cards.add(new SetCardInfo("Predator Ooze", 124, Rarity.RARE, mage.cards.p.PredatorOoze.class));
         cards.add(new SetCardInfo("Pyreheart Wolf", 101, Rarity.UNCOMMON, mage.cards.p.PyreheartWolf.class));
-        cards.add(new SetCardInfo("Ravager of the Fells", 140, Rarity.MYTHIC, mage.cards.r.RavagerOfTheFells.class));
         cards.add(new SetCardInfo("Ravenous Demon", 71, Rarity.RARE, mage.cards.r.RavenousDemon.class));
         cards.add(new SetCardInfo("Ray of Revelation", 17, Rarity.COMMON, mage.cards.r.RayOfRevelation.class));
         cards.add(new SetCardInfo("Reap the Seagraf", 72, Rarity.COMMON, mage.cards.r.ReapTheSeagraf.class));
@@ -203,7 +201,6 @@ public final class DarkAscension extends ExpansionSet {
         cards.add(new SetCardInfo("Vorapede", 131, Rarity.MYTHIC, mage.cards.v.Vorapede.class));
         cards.add(new SetCardInfo("Wakedancer", 79, Rarity.UNCOMMON, mage.cards.w.Wakedancer.class));
         cards.add(new SetCardInfo("Warden of the Wall", 153, Rarity.UNCOMMON, mage.cards.w.WardenOfTheWall.class));
-        cards.add(new SetCardInfo("Werewolf Ransacker", 81, Rarity.UNCOMMON, mage.cards.w.WerewolfRansacker.class));
         cards.add(new SetCardInfo("Wild Hunger", 132, Rarity.COMMON, mage.cards.w.WildHunger.class));
         cards.add(new SetCardInfo("Withengar Unbound", 147, Rarity.MYTHIC, mage.cards.w.WithengarUnbound.class));
         cards.add(new SetCardInfo("Wolfbitten Captive", 133, Rarity.RARE, mage.cards.w.WolfbittenCaptive.class));

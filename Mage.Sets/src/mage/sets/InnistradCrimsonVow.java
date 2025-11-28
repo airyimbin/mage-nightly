@@ -144,8 +144,6 @@ public final class InnistradCrimsonVow extends ExpansionSet {
         cards.add(new SetCardInfo("Dawnhart Disciple", 196, Rarity.COMMON, mage.cards.d.DawnhartDisciple.class));
         cards.add(new SetCardInfo("Dawnhart Geist", 8, Rarity.UNCOMMON, mage.cards.d.DawnhartGeist.class));
         cards.add(new SetCardInfo("Daybreak Combatants", 153, Rarity.COMMON, mage.cards.d.DaybreakCombatants.class));
-        cards.add(new SetCardInfo("Deadly Dancer", 141, Rarity.UNCOMMON, mage.cards.d.DeadlyDancer.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Deadly Dancer", 300, Rarity.UNCOMMON, mage.cards.d.DeadlyDancer.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Deathcap Glade", 261, Rarity.RARE, mage.cards.d.DeathcapGlade.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Deathcap Glade", 281, Rarity.RARE, mage.cards.d.DeathcapGlade.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Demonic Bargain", 103, Rarity.RARE, mage.cards.d.DemonicBargain.class, NON_FULL_USE_VARIOUS));
@@ -262,8 +260,6 @@ public final class InnistradCrimsonVow extends ExpansionSet {
         cards.add(new SetCardInfo("Heron-Blessed Geist", 19, Rarity.COMMON, mage.cards.h.HeronBlessedGeist.class));
         cards.add(new SetCardInfo("Hiveheart Shaman", 202, Rarity.RARE, mage.cards.h.HiveheartShaman.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Hiveheart Shaman", 390, Rarity.RARE, mage.cards.h.HiveheartShaman.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Hollowhenge Huntmaster", 187, Rarity.MYTHIC, mage.cards.h.HollowhengeHuntmaster.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Hollowhenge Huntmaster", 384, Rarity.MYTHIC, mage.cards.h.HollowhengeHuntmaster.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Honeymoon Hearse", 160, Rarity.UNCOMMON, mage.cards.h.HoneymoonHearse.class));
         cards.add(new SetCardInfo("Honored Heirloom", 257, Rarity.COMMON, mage.cards.h.HonoredHeirloom.class));
         cards.add(new SetCardInfo("Hookhand Mariner", 203, Rarity.COMMON, mage.cards.h.HookhandMariner.class));
@@ -421,8 +417,6 @@ public final class InnistradCrimsonVow extends ExpansionSet {
         cards.add(new SetCardInfo("Sigarda's Summons", 36, Rarity.RARE, mage.cards.s.SigardasSummons.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sigarda's Summons", 404, Rarity.RARE, mage.cards.s.SigardasSummons.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sigardian Paladin", 247, Rarity.UNCOMMON, mage.cards.s.SigardianPaladin.class));
-        cards.add(new SetCardInfo("Sinner's Judgment", 12, Rarity.MYTHIC, mage.cards.s.SinnersJudgment.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Sinner's Judgment", 348, Rarity.MYTHIC, mage.cards.s.SinnersJudgment.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Skulking Killer", 130, Rarity.UNCOMMON, mage.cards.s.SkulkingKiller.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Skulking Killer", 296, Rarity.UNCOMMON, mage.cards.s.SkulkingKiller.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Skull Skaab", 248, Rarity.UNCOMMON, mage.cards.s.SkullSkaab.class));

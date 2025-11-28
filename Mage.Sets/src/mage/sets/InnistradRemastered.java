@@ -35,8 +35,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Alchemist's Greeting", 140, Rarity.COMMON, mage.cards.a.AlchemistsGreeting.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Alchemist's Greeting", 393, Rarity.COMMON, mage.cards.a.AlchemistsGreeting.class,RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Altered Ego", 228, Rarity.RARE, mage.cards.a.AlteredEgo.class));
-        cards.add(new SetCardInfo("Ambitious Farmhand", 448, Rarity.UNCOMMON, mage.cards.a.AmbitiousFarmhand.class, RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Ambitious Farmhand", 8, Rarity.UNCOMMON, mage.cards.a.AmbitiousFarmhand.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ambush Viper", 186, Rarity.COMMON, mage.cards.a.AmbushViper.class));
         cards.add(new SetCardInfo("Ancestral Anger", 141, Rarity.COMMON, mage.cards.a.AncestralAnger.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ancestral Anger", 394, Rarity.COMMON, mage.cards.a.AncestralAnger.class,RETRO_ART_USE_VARIOUS));
@@ -52,8 +50,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Archghoul of Thraben", 95, Rarity.UNCOMMON, mage.cards.a.ArchghoulOfThraben.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Arlinn Kord", 230, Rarity.MYTHIC, mage.cards.a.ArlinnKord.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Arlinn Kord", 324, Rarity.MYTHIC, mage.cards.a.ArlinnKord.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Arlinn, Embraced by the Moon", 230, Rarity.MYTHIC, mage.cards.a.ArlinnEmbracedByTheMoon.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Arlinn, Embraced by the Moon", 324, Rarity.MYTHIC, mage.cards.a.ArlinnEmbracedByTheMoon.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ashmouth Blade", 269, Rarity.UNCOMMON, mage.cards.a.AshmouthBlade.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ashmouth Blade", 473, Rarity.UNCOMMON, mage.cards.a.AshmouthBlade.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Asylum Visitor", 371, Rarity.UNCOMMON, mage.cards.a.AsylumVisitor.class, RETRO_ART_USE_VARIOUS));
@@ -62,8 +58,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Aurora of Emrakul", 472, Rarity.UNCOMMON, mage.cards.a.AuroraOfEmrakul.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Avacyn, Angel of Hope", 477, Rarity.MYTHIC, mage.cards.a.AvacynAngelOfHope.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Avacyn, Angel of Hope", 482, Rarity.MYTHIC, mage.cards.a.AvacynAngelOfHope.class, FULL_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Avacyn, the Purifier", 11, Rarity.MYTHIC, mage.cards.a.AvacynThePurifier.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Avacyn, the Purifier", 449, Rarity.MYTHIC, mage.cards.a.AvacynThePurifier.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Avacynian Priest", 12, Rarity.COMMON, mage.cards.a.AvacynianPriest.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Avacynian Priest", 334, Rarity.COMMON, mage.cards.a.AvacynianPriest.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Awoken Demon", 107, Rarity.COMMON, mage.cards.a.AwokenDemon.class, NON_FULL_USE_VARIOUS));
@@ -411,15 +405,10 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Overgrown Farmland", 281, Rarity.RARE, mage.cards.o.OvergrownFarmland.class));
         cards.add(new SetCardInfo("Pack Guardian", 211, Rarity.UNCOMMON, mage.cards.p.PackGuardian.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Pack Guardian", 416, Rarity.UNCOMMON, mage.cards.p.PackGuardian.class, RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Perfected Form", 454, Rarity.UNCOMMON, mage.cards.p.PerfectedForm.class, RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Perfected Form", 52, Rarity.UNCOMMON, mage.cards.p.PerfectedForm.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Plains", 288, Rarity.LAND, mage.cards.basiclands.Plains.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Plains", 289, Rarity.LAND, mage.cards.basiclands.Plains.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Rally the Peasants", 347, Rarity.UNCOMMON, mage.cards.r.RallyThePeasants.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Rally the Peasants", 37, Rarity.UNCOMMON, mage.cards.r.RallyThePeasants.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Ravager of the Fells", 241, Rarity.RARE, mage.cards.r.RavagerOfTheFells.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Ravager of the Fells", 325, Rarity.RARE, mage.cards.r.RavagerOfTheFells.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Ravager of the Fells", 470, Rarity.RARE, mage.cards.r.RavagerOfTheFells.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Reckless Scholar", 81, Rarity.COMMON, mage.cards.r.RecklessScholar.class));
         cards.add(new SetCardInfo("Reforge the Soul", 167, Rarity.RARE, mage.cards.r.ReforgeTheSoul.class));
         cards.add(new SetCardInfo("Restless Bloodseeker", 128, Rarity.UNCOMMON, mage.cards.r.RestlessBloodseeker.class, NON_FULL_USE_VARIOUS));
@@ -437,8 +426,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Scorned Villager", 212, Rarity.COMMON, mage.cards.s.ScornedVillager.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Scorned Villager", 468, Rarity.COMMON, mage.cards.s.ScornedVillager.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Scrounged Scythe", 265, Rarity.COMMON, mage.cards.s.ScroungedScythe.class));
-        cards.add(new SetCardInfo("Seasoned Cathar", 448, Rarity.UNCOMMON, mage.cards.s.SeasonedCathar.class, RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Seasoned Cathar", 8, Rarity.UNCOMMON, mage.cards.s.SeasonedCathar.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Second Harvest", 213, Rarity.RARE, mage.cards.s.SecondHarvest.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Second Harvest", 417, Rarity.RARE, mage.cards.s.SecondHarvest.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Seize the Storm", 170, Rarity.COMMON, mage.cards.s.SeizeTheStorm.class, NON_FULL_USE_VARIOUS));
@@ -521,7 +508,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Through the Breach", 175, Rarity.MYTHIC, mage.cards.t.ThroughTheBreach.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Through the Breach", 404, Rarity.MYTHIC, mage.cards.t.ThroughTheBreach.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Through the Breach", 487, Rarity.MYTHIC, mage.cards.t.ThroughTheBreach.class, FULL_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Timber Shredder", 203, Rarity.COMMON, mage.cards.t.TimberShredder.class));
         cards.add(new SetCardInfo("Tireless Tracker", 219, Rarity.RARE, mage.cards.t.TirelessTracker.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Tireless Tracker", 318, Rarity.RARE, mage.cards.t.TirelessTracker.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Torens, Fist of the Angels", 250, Rarity.RARE, mage.cards.t.TorensFistOfTheAngels.class));
