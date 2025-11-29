@@ -47,7 +47,6 @@ public final class EldritchMoon extends ExpansionSet {
         cards.add(new SetCardInfo("Advanced Stitchwing", 49, Rarity.UNCOMMON, mage.cards.a.AdvancedStitchwing.class));
         cards.add(new SetCardInfo("Alchemist's Greeting", 116, Rarity.COMMON, mage.cards.a.AlchemistsGreeting.class));
         cards.add(new SetCardInfo("Assembled Alphas", 117, Rarity.RARE, mage.cards.a.AssembledAlphas.class));
-        cards.add(new SetCardInfo("Aurora of Emrakul", 193, Rarity.UNCOMMON, mage.cards.a.AuroraOfEmrakul.class));
         cards.add(new SetCardInfo("Backwoods Survivalists", 150, Rarity.COMMON, mage.cards.b.BackwoodsSurvivalists.class));
         cards.add(new SetCardInfo("Bedlam Reveler", 118, Rarity.RARE, mage.cards.b.BedlamReveler.class));
         cards.add(new SetCardInfo("Blessed Alliance", 13, Rarity.UNCOMMON, mage.cards.b.BlessedAlliance.class));
@@ -74,7 +73,6 @@ public final class EldritchMoon extends ExpansionSet {
         cards.add(new SetCardInfo("Collective Brutality", 85, Rarity.RARE, mage.cards.c.CollectiveBrutality.class));
         cards.add(new SetCardInfo("Collective Defiance", 123, Rarity.RARE, mage.cards.c.CollectiveDefiance.class));
         cards.add(new SetCardInfo("Collective Effort", 17, Rarity.RARE, mage.cards.c.CollectiveEffort.class));
-        cards.add(new SetCardInfo("Conduit of Emrakul", 124, Rarity.UNCOMMON, mage.cards.c.ConduitOfEmrakul.class));
         cards.add(new SetCardInfo("Conduit of Storms", 124, Rarity.UNCOMMON, mage.cards.c.ConduitOfStorms.class));
         cards.add(new SetCardInfo("Contingency Plan", 52, Rarity.COMMON, mage.cards.c.ContingencyPlan.class));
         cards.add(new SetCardInfo("Convolute", 53, Rarity.COMMON, mage.cards.c.Convolute.class));
@@ -108,7 +106,6 @@ public final class EldritchMoon extends ExpansionSet {
         cards.add(new SetCardInfo("Enlightened Maniac", 58, Rarity.COMMON, mage.cards.e.EnlightenedManiac.class));
         cards.add(new SetCardInfo("Erupting Dreadwolf", 142, Rarity.UNCOMMON, mage.cards.e.EruptingDreadwolf.class));
         cards.add(new SetCardInfo("Eternal Scourge", 7, Rarity.RARE, mage.cards.e.EternalScourge.class));
-        cards.add(new SetCardInfo("Extricator of Flesh", 23, Rarity.UNCOMMON, mage.cards.e.ExtricatorOfFlesh.class));
         cards.add(new SetCardInfo("Extricator of Sin", 23, Rarity.UNCOMMON, mage.cards.e.ExtricatorOfSin.class));
         cards.add(new SetCardInfo("Exultant Cultist", 59, Rarity.COMMON, mage.cards.e.ExultantCultist.class));
         cards.add(new SetCardInfo("Faith Unbroken", 24, Rarity.UNCOMMON, mage.cards.f.FaithUnbroken.class));

@@ -42,7 +42,6 @@ public class IxalanPromos extends ExpansionSet {
         cards.add(new SetCardInfo("Captivating Crew", "137s", Rarity.RARE, mage.cards.c.CaptivatingCrew.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Carnage Tyrant", "179p", Rarity.MYTHIC, mage.cards.c.CarnageTyrant.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Carnage Tyrant", "179s", Rarity.MYTHIC, mage.cards.c.CarnageTyrant.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Conqueror's Foothold", "234s", Rarity.RARE, mage.cards.c.ConquerorsFoothold.class));
         cards.add(new SetCardInfo("Conqueror's Galleon", "234s", Rarity.RARE, mage.cards.c.ConquerorsGalleon.class));
         cards.add(new SetCardInfo("Daring Saboteur", "49s", Rarity.RARE, mage.cards.d.DaringSaboteur.class));
         cards.add(new SetCardInfo("Deadeye Tracker", "99p", Rarity.RARE, mage.cards.d.DeadeyeTracker.class, NON_FULL_USE_VARIOUS));
@@ -82,7 +81,6 @@ public class IxalanPromos extends ExpansionSet {
         cards.add(new SetCardInfo("Kopala, Warden of Waves", "61p", Rarity.RARE, mage.cards.k.KopalaWardenOfWaves.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Kopala, Warden of Waves", "61s", Rarity.RARE, mage.cards.k.KopalaWardenOfWaves.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Legion's Landing", "22s", Rarity.RARE, mage.cards.l.LegionsLanding.class));
-        cards.add(new SetCardInfo("Lost Vale", "235s", Rarity.RARE, mage.cards.l.LostVale.class));
         cards.add(new SetCardInfo("Mavren Fein, Dusk Apostle", "24p", Rarity.RARE, mage.cards.m.MavrenFeinDuskApostle.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mavren Fein, Dusk Apostle", "24s", Rarity.RARE, mage.cards.m.MavrenFeinDuskApostle.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Old-Growth Dryads", "199s", Rarity.RARE, mage.cards.o.OldGrowthDryads.class));

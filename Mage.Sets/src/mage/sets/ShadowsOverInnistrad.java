@@ -55,14 +55,12 @@ public final class ShadowsOverInnistrad extends ExpansionSet {
         cards.add(new SetCardInfo("Avacyn's Judgment", 145, Rarity.RARE, mage.cards.a.AvacynsJudgment.class));
         cards.add(new SetCardInfo("Avacynian Missionaries", 6, Rarity.UNCOMMON, mage.cards.a.AvacynianMissionaries.class));
         cards.add(new SetCardInfo("Awoken Horror", 92, Rarity.RARE, mage.cards.a.AwokenHorror.class));
-        cards.add(new SetCardInfo("Bearer of Overwhelming Truths", 54, Rarity.UNCOMMON, mage.cards.b.BearerOfOverwhelmingTruths.class));
         cards.add(new SetCardInfo("Behind the Scenes", 100, Rarity.UNCOMMON, mage.cards.b.BehindTheScenes.class));
         cards.add(new SetCardInfo("Behold the Beyond", 101, Rarity.MYTHIC, mage.cards.b.BeholdTheBeyond.class));
         cards.add(new SetCardInfo("Biting Rain", 102, Rarity.UNCOMMON, mage.cards.b.BitingRain.class));
         cards.add(new SetCardInfo("Bloodmad Vampire", 146, Rarity.COMMON, mage.cards.b.BloodmadVampire.class));
         cards.add(new SetCardInfo("Bound by Moonsilver", 7, Rarity.UNCOMMON, mage.cards.b.BoundByMoonsilver.class));
         cards.add(new SetCardInfo("Brain in a Jar", 252, Rarity.RARE, mage.cards.b.BrainInAJar.class));
-        cards.add(new SetCardInfo("Branded Howler", 149, Rarity.COMMON, mage.cards.b.BrandedHowler.class));
         cards.add(new SetCardInfo("Breakneck Rider", 147, Rarity.UNCOMMON, mage.cards.b.BreakneckRider.class));
         cards.add(new SetCardInfo("Briarbridge Patrol", 195, Rarity.UNCOMMON, mage.cards.b.BriarbridgePatrol.class));
         cards.add(new SetCardInfo("Broken Concentration", 50, Rarity.UNCOMMON, mage.cards.b.BrokenConcentration.class));
@@ -175,7 +173,6 @@ public final class ShadowsOverInnistrad extends ExpansionSet {
         cards.add(new SetCardInfo("Inexorable Blob", 212, Rarity.RARE, mage.cards.i.InexorableBlob.class));
         cards.add(new SetCardInfo("Inner Struggle", 167, Rarity.UNCOMMON, mage.cards.i.InnerStruggle.class));
         cards.add(new SetCardInfo("Inquisitor's Ox", 24, Rarity.COMMON, mage.cards.i.InquisitorsOx.class));
-        cards.add(new SetCardInfo("Insidious Mist", 108, Rarity.RARE, mage.cards.i.InsidiousMist.class));
         cards.add(new SetCardInfo("Insolent Neonate", 168, Rarity.COMMON, mage.cards.i.InsolentNeonate.class));
         cards.add(new SetCardInfo("Inspiring Captain", 25, Rarity.COMMON, mage.cards.i.InspiringCaptain.class));
         cards.add(new SetCardInfo("Intrepid Provisioner", 213, Rarity.COMMON, mage.cards.i.IntrepidProvisioner.class));
@@ -190,7 +187,6 @@ public final class ShadowsOverInnistrad extends ExpansionSet {
         cards.add(new SetCardInfo("Kessig Dire Swine", 214, Rarity.COMMON, mage.cards.k.KessigDireSwine.class));
         cards.add(new SetCardInfo("Kessig Forgemaster", 169, Rarity.UNCOMMON, mage.cards.k.KessigForgemaster.class));
         cards.add(new SetCardInfo("Kindly Stranger", 119, Rarity.UNCOMMON, mage.cards.k.KindlyStranger.class));
-        cards.add(new SetCardInfo("Krallenhorde Howler", 203, Rarity.UNCOMMON, mage.cards.k.KrallenhordeHowler.class));
         cards.add(new SetCardInfo("Lambholt Pacifist", 215, Rarity.UNCOMMON, mage.cards.l.LambholtPacifist.class));
         cards.add(new SetCardInfo("Lamplighter of Selhoff", 72, Rarity.COMMON, mage.cards.l.LamplighterOfSelhoff.class));
         cards.add(new SetCardInfo("Lightning Axe", 170, Rarity.UNCOMMON, mage.cards.l.LightningAxe.class));
@@ -222,7 +218,6 @@ public final class ShadowsOverInnistrad extends ExpansionSet {
         cards.add(new SetCardInfo("Nahiri's Machinations", 28, Rarity.UNCOMMON, mage.cards.n.NahirisMachinations.class));
         cards.add(new SetCardInfo("Nahiri, the Harbinger", 247, Rarity.MYTHIC, mage.cards.n.NahiriTheHarbinger.class));
         cards.add(new SetCardInfo("Nearheath Chaplain", 29, Rarity.UNCOMMON, mage.cards.n.NearheathChaplain.class));
-        cards.add(new SetCardInfo("Neck Breaker", 147, Rarity.UNCOMMON, mage.cards.n.NeckBreaker.class));
         cards.add(new SetCardInfo("Neglected Heirloom", 260, Rarity.UNCOMMON, mage.cards.n.NeglectedHeirloom.class));
         cards.add(new SetCardInfo("Nephalia Moondrakes", 75, Rarity.RARE, mage.cards.n.NephaliaMoondrakes.class));
         cards.add(new SetCardInfo("Niblis of Dusk", 76, Rarity.COMMON, mage.cards.n.NiblisOfDusk.class));

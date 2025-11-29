@@ -71,7 +71,6 @@ public final class MarchOfTheMachine extends ExpansionSet {
         cards.add(new SetCardInfo("Bladed Battle-Fan", 91, Rarity.COMMON, mage.cards.b.BladedBattleFan.class));
         cards.add(new SetCardInfo("Blighted Burgeoning", 177, Rarity.COMMON, mage.cards.b.BlightedBurgeoning.class));
         cards.add(new SetCardInfo("Blightreaper Thallid", 92, Rarity.UNCOMMON, mage.cards.b.BlightreaperThallid.class));
-        cards.add(new SetCardInfo("Blightsower Thallid", 92, Rarity.UNCOMMON, mage.cards.b.BlightsowerThallid.class));
         cards.add(new SetCardInfo("Bloated Processor", 357, Rarity.RARE, mage.cards.b.BloatedProcessor.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Bloated Processor", 93, Rarity.RARE, mage.cards.b.BloatedProcessor.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Bloodfeather Phoenix", 132, Rarity.RARE, mage.cards.b.BloodfeatherPhoenix.class, NON_FULL_USE_VARIOUS));
@@ -104,7 +103,6 @@ public final class MarchOfTheMachine extends ExpansionSet {
         cards.add(new SetCardInfo("City on Fire", 363, Rarity.RARE, mage.cards.c.CityOnFire.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Collective Nightmare", 95, Rarity.UNCOMMON, mage.cards.c.CollectiveNightmare.class));
         cards.add(new SetCardInfo("Coming In Hot", 136, Rarity.COMMON, mage.cards.c.ComingInHot.class));
-        cards.add(new SetCardInfo("Compleated Conjurer", 49, Rarity.UNCOMMON, mage.cards.c.CompleatedConjurer.class));
         cards.add(new SetCardInfo("Compleated Huntmaster", 96, Rarity.UNCOMMON, mage.cards.c.CompleatedHuntmaster.class));
         cards.add(new SetCardInfo("Complete the Circuit", 351, Rarity.RARE, mage.cards.c.CompleteTheCircuit.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Complete the Circuit", 52, Rarity.RARE, mage.cards.c.CompleteTheCircuit.class, NON_FULL_USE_VARIOUS));
@@ -148,8 +146,6 @@ public final class MarchOfTheMachine extends ExpansionSet {
         cards.add(new SetCardInfo("Essence of Orthodoxy", 376, Rarity.RARE, mage.cards.e.EssenceOfOrthodoxy.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Etali, Primal Conqueror", 137, Rarity.RARE, mage.cards.e.EtaliPrimalConqueror.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Etali, Primal Conqueror", 298, Rarity.RARE, mage.cards.e.EtaliPrimalConqueror.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Etali, Primal Sickness", 137, Rarity.RARE, mage.cards.e.EtaliPrimalSickness.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Etali, Primal Sickness", 298, Rarity.RARE, mage.cards.e.EtaliPrimalSickness.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Etched Familiar", 101, Rarity.COMMON, mage.cards.e.EtchedFamiliar.class));
         cards.add(new SetCardInfo("Etched Host Doombringer", 102, Rarity.COMMON, mage.cards.e.EtchedHostDoombringer.class));
         cards.add(new SetCardInfo("Expedition Lookout", 56, Rarity.COMMON, mage.cards.e.ExpeditionLookout.class));
@@ -335,7 +331,6 @@ public final class MarchOfTheMachine extends ExpansionSet {
         cards.add(new SetCardInfo("Plains", 277, Rarity.LAND, mage.cards.basiclands.Plains.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Plains", 282, Rarity.LAND, mage.cards.basiclands.Plains.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Plains", 283, Rarity.LAND, mage.cards.basiclands.Plains.class, FULL_ART_BFZ_VARIOUS));
-        cards.add(new SetCardInfo("Plated Kilnbeast", 178, Rarity.COMMON, mage.cards.p.PlatedKilnbeast.class));
         cards.add(new SetCardInfo("Polukranos Reborn", 200, Rarity.RARE, mage.cards.p.PolukranosReborn.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Polukranos Reborn", 300, Rarity.RARE, mage.cards.p.PolukranosReborn.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Polukranos, Engine of Ruin", 200, Rarity.RARE, mage.cards.p.PolukranosEngineOfRuin.class, NON_FULL_USE_VARIOUS));
@@ -430,9 +425,6 @@ public final class MarchOfTheMachine extends ExpansionSet {
         cards.add(new SetCardInfo("Terror of Towashi", 378, Rarity.RARE, mage.cards.t.TerrorOfTowashi.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Thalia and The Gitrog Monster", 255, Rarity.MYTHIC, mage.cards.t.ThaliaAndTheGitrogMonster.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Thalia and The Gitrog Monster", 316, Rarity.MYTHIC, mage.cards.t.ThaliaAndTheGitrogMonster.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("The Argent Etchings", 12, Rarity.MYTHIC, mage.cards.t.TheArgentEtchings.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("The Argent Etchings", 292, Rarity.MYTHIC, mage.cards.t.TheArgentEtchings.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("The Argent Etchings", 338, Rarity.MYTHIC, mage.cards.t.TheArgentEtchings.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Broken Sky", 241, Rarity.RARE, mage.cards.t.TheBrokenSky.class));
         cards.add(new SetCardInfo("The Grand Evolution", 213, Rarity.MYTHIC, mage.cards.t.TheGrandEvolution.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Grand Evolution", 301, Rarity.MYTHIC, mage.cards.t.TheGrandEvolution.class, NON_FULL_USE_VARIOUS));

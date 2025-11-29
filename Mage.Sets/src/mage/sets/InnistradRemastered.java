@@ -54,14 +54,10 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Ashmouth Blade", 473, Rarity.UNCOMMON, mage.cards.a.AshmouthBlade.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Asylum Visitor", 371, Rarity.UNCOMMON, mage.cards.a.AsylumVisitor.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Asylum Visitor", 96, Rarity.UNCOMMON, mage.cards.a.AsylumVisitor.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Aurora of Emrakul", 260, Rarity.UNCOMMON, mage.cards.a.AuroraOfEmrakul.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Aurora of Emrakul", 472, Rarity.UNCOMMON, mage.cards.a.AuroraOfEmrakul.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Avacyn, Angel of Hope", 477, Rarity.MYTHIC, mage.cards.a.AvacynAngelOfHope.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Avacyn, Angel of Hope", 482, Rarity.MYTHIC, mage.cards.a.AvacynAngelOfHope.class, FULL_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Avacynian Priest", 12, Rarity.COMMON, mage.cards.a.AvacynianPriest.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Avacynian Priest", 334, Rarity.COMMON, mage.cards.a.AvacynianPriest.class, RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Awoken Demon", 107, Rarity.COMMON, mage.cards.a.AwokenDemon.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Awoken Demon", 462, Rarity.COMMON, mage.cards.a.AwokenDemon.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Awoken Horror", 460, Rarity.RARE, mage.cards.a.AwokenHorror.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Awoken Horror", 91, Rarity.RARE, mage.cards.a.AwokenHorror.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Balefire Dragon", 479, Rarity.MYTHIC, mage.cards.b.BalefireDragon.class, RETRO_ART));
@@ -71,8 +67,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Bedlam Reveler", 312, Rarity.RARE, mage.cards.b.BedlamReveler.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Biolume Egg", 455, Rarity.UNCOMMON, mage.cards.b.BiolumeEgg.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Biolume Egg", 54, Rarity.UNCOMMON, mage.cards.b.BiolumeEgg.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Biolume Serpent", 455, Rarity.UNCOMMON, mage.cards.b.BiolumeSerpent.class, RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Biolume Serpent", 54, Rarity.UNCOMMON, mage.cards.b.BiolumeSerpent.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Bladestitched Skaab", 231, Rarity.UNCOMMON, mage.cards.b.BladestitchedSkaab.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Bladestitched Skaab", 426, Rarity.UNCOMMON, mage.cards.b.BladestitchedSkaab.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Blazing Torch", 254, Rarity.COMMON, mage.cards.b.BlazingTorch.class));
@@ -119,8 +113,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Cathars' Crusade", 17, Rarity.RARE, mage.cards.c.CatharsCrusade.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Cathars' Crusade", 337, Rarity.RARE, mage.cards.c.CatharsCrusade.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Cathars' Crusade", 483, Rarity.RARE, mage.cards.c.CatharsCrusade.class, FULL_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Chalice of Death", 257, Rarity.UNCOMMON, mage.cards.c.ChaliceOfDeath.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Chalice of Death", 471, Rarity.UNCOMMON, mage.cards.c.ChaliceOfDeath.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Chalice of Life", 257, Rarity.UNCOMMON, mage.cards.c.ChaliceOfLife.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Chalice of Life", 471, Rarity.UNCOMMON, mage.cards.c.ChaliceOfLife.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Chandra, Dressed to Kill", 148, Rarity.MYTHIC, mage.cards.c.ChandraDressedToKill.class));
@@ -135,7 +127,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Collective Brutality", 375, Rarity.RARE, mage.cards.c.CollectiveBrutality.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Collective Defiance", 149, Rarity.RARE, mage.cards.c.CollectiveDefiance.class));
         cards.add(new SetCardInfo("Compelling Deterrence", 57, Rarity.UNCOMMON, mage.cards.c.CompellingDeterrence.class));
-        cards.add(new SetCardInfo("Conduit of Emrakul", 150, Rarity.COMMON, mage.cards.c.ConduitOfEmrakul.class));
         cards.add(new SetCardInfo("Conduit of Storms", 150, Rarity.COMMON, mage.cards.c.ConduitOfStorms.class));
         cards.add(new SetCardInfo("Conjurer's Closet", 259, Rarity.RARE, mage.cards.c.ConjurersCloset.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Conjurer's Closet", 321, Rarity.RARE, mage.cards.c.ConjurersCloset.class, NON_FULL_USE_VARIOUS));
@@ -170,7 +161,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Demonic Taskmaster", 377, Rarity.UNCOMMON, mage.cards.d.DemonicTaskmaster.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Demonmail Hauberk", 261, Rarity.UNCOMMON, mage.cards.d.DemonmailHauberk.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Demonmail Hauberk", 442, Rarity.UNCOMMON, mage.cards.d.DemonmailHauberk.class, RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Depraved Harvester", 105, Rarity.COMMON, mage.cards.d.DepravedHarvester.class));
         cards.add(new SetCardInfo("Deranged Assistant", 61, Rarity.COMMON, mage.cards.d.DerangedAssistant.class));
         cards.add(new SetCardInfo("Deserted Beach", 276, Rarity.RARE, mage.cards.d.DesertedBeach.class));
         cards.add(new SetCardInfo("Desperate Farmer", 105, Rarity.COMMON, mage.cards.d.DesperateFarmer.class));
@@ -234,8 +224,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Geistcatcher's Rig", 264, Rarity.UNCOMMON, mage.cards.g.GeistcatchersRig.class));
         cards.add(new SetCardInfo("Geistlight Snare", 356, Rarity.UNCOMMON, mage.cards.g.GeistlightSnare.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Geistlight Snare", 66, Rarity.UNCOMMON, mage.cards.g.GeistlightSnare.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Ghostly Castigator", 456, Rarity.UNCOMMON, mage.cards.g.GhostlyCastigator.class, RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Ghostly Castigator", 58, Rarity.UNCOMMON, mage.cards.g.GhostlyCastigator.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ghoulish Procession", 110, Rarity.UNCOMMON, mage.cards.g.GhoulishProcession.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ghoulish Procession", 378, Rarity.UNCOMMON, mage.cards.g.GhoulishProcession.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Ghoultree", 198, Rarity.UNCOMMON, mage.cards.g.Ghoultree.class, NON_FULL_USE_VARIOUS));
@@ -304,8 +292,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Infernal Grasp", 119, Rarity.UNCOMMON, mage.cards.i.InfernalGrasp.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Infernal Grasp", 310, Rarity.UNCOMMON, mage.cards.i.InfernalGrasp.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Infernal Grasp", 385, Rarity.UNCOMMON, mage.cards.i.InfernalGrasp.class,RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Insectile Aberration", 457, Rarity.COMMON, mage.cards.i.InsectileAberration.class, RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Insectile Aberration", 60, Rarity.COMMON, mage.cards.i.InsectileAberration.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Inspiring Captain", 28, Rarity.COMMON, mage.cards.i.InspiringCaptain.class));
         cards.add(new SetCardInfo("Intangible Virtue", 29, Rarity.UNCOMMON, mage.cards.i.IntangibleVirtue.class));
         cards.add(new SetCardInfo("Intrepid Provisioner", 205, Rarity.COMMON, mage.cards.i.IntrepidProvisioner.class));
@@ -319,9 +305,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Join the Dance", 432, Rarity.UNCOMMON, mage.cards.j.JoinTheDance.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Killing Wave", 121, Rarity.UNCOMMON, mage.cards.k.KillingWave.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Killing Wave", 386, Rarity.UNCOMMON, mage.cards.k.KillingWave.class,RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Krallenhorde Howler", 193, Rarity.UNCOMMON, mage.cards.k.KrallenhordeHowler.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Krallenhorde Howler", 323, Rarity.UNCOMMON, mage.cards.k.KrallenhordeHowler.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Krallenhorde Howler", 467, Rarity.UNCOMMON, mage.cards.k.KrallenhordeHowler.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Kruin Outlaw", 161, Rarity.RARE, mage.cards.k.KruinOutlaw.class));
         cards.add(new SetCardInfo("Laboratory Maniac", 304, Rarity.UNCOMMON, mage.cards.l.LaboratoryManiac.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Laboratory Maniac", 359, Rarity.UNCOMMON, mage.cards.l.LaboratoryManiac.class, RETRO_ART_USE_VARIOUS));
@@ -336,9 +319,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Lightning Mauler", 399, Rarity.UNCOMMON, mage.cards.l.LightningMauler.class,RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Liliana of the Veil", 475, Rarity.MYTHIC, mage.cards.l.LilianaOfTheVeil.class, RETRO_ART));
         cards.add(new SetCardInfo("Lingering Souls", 30, Rarity.UNCOMMON, mage.cards.l.LingeringSouls.class));
-        cards.add(new SetCardInfo("Lord of Lineage", 327, Rarity.MYTHIC, mage.cards.l.LordOfLineage.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Lord of Lineage", 461, Rarity.MYTHIC, mage.cards.l.LordOfLineage.class, RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Lord of Lineage", 98, Rarity.MYTHIC, mage.cards.l.LordOfLineage.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Lumberknot", 206, Rarity.UNCOMMON, mage.cards.l.Lumberknot.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Lumberknot", 414, Rarity.UNCOMMON, mage.cards.l.Lumberknot.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Luminous Phantom", 32, Rarity.COMMON, mage.cards.l.LuminousPhantom.class, NON_FULL_USE_VARIOUS));

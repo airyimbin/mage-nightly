@@ -88,7 +88,6 @@ public final class KamigawaNeonDynasty extends ExpansionSet {
         cards.add(new SetCardInfo("Boseiju, Who Endures", 266, Rarity.RARE, mage.cards.b.BoseijuWhoEndures.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Boseiju, Who Endures", 412, Rarity.RARE, mage.cards.b.BoseijuWhoEndures.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Boseiju, Who Endures", 501, Rarity.RARE, mage.cards.b.BoseijuWhoEndures.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Branch of Boseiju", 177, Rarity.UNCOMMON, mage.cards.b.BranchOfBoseiju.class));
         cards.add(new SetCardInfo("Brilliant Restoration", 363, Rarity.RARE, mage.cards.b.BrilliantRestoration.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Brilliant Restoration", 434, Rarity.RARE, mage.cards.b.BrilliantRestoration.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Brilliant Restoration", 7, Rarity.RARE, mage.cards.b.BrilliantRestoration.class, NON_FULL_USE_VARIOUS));
@@ -193,7 +192,6 @@ public final class KamigawaNeonDynasty extends ExpansionSet {
         cards.add(new SetCardInfo("Greater Tanuki", 189, Rarity.COMMON, mage.cards.g.GreaterTanuki.class));
         cards.add(new SetCardInfo("Guardians of Oboro", 317, Rarity.COMMON, mage.cards.g.GuardiansOfOboro.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Guardians of Oboro", 56, Rarity.COMMON, mage.cards.g.GuardiansOfOboro.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Hand of Enlightenment", 11, Rarity.COMMON, mage.cards.h.HandOfEnlightenment.class));
         cards.add(new SetCardInfo("Harmonious Emergence", 190, Rarity.COMMON, mage.cards.h.HarmoniousEmergence.class));
         cards.add(new SetCardInfo("Heiko Yamazaki, the General", 146, Rarity.UNCOMMON, mage.cards.h.HeikoYamazakiTheGeneral.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Heiko Yamazaki, the General", 321, Rarity.UNCOMMON, mage.cards.h.HeikoYamazakiTheGeneral.class, NON_FULL_USE_VARIOUS));
@@ -215,7 +213,6 @@ public final class KamigawaNeonDynasty extends ExpansionSet {
         cards.add(new SetCardInfo("Hinata, Dawn-Crowned", 487, Rarity.RARE, mage.cards.h.HinataDawnCrowned.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Historian's Wisdom", 192, Rarity.UNCOMMON, mage.cards.h.HistoriansWisdom.class));
         cards.add(new SetCardInfo("Hotshot Mechanic", 16, Rarity.UNCOMMON, mage.cards.h.HotshotMechanic.class));
-        cards.add(new SetCardInfo("Imperial Moth", 4, Rarity.COMMON, mage.cards.i.ImperialMoth.class));
         cards.add(new SetCardInfo("Imperial Oath", 17, Rarity.COMMON, mage.cards.i.ImperialOath.class));
         cards.add(new SetCardInfo("Imperial Recovery Unit", 18, Rarity.UNCOMMON, mage.cards.i.ImperialRecoveryUnit.class));
         cards.add(new SetCardInfo("Imperial Subduer", 19, Rarity.COMMON, mage.cards.i.ImperialSubduer.class, NON_FULL_USE_VARIOUS));
@@ -581,7 +578,6 @@ public final class KamigawaNeonDynasty extends ExpansionSet {
         cards.add(new SetCardInfo("Vessel of the All-Consuming", 361, Rarity.MYTHIC, mage.cards.v.VesselOfTheAllConsuming.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Vessel of the All-Consuming", 486, Rarity.MYTHIC, mage.cards.v.VesselOfTheAllConsuming.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Virus Beetle", 128, Rarity.COMMON, mage.cards.v.VirusBeetle.class));
-        cards.add(new SetCardInfo("Vision of the Unspeakable", 48, Rarity.UNCOMMON, mage.cards.v.VisionOfTheUnspeakable.class));
         cards.add(new SetCardInfo("Voltage Surge", 171, Rarity.COMMON, mage.cards.v.VoltageSurge.class));
         cards.add(new SetCardInfo("Walking Skyscraper", 263, Rarity.UNCOMMON, mage.cards.w.WalkingSkyscraper.class));
         cards.add(new SetCardInfo("Wanderer's Intervention", 41, Rarity.COMMON, mage.cards.w.WanderersIntervention.class));
