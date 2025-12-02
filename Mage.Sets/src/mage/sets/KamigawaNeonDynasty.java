@@ -419,9 +419,6 @@ public final class KamigawaNeonDynasty extends ExpansionSet {
         cards.add(new SetCardInfo("Reckoner Bankbuster", 499, Rarity.RARE, mage.cards.r.ReckonerBankbuster.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Reckoner Shakedown", 119, Rarity.COMMON, mage.cards.r.ReckonerShakedown.class));
         cards.add(new SetCardInfo("Reckoner's Bargain", 120, Rarity.COMMON, mage.cards.r.ReckonersBargain.class));
-        cards.add(new SetCardInfo("Reflection of Kiki-Jiki", 141, Rarity.RARE, mage.cards.r.ReflectionOfKikiJiki.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Reflection of Kiki-Jiki", 357, Rarity.RARE, mage.cards.r.ReflectionOfKikiJiki.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Reflection of Kiki-Jiki", 465, Rarity.RARE, mage.cards.r.ReflectionOfKikiJiki.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Regent's Authority", 32, Rarity.COMMON, mage.cards.r.RegentsAuthority.class));
         cards.add(new SetCardInfo("Reinforced Ronin", 158, Rarity.UNCOMMON, mage.cards.r.ReinforcedRonin.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Reinforced Ronin", 323, Rarity.UNCOMMON, mage.cards.r.ReinforcedRonin.class, NON_FULL_USE_VARIOUS));
@@ -574,9 +571,6 @@ public final class KamigawaNeonDynasty extends ExpansionSet {
         cards.add(new SetCardInfo("Upriser Renegade", 170, Rarity.UNCOMMON, mage.cards.u.UpriserRenegade.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Upriser Renegade", 324, Rarity.UNCOMMON, mage.cards.u.UpriserRenegade.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Vector Glider", 66, Rarity.COMMON, mage.cards.v.VectorGlider.class));
-        cards.add(new SetCardInfo("Vessel of the All-Consuming", 221, Rarity.MYTHIC, mage.cards.v.VesselOfTheAllConsuming.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Vessel of the All-Consuming", 361, Rarity.MYTHIC, mage.cards.v.VesselOfTheAllConsuming.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Vessel of the All-Consuming", 486, Rarity.MYTHIC, mage.cards.v.VesselOfTheAllConsuming.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Virus Beetle", 128, Rarity.COMMON, mage.cards.v.VirusBeetle.class));
         cards.add(new SetCardInfo("Voltage Surge", 171, Rarity.COMMON, mage.cards.v.VoltageSurge.class));
         cards.add(new SetCardInfo("Walking Skyscraper", 263, Rarity.UNCOMMON, mage.cards.w.WalkingSkyscraper.class));

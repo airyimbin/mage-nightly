@@ -110,7 +110,6 @@ public final class RivalsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("Goblin Trailblazer", 105, Rarity.COMMON, mage.cards.g.GoblinTrailblazer.class));
         cards.add(new SetCardInfo("Golden Demise", 73, Rarity.UNCOMMON, mage.cards.g.GoldenDemise.class));
         cards.add(new SetCardInfo("Golden Guardian", 179, Rarity.RARE, mage.cards.g.GoldenGuardian.class));
-        cards.add(new SetCardInfo("Gold-Forge Garrison", 179, Rarity.RARE, mage.cards.g.GoldForgeGarrison.class));
         cards.add(new SetCardInfo("Grasping Scoundrel", 74, Rarity.COMMON, mage.cards.g.GraspingScoundrel.class));
         cards.add(new SetCardInfo("Gruesome Fate", 75, Rarity.COMMON, mage.cards.g.GruesomeFate.class));
         cards.add(new SetCardInfo("Hadana's Climb", 158, Rarity.RARE, mage.cards.h.HadanasClimb.class));
@@ -242,7 +241,6 @@ public final class RivalsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("Warkite Marauder", 60, Rarity.RARE, mage.cards.w.WarkiteMarauder.class));
         cards.add(new SetCardInfo("Waterknot", 61, Rarity.COMMON, mage.cards.w.Waterknot.class));
         cards.add(new SetCardInfo("Wayward Swordtooth", 150, Rarity.RARE, mage.cards.w.WaywardSwordtooth.class));
-        cards.add(new SetCardInfo("Winged Temple of Orazca", 158, Rarity.RARE, mage.cards.w.WingedTempleOfOrazca.class));
         cards.add(new SetCardInfo("Woodland Stream", 191, Rarity.UNCOMMON, mage.cards.w.WoodlandStream.class));
         cards.add(new SetCardInfo("World Shaper", 151, Rarity.RARE, mage.cards.w.WorldShaper.class));
         cards.add(new SetCardInfo("Zacama, Primal Calamity", 174, Rarity.MYTHIC, mage.cards.z.ZacamaPrimalCalamity.class));

@@ -229,8 +229,6 @@ public final class TheLostCavernsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("Island", 288, Rarity.LAND, mage.cards.basiclands.Island.class, FULL_ART_UST_VARIOUS));
         cards.add(new SetCardInfo("Island", 395, Rarity.LAND, mage.cards.basiclands.Island.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Island", 396, Rarity.LAND, mage.cards.basiclands.Island.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Itlimoc, Cradle of the Sun", 188, Rarity.RARE, mage.cards.i.ItlimocCradleOfTheSun.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Itlimoc, Cradle of the Sun", 380, Rarity.RARE, mage.cards.i.ItlimocCradleOfTheSun.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Itzquinth, Firstborn of Gishath", 230, Rarity.UNCOMMON, mage.cards.i.ItzquinthFirstbornOfGishath.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Itzquinth, Firstborn of Gishath", 331, Rarity.UNCOMMON, mage.cards.i.ItzquinthFirstbornOfGishath.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ixalli's Lorekeeper", 194, Rarity.UNCOMMON, mage.cards.i.IxallisLorekeeper.class));
@@ -349,9 +347,6 @@ public final class TheLostCavernsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("River Herald Scout", 72, Rarity.COMMON, mage.cards.r.RiverHeraldScout.class));
         cards.add(new SetCardInfo("Roaming Throne", 258, Rarity.RARE, mage.cards.r.RoamingThrone.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Roaming Throne", 344, Rarity.RARE, mage.cards.r.RoamingThrone.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Roar of the Fifth People", 189, Rarity.MYTHIC, mage.cards.r.RoarOfTheFifthPeople.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Roar of the Fifth People", 296, Rarity.MYTHIC, mage.cards.r.RoarOfTheFifthPeople.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Roar of the Fifth People", 339, Rarity.MYTHIC, mage.cards.r.RoarOfTheFifthPeople.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ruin-Lurker Bat", 33, Rarity.UNCOMMON, mage.cards.r.RuinLurkerBat.class));
         cards.add(new SetCardInfo("Rumbling Rockslide", 163, Rarity.COMMON, mage.cards.r.RumblingRockslide.class));
         cards.add(new SetCardInfo("Runaway Boulder", 259, Rarity.COMMON, mage.cards.r.RunawayBoulder.class));
@@ -372,7 +367,6 @@ public final class TheLostCavernsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("Self-Reflection", 74, Rarity.UNCOMMON, mage.cards.s.SelfReflection.class));
         cards.add(new SetCardInfo("Sentinel of the Nameless City", 211, Rarity.RARE, mage.cards.s.SentinelOfTheNamelessCity.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sentinel of the Nameless City", 383, Rarity.RARE, mage.cards.s.SentinelOfTheNamelessCity.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Shadows' Lair", 108, Rarity.UNCOMMON, mage.cards.s.ShadowsLair.class));
         cards.add(new SetCardInfo("Shipwreck Sentry", 75, Rarity.COMMON, mage.cards.s.ShipwreckSentry.class));
         cards.add(new SetCardInfo("Sinuous Benthisaur", 76, Rarity.UNCOMMON, mage.cards.s.SinuousBenthisaur.class));
         cards.add(new SetCardInfo("Skullcap Snail", 119, Rarity.COMMON, mage.cards.s.SkullcapSnail.class));

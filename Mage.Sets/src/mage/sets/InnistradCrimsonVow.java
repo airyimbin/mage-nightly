@@ -188,7 +188,6 @@ public final class InnistradCrimsonVow extends ExpansionSet {
         cards.add(new SetCardInfo("Falkenrath Forebear", 334, Rarity.RARE, mage.cards.f.FalkenrathForebear.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Fear of Death", 59, Rarity.COMMON, mage.cards.f.FearOfDeath.class));
         cards.add(new SetCardInfo("Fearful Villager", 157, Rarity.COMMON, mage.cards.f.FearfulVillager.class));
-        cards.add(new SetCardInfo("Fearsome Werewolf", 157, Rarity.COMMON, mage.cards.f.FearsomeWerewolf.class));
         cards.add(new SetCardInfo("Fell Stinger", 112, Rarity.UNCOMMON, mage.cards.f.FellStinger.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Fell Stinger", 406, Rarity.UNCOMMON, mage.cards.f.FellStinger.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Fierce Retribution", 13, Rarity.COMMON, mage.cards.f.FierceRetribution.class));
@@ -221,7 +220,6 @@ public final class InnistradCrimsonVow extends ExpansionSet {
         cards.add(new SetCardInfo("Groom's Finery", 117, Rarity.UNCOMMON, mage.cards.g.GroomsFinery.class));
         cards.add(new SetCardInfo("Gryff Rider", 15, Rarity.COMMON, mage.cards.g.GryffRider.class));
         cards.add(new SetCardInfo("Gryffwing Cavalry", 16, Rarity.UNCOMMON, mage.cards.g.GryffwingCavalry.class));
-        cards.add(new SetCardInfo("Gutter Shortcut", 62, Rarity.UNCOMMON, mage.cards.g.GutterShortcut.class));
         cards.add(new SetCardInfo("Gutter Skulker", 62, Rarity.UNCOMMON, mage.cards.g.GutterSkulker.class));
         cards.add(new SetCardInfo("Halana and Alena, Partners", 239, Rarity.RARE, mage.cards.h.HalanaAndAlenaPartners.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Halana and Alena, Partners", 325, Rarity.RARE, mage.cards.h.HalanaAndAlenaPartners.class, NON_FULL_USE_VARIOUS));
@@ -237,9 +235,6 @@ public final class InnistradCrimsonVow extends ExpansionSet {
         cards.add(new SetCardInfo("Henrika Domnathi", 119, Rarity.MYTHIC, mage.cards.h.HenrikaDomnathi.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Henrika Domnathi", 293, Rarity.MYTHIC, mage.cards.h.HenrikaDomnathi.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Henrika Domnathi", 335, Rarity.MYTHIC, mage.cards.h.HenrikaDomnathi.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Henrika, Infernal Seer", 119, Rarity.MYTHIC, mage.cards.h.HenrikaInfernalSeer.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Henrika, Infernal Seer", 293, Rarity.MYTHIC, mage.cards.h.HenrikaInfernalSeer.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Henrika, Infernal Seer", 335, Rarity.MYTHIC, mage.cards.h.HenrikaInfernalSeer.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Hero's Downfall", 120, Rarity.UNCOMMON, mage.cards.h.HerosDownfall.class));
         cards.add(new SetCardInfo("Heron of Hope", 18, Rarity.COMMON, mage.cards.h.HeronOfHope.class));
         cards.add(new SetCardInfo("Heron-Blessed Geist", 19, Rarity.COMMON, mage.cards.h.HeronBlessedGeist.class));
@@ -374,7 +369,6 @@ public final class InnistradCrimsonVow extends ExpansionSet {
         cards.add(new SetCardInfo("Restless Bloodseeker", 128, Rarity.UNCOMMON, mage.cards.r.RestlessBloodseeker.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Restless Bloodseeker", 295, Rarity.UNCOMMON, mage.cards.r.RestlessBloodseeker.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Retrieve", 215, Rarity.UNCOMMON, mage.cards.r.Retrieve.class));
-        cards.add(new SetCardInfo("Riphook Raider", 203, Rarity.COMMON, mage.cards.r.RiphookRaider.class));
         cards.add(new SetCardInfo("Rot-Tide Gargantua", 129, Rarity.COMMON, mage.cards.r.RotTideGargantua.class));
         cards.add(new SetCardInfo("Runebound Wolf", 176, Rarity.UNCOMMON, mage.cards.r.RuneboundWolf.class));
         cards.add(new SetCardInfo("Runo Stromkirk", 246, Rarity.RARE, mage.cards.r.RunoStromkirk.class, NON_FULL_USE_VARIOUS));
@@ -490,8 +484,6 @@ public final class InnistradCrimsonVow extends ExpansionSet {
         cards.add(new SetCardInfo("Welcoming Vampire", 287, Rarity.RARE, mage.cards.w.WelcomingVampire.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Welcoming Vampire", 46, Rarity.RARE, mage.cards.w.WelcomingVampire.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Whispering Wizard", 88, Rarity.UNCOMMON, mage.cards.w.WhisperingWizard.class));
-        cards.add(new SetCardInfo("Wildsong Howler", 205, Rarity.RARE, mage.cards.w.WildsongHowler.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Wildsong Howler", 392, Rarity.RARE, mage.cards.w.WildsongHowler.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Winged Portent", 365, Rarity.RARE, mage.cards.w.WingedPortent.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Winged Portent", 89, Rarity.RARE, mage.cards.w.WingedPortent.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Witch's Web", 227, Rarity.COMMON, mage.cards.w.WitchsWeb.class));

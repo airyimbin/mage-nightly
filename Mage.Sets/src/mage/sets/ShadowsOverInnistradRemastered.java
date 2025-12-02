@@ -139,7 +139,6 @@ public class ShadowsOverInnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Galvanic Bombardment", 157, Rarity.COMMON, mage.cards.g.GalvanicBombardment.class));
         cards.add(new SetCardInfo("Game Trail", 269, Rarity.UNCOMMON, mage.cards.g.GameTrail.class));
         cards.add(new SetCardInfo("Gatstaf Arsonists", 158, Rarity.COMMON, mage.cards.g.GatstafArsonists.class));
-        cards.add(new SetCardInfo("Gatstaf Ravagers", 158, Rarity.COMMON, mage.cards.g.GatstafRavagers.class));
         cards.add(new SetCardInfo("Gavony Unhallowed", 111, Rarity.COMMON, mage.cards.g.GavonyUnhallowed.class));
         cards.add(new SetCardInfo("Geier Reach Bandit", 159, Rarity.UNCOMMON, mage.cards.g.GeierReachBandit.class));
         cards.add(new SetCardInfo("Geier Reach Sanitarium", 270, Rarity.RARE, mage.cards.g.GeierReachSanitarium.class));
@@ -260,7 +259,6 @@ public class ShadowsOverInnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Sage of Ancient Lore", 211, Rarity.RARE, mage.cards.s.SageOfAncientLore.class));
         cards.add(new SetCardInfo("Sanitarium Skeleton", 133, Rarity.COMMON, mage.cards.s.SanitariumSkeleton.class));
         cards.add(new SetCardInfo("Scourge Wolf", 175, Rarity.UNCOMMON, mage.cards.s.ScourgeWolf.class));
-        cards.add(new SetCardInfo("Scrounged Scythe", 252, Rarity.UNCOMMON, mage.cards.s.ScroungedScythe.class));
         cards.add(new SetCardInfo("Seasons Past", 212, Rarity.MYTHIC, mage.cards.s.SeasonsPast.class));
         cards.add(new SetCardInfo("Second Harvest", 213, Rarity.RARE, mage.cards.s.SecondHarvest.class));
         cards.add(new SetCardInfo("Selfless Spirit", 42, Rarity.RARE, mage.cards.s.SelflessSpirit.class));
@@ -323,7 +321,6 @@ public class ShadowsOverInnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Uncaged Fury", 183, Rarity.UNCOMMON, mage.cards.u.UncagedFury.class));
         cards.add(new SetCardInfo("Vessel of Nascency", 224, Rarity.UNCOMMON, mage.cards.v.VesselOfNascency.class));
         cards.add(new SetCardInfo("Veteran Cathar", 225, Rarity.UNCOMMON, mage.cards.v.VeteranCathar.class));
-        cards.add(new SetCardInfo("Vildin-Pack Alpha", 159, Rarity.UNCOMMON, mage.cards.v.VildinPackAlpha.class));
         cards.add(new SetCardInfo("Village Messenger", 184, Rarity.UNCOMMON, mage.cards.v.VillageMessenger.class));
         cards.add(new SetCardInfo("Voldaren Pariah", 138, Rarity.RARE, mage.cards.v.VoldarenPariah.class));
         cards.add(new SetCardInfo("Voracious Reader", 58, Rarity.UNCOMMON, mage.cards.v.VoraciousReader.class));

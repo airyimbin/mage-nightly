@@ -35,6 +35,8 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Alchemist's Greeting", 140, Rarity.COMMON, mage.cards.a.AlchemistsGreeting.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Alchemist's Greeting", 393, Rarity.COMMON, mage.cards.a.AlchemistsGreeting.class,RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Altered Ego", 228, Rarity.RARE, mage.cards.a.AlteredEgo.class));
+        cards.add(new SetCardInfo("Ambitious Farmhand", 448, Rarity.UNCOMMON, mage.cards.a.AmbitiousFarmhand.class, RETRO_ART_USE_VARIOUS));
+        cards.add(new SetCardInfo("Ambitious Farmhand", 8, Rarity.UNCOMMON, mage.cards.a.AmbitiousFarmhand.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ambush Viper", 186, Rarity.COMMON, mage.cards.a.AmbushViper.class));
         cards.add(new SetCardInfo("Ancestral Anger", 141, Rarity.COMMON, mage.cards.a.AncestralAnger.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ancestral Anger", 394, Rarity.COMMON, mage.cards.a.AncestralAnger.class,RETRO_ART_USE_VARIOUS));
@@ -61,7 +63,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Awoken Horror", 460, Rarity.RARE, mage.cards.a.AwokenHorror.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Awoken Horror", 91, Rarity.RARE, mage.cards.a.AwokenHorror.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Balefire Dragon", 479, Rarity.MYTHIC, mage.cards.b.BalefireDragon.class, RETRO_ART));
-        cards.add(new SetCardInfo("Bane of Hanweir", 158, Rarity.COMMON, mage.cards.b.BaneOfHanweir.class));
         cards.add(new SetCardInfo("Battleground Geist", 53, Rarity.COMMON, mage.cards.b.BattlegroundGeist.class));
         cards.add(new SetCardInfo("Bedlam Reveler", 142, Rarity.RARE, mage.cards.b.BedlamReveler.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Bedlam Reveler", 312, Rarity.RARE, mage.cards.b.BedlamReveler.class, NON_FULL_USE_VARIOUS));
@@ -216,7 +217,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Galvanic Juggernaut", 263, Rarity.UNCOMMON, mage.cards.g.GalvanicJuggernaut.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Galvanic Juggernaut", 443, Rarity.UNCOMMON, mage.cards.g.GalvanicJuggernaut.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Garruk Relentless", 197, Rarity.MYTHIC, mage.cards.g.GarrukRelentless.class));
-        cards.add(new SetCardInfo("Garruk, the Veil-Cursed", 197, Rarity.MYTHIC, mage.cards.g.GarrukTheVeilCursed.class));
         cards.add(new SetCardInfo("Gather the Townsfolk", 23, Rarity.COMMON, mage.cards.g.GatherTheTownsfolk.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Gather the Townsfolk", 341, Rarity.COMMON, mage.cards.g.GatherTheTownsfolk.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Geier Reach Bandit", 156, Rarity.UNCOMMON, mage.cards.g.GeierReachBandit.class, NON_FULL_USE_VARIOUS));
@@ -242,8 +242,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Griselbrand", 115, Rarity.MYTHIC, mage.cards.g.Griselbrand.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Griselbrand", 381, Rarity.MYTHIC, mage.cards.g.Griselbrand.class,RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Griselbrand", 485, Rarity.MYTHIC, mage.cards.g.Griselbrand.class, FULL_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Grisly Anglerfish", 458, Rarity.UNCOMMON, mage.cards.g.GrislyAnglerfish.class, RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Grisly Anglerfish", 67, Rarity.UNCOMMON, mage.cards.g.GrislyAnglerfish.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Grizzled Angler", 458, Rarity.UNCOMMON, mage.cards.g.GrizzledAngler.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Grizzled Angler", 67, Rarity.UNCOMMON, mage.cards.g.GrizzledAngler.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Grizzly Ghoul", 240, Rarity.UNCOMMON, mage.cards.g.GrizzlyGhoul.class));
@@ -405,7 +403,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Savage Alliance", 169, Rarity.UNCOMMON, mage.cards.s.SavageAlliance.class));
         cards.add(new SetCardInfo("Scorned Villager", 212, Rarity.COMMON, mage.cards.s.ScornedVillager.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Scorned Villager", 468, Rarity.COMMON, mage.cards.s.ScornedVillager.class, RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Scrounged Scythe", 265, Rarity.COMMON, mage.cards.s.ScroungedScythe.class));
         cards.add(new SetCardInfo("Second Harvest", 213, Rarity.RARE, mage.cards.s.SecondHarvest.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Second Harvest", 417, Rarity.RARE, mage.cards.s.SecondHarvest.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Seize the Storm", 170, Rarity.COMMON, mage.cards.s.SeizeTheStorm.class, NON_FULL_USE_VARIOUS));
@@ -519,8 +516,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Vanquish the Horde", 49, Rarity.RARE, mage.cards.v.VanquishTheHorde.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Vexing Devil", 178, Rarity.RARE, mage.cards.v.VexingDevil.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Vexing Devil", 313, Rarity.RARE, mage.cards.v.VexingDevil.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Vildin-Pack Alpha", 156, Rarity.UNCOMMON, mage.cards.v.VildinPackAlpha.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Vildin-Pack Alpha", 464, Rarity.UNCOMMON, mage.cards.v.VildinPackAlpha.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Vilespawn Spider", 251, Rarity.UNCOMMON, mage.cards.v.VilespawnSpider.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Vilespawn Spider", 436, Rarity.UNCOMMON, mage.cards.v.VilespawnSpider.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Village Messenger", 179, Rarity.COMMON, mage.cards.v.VillageMessenger.class, NON_FULL_USE_VARIOUS));

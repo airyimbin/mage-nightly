@@ -42,6 +42,7 @@ public final class InnistradMidnightHunt extends ExpansionSet {
         cards.add(new SetCardInfo("Abandon the Post", 127, Rarity.COMMON, mage.cards.a.AbandonThePost.class));
         cards.add(new SetCardInfo("Adeline, Resplendent Cathar", 1, Rarity.RARE, mage.cards.a.AdelineResplendentCathar.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Adeline, Resplendent Cathar", 312, Rarity.RARE, mage.cards.a.AdelineResplendentCathar.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Ambitious Farmhand", 2, Rarity.UNCOMMON, mage.cards.a.AmbitiousFarmhand.class));
         cards.add(new SetCardInfo("Angelfire Ignition", 209, Rarity.RARE, mage.cards.a.AngelfireIgnition.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Angelfire Ignition", 367, Rarity.RARE, mage.cards.a.AngelfireIgnition.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Arcane Infusion", 210, Rarity.UNCOMMON, mage.cards.a.ArcaneInfusion.class));
@@ -115,8 +116,6 @@ public final class InnistradMidnightHunt extends ExpansionSet {
         cards.add(new SetCardInfo("Covert Cutpurse", 92, Rarity.UNCOMMON, mage.cards.c.CovertCutpurse.class));
         cards.add(new SetCardInfo("Covetous Castaway", 45, Rarity.UNCOMMON, mage.cards.c.CovetousCastaway.class));
         cards.add(new SetCardInfo("Crawl from the Cellar", 93, Rarity.COMMON, mage.cards.c.CrawlFromTheCellar.class));
-        cards.add(new SetCardInfo("Creeping Inn", 264, Rarity.MYTHIC, mage.cards.c.CreepingInn.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Creeping Inn", 379, Rarity.MYTHIC, mage.cards.c.CreepingInn.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Croaking Counterpart", 215, Rarity.RARE, mage.cards.c.CroakingCounterpart.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Croaking Counterpart", 369, Rarity.RARE, mage.cards.c.CroakingCounterpart.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Crossroads Candleguide", 253, Rarity.COMMON, mage.cards.c.CrossroadsCandleguide.class));
@@ -161,7 +160,6 @@ public final class InnistradMidnightHunt extends ExpansionSet {
         cards.add(new SetCardInfo("Eccentric Farmer", 185, Rarity.COMMON, mage.cards.e.EccentricFarmer.class));
         cards.add(new SetCardInfo("Ecstatic Awakener", 100, Rarity.COMMON, mage.cards.e.EcstaticAwakener.class));
         cards.add(new SetCardInfo("Electric Revelation", 135, Rarity.COMMON, mage.cards.e.ElectricRevelation.class));
-        cards.add(new SetCardInfo("Embodiment of Flame", 141, Rarity.UNCOMMON, mage.cards.e.EmbodimentOfFlame.class));
         cards.add(new SetCardInfo("Enduring Angel", 17, Rarity.MYTHIC, mage.cards.e.EnduringAngel.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Enduring Angel", 327, Rarity.MYTHIC, mage.cards.e.EnduringAngel.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Evolving Wilds", 261, Rarity.COMMON, mage.cards.e.EvolvingWilds.class));
@@ -174,8 +172,6 @@ public final class InnistradMidnightHunt extends ExpansionSet {
         cards.add(new SetCardInfo("Famished Foragers", 138, Rarity.COMMON, mage.cards.f.FamishedForagers.class));
         cards.add(new SetCardInfo("Fangblade Brigand", 139, Rarity.UNCOMMON, mage.cards.f.FangbladeBrigand.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Fangblade Brigand", 292, Rarity.UNCOMMON, mage.cards.f.FangbladeBrigand.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Fangblade Eviscerator", 139, Rarity.UNCOMMON, mage.cards.f.FangbladeEviscerator.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Fangblade Eviscerator", 292, Rarity.UNCOMMON, mage.cards.f.FangbladeEviscerator.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Fateful Absence", 18, Rarity.RARE, mage.cards.f.FatefulAbsence.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Fateful Absence", 328, Rarity.RARE, mage.cards.f.FatefulAbsence.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Festival Crasher", 140, Rarity.COMMON, mage.cards.f.FestivalCrasher.class));
@@ -210,15 +206,11 @@ public final class InnistradMidnightHunt extends ExpansionSet {
         cards.add(new SetCardInfo("Gisa, Glorious Resurrector", 314, Rarity.RARE, mage.cards.g.GisaGloriousResurrector.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Grafted Identity", 335, Rarity.RARE, mage.cards.g.GraftedIdentity.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Grafted Identity", 57, Rarity.RARE, mage.cards.g.GraftedIdentity.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Graveyard Glutton", 104, Rarity.RARE, mage.cards.g.GraveyardGlutton.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Graveyard Glutton", 290, Rarity.RARE, mage.cards.g.GraveyardGlutton.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Graveyard Trespasser", 104, Rarity.RARE, mage.cards.g.GraveyardTrespasser.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Graveyard Trespasser", 290, Rarity.RARE, mage.cards.g.GraveyardTrespasser.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Grizzly Ghoul", 226, Rarity.UNCOMMON, mage.cards.g.GrizzlyGhoul.class));
         cards.add(new SetCardInfo("Hallowed Respite", 227, Rarity.RARE, mage.cards.h.HallowedRespite.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Hallowed Respite", 373, Rarity.RARE, mage.cards.h.HallowedRespite.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Harvesttide Assailant", 143, Rarity.COMMON, mage.cards.h.HarvesttideAssailant.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Harvesttide Assailant", 293, Rarity.COMMON, mage.cards.h.HarvesttideAssailant.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Harvesttide Infiltrator", 143, Rarity.COMMON, mage.cards.h.HarvesttideInfiltrator.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Harvesttide Infiltrator", 293, Rarity.COMMON, mage.cards.h.HarvesttideInfiltrator.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Harvesttide Sentry", 186, Rarity.COMMON, mage.cards.h.HarvesttideSentry.class));
@@ -237,7 +229,6 @@ public final class InnistradMidnightHunt extends ExpansionSet {
         cards.add(new SetCardInfo("Immolation", 144, Rarity.COMMON, mage.cards.i.Immolation.class));
         cards.add(new SetCardInfo("Infernal Grasp", 107, Rarity.UNCOMMON, mage.cards.i.InfernalGrasp.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Infernal Grasp", 389, Rarity.UNCOMMON, mage.cards.i.InfernalGrasp.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Inherited Fiend", 105, Rarity.UNCOMMON, mage.cards.i.InheritedFiend.class));
         cards.add(new SetCardInfo("Intrepid Adversary", 25, Rarity.MYTHIC, mage.cards.i.IntrepidAdversary.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Intrepid Adversary", 329, Rarity.MYTHIC, mage.cards.i.IntrepidAdversary.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Island", 270, Rarity.LAND, mage.cards.basiclands.Island.class, FULL_ART_BFZ_VARIOUS));
@@ -456,8 +447,6 @@ public final class InnistradMidnightHunt extends ExpansionSet {
         cards.add(new SetCardInfo("Unnatural Growth", 365, Rarity.RARE, mage.cards.u.UnnaturalGrowth.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Unnatural Moonrise", 247, Rarity.UNCOMMON, mage.cards.u.UnnaturalMoonrise.class));
         cards.add(new SetCardInfo("Unruly Mob", 40, Rarity.COMMON, mage.cards.u.UnrulyMob.class));
-        cards.add(new SetCardInfo("Untamed Pup", 187, Rarity.UNCOMMON, mage.cards.u.UntamedPup.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Untamed Pup", 302, Rarity.UNCOMMON, mage.cards.u.UntamedPup.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Vadrik, Astral Archmage", 248, Rarity.RARE, mage.cards.v.VadrikAstralArchmage.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Vadrik, Astral Archmage", 325, Rarity.RARE, mage.cards.v.VadrikAstralArchmage.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Vampire Interloper", 125, Rarity.COMMON, mage.cards.v.VampireInterloper.class));
