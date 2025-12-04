@@ -144,7 +144,6 @@ public final class KamigawaNeonDynasty extends ExpansionSet {
         cards.add(new SetCardInfo("Enthusiastic Mechanaut", 509, Rarity.UNCOMMON, mage.cards.e.EnthusiasticMechanaut.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Era of Enlightenment", 11, Rarity.COMMON, mage.cards.e.EraOfEnlightenment.class));
         cards.add(new SetCardInfo("Essence Capture", 52, Rarity.UNCOMMON, mage.cards.e.EssenceCapture.class));
-        cards.add(new SetCardInfo("Etching of Kumano", 152, Rarity.UNCOMMON, mage.cards.e.EtchingOfKumano.class));
         cards.add(new SetCardInfo("Experimental Synthesizer", 138, Rarity.COMMON, mage.cards.e.ExperimentalSynthesizer.class));
         cards.add(new SetCardInfo("Explosive Entry", 139, Rarity.COMMON, mage.cards.e.ExplosiveEntry.class));
         cards.add(new SetCardInfo("Explosive Singularity", 140, Rarity.MYTHIC, mage.cards.e.ExplosiveSingularity.class, NON_FULL_USE_VARIOUS));
@@ -312,9 +311,6 @@ public final class KamigawaNeonDynasty extends ExpansionSet {
         cards.add(new SetCardInfo("Lion Sash", 26, Rarity.RARE, mage.cards.l.LionSash.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Lion Sash", 368, Rarity.RARE, mage.cards.l.LionSash.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Lion Sash", 440, Rarity.RARE, mage.cards.l.LionSash.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Living Breakthrough", 355, Rarity.RARE, mage.cards.l.LivingBreakthrough.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Living Breakthrough", 443, Rarity.RARE, mage.cards.l.LivingBreakthrough.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Living Breakthrough", 57, Rarity.RARE, mage.cards.l.LivingBreakthrough.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Lizard Blades", 153, Rarity.RARE, mage.cards.l.LizardBlades.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Lizard Blades", 385, Rarity.RARE, mage.cards.l.LizardBlades.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Lizard Blades", 468, Rarity.RARE, mage.cards.l.LizardBlades.class, NON_FULL_USE_VARIOUS));
@@ -340,7 +336,6 @@ public final class KamigawaNeonDynasty extends ExpansionSet {
         cards.add(new SetCardInfo("Mechtitan Core", 249, Rarity.RARE, mage.cards.m.MechtitanCore.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mechtitan Core", 402, Rarity.RARE, mage.cards.m.MechtitanCore.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mechtitan Core", 497, Rarity.RARE, mage.cards.m.MechtitanCore.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Memory of Toshiro", 108, Rarity.UNCOMMON, mage.cards.m.MemoryOfToshiro.class));
         cards.add(new SetCardInfo("Michiko's Reign of Truth", 29, Rarity.UNCOMMON, mage.cards.m.MichikosReignOfTruth.class));
         cards.add(new SetCardInfo("Mindlink Mech", 373, Rarity.RARE, mage.cards.m.MindlinkMech.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mindlink Mech", 448, Rarity.RARE, mage.cards.m.MindlinkMech.class, NON_FULL_USE_VARIOUS));
@@ -379,7 +374,6 @@ public final class KamigawaNeonDynasty extends ExpansionSet {
         cards.add(new SetCardInfo("Nezumi Bladeblesser", 318, Rarity.COMMON, mage.cards.n.NezumiBladeblesser.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Nezumi Prowler", 116, Rarity.UNCOMMON, mage.cards.n.NezumiProwler.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Nezumi Prowler", 344, Rarity.UNCOMMON, mage.cards.n.NezumiProwler.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Nezumi Road Captain", 117, Rarity.COMMON, mage.cards.n.NezumiRoadCaptain.class));
         cards.add(new SetCardInfo("Ninja's Kunai", 252, Rarity.COMMON, mage.cards.n.NinjasKunai.class));
         cards.add(new SetCardInfo("Norika Yamazaki, the Poet", 31, Rarity.UNCOMMON, mage.cards.n.NorikaYamazakiThePoet.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Norika Yamazaki, the Poet", 311, Rarity.UNCOMMON, mage.cards.n.NorikaYamazakiThePoet.class, NON_FULL_USE_VARIOUS));
@@ -405,7 +399,6 @@ public final class KamigawaNeonDynasty extends ExpansionSet {
         cards.add(new SetCardInfo("Plains", 293, Rarity.LAND, mage.cards.basiclands.Plains.class, FULL_ART_UST_VARIOUS));
         cards.add(new SetCardInfo("Plains", 294, Rarity.LAND, mage.cards.basiclands.Plains.class, FULL_ART_UST_VARIOUS));
         cards.add(new SetCardInfo("Planar Incision", 72, Rarity.COMMON, mage.cards.p.PlanarIncision.class));
-        cards.add(new SetCardInfo("Portrait of Michiko", 29, Rarity.UNCOMMON, mage.cards.p.PortraitOfMichiko.class));
         cards.add(new SetCardInfo("Prodigy's Prototype", 231, Rarity.UNCOMMON, mage.cards.p.ProdigysPrototype.class));
         cards.add(new SetCardInfo("Prosperous Thief", 336, Rarity.UNCOMMON, mage.cards.p.ProsperousThief.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Prosperous Thief", 73, Rarity.UNCOMMON, mage.cards.p.ProsperousThief.class, NON_FULL_USE_VARIOUS));
@@ -423,9 +416,6 @@ public final class KamigawaNeonDynasty extends ExpansionSet {
         cards.add(new SetCardInfo("Reinforced Ronin", 158, Rarity.UNCOMMON, mage.cards.r.ReinforcedRonin.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Reinforced Ronin", 323, Rarity.UNCOMMON, mage.cards.r.ReinforcedRonin.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Reito Sentinel", 256, Rarity.UNCOMMON, mage.cards.r.ReitoSentinel.class));
-        cards.add(new SetCardInfo("Remnant of the Rising Star", 194, Rarity.MYTHIC, mage.cards.r.RemnantOfTheRisingStar.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Remnant of the Rising Star", 359, Rarity.MYTHIC, mage.cards.r.RemnantOfTheRisingStar.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Remnant of the Rising Star", 475, Rarity.MYTHIC, mage.cards.r.RemnantOfTheRisingStar.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Repel the Vile", 33, Rarity.COMMON, mage.cards.r.RepelTheVile.class));
         cards.add(new SetCardInfo("Replication Specialist", 76, Rarity.UNCOMMON, mage.cards.r.ReplicationSpecialist.class));
         cards.add(new SetCardInfo("Return to Action", 121, Rarity.COMMON, mage.cards.r.ReturnToAction.class));

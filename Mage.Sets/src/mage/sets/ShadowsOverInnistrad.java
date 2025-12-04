@@ -49,7 +49,6 @@ public final class ShadowsOverInnistrad extends ExpansionSet {
         cards.add(new SetCardInfo("Apothecary Geist", 4, Rarity.COMMON, mage.cards.a.ApothecaryGeist.class));
         cards.add(new SetCardInfo("Archangel Avacyn", 5, Rarity.MYTHIC, mage.cards.a.ArchangelAvacyn.class));
         cards.add(new SetCardInfo("Arlinn Kord", 243, Rarity.MYTHIC, mage.cards.a.ArlinnKord.class));
-        cards.add(new SetCardInfo("Ashmouth Blade", 260, Rarity.UNCOMMON, mage.cards.a.AshmouthBlade.class));
         cards.add(new SetCardInfo("Asylum Visitor", 99, Rarity.RARE, mage.cards.a.AsylumVisitor.class));
         cards.add(new SetCardInfo("Autumnal Gloom", 194, Rarity.UNCOMMON, mage.cards.a.AutumnalGloom.class));
         cards.add(new SetCardInfo("Avacyn's Judgment", 145, Rarity.RARE, mage.cards.a.AvacynsJudgment.class));
@@ -89,7 +88,6 @@ public final class ShadowsOverInnistrad extends ExpansionSet {
         cards.add(new SetCardInfo("Dead Weight", 106, Rarity.COMMON, mage.cards.d.DeadWeight.class));
         cards.add(new SetCardInfo("Deathcap Cultivator", 202, Rarity.RARE, mage.cards.d.DeathcapCultivator.class));
         cards.add(new SetCardInfo("Declaration in Stone", 12, Rarity.RARE, mage.cards.d.DeclarationInStone.class));
-        cards.add(new SetCardInfo("Demon-Possessed Witch", 119, Rarity.UNCOMMON, mage.cards.d.DemonPossessedWitch.class));
         cards.add(new SetCardInfo("Deny Existence", 55, Rarity.COMMON, mage.cards.d.DenyExistence.class));
         cards.add(new SetCardInfo("Descend upon the Sinful", 13, Rarity.MYTHIC, mage.cards.d.DescendUponTheSinful.class));
         cards.add(new SetCardInfo("Devils' Playground", 151, Rarity.RARE, mage.cards.d.DevilsPlayground.class));
@@ -121,7 +119,6 @@ public final class ShadowsOverInnistrad extends ExpansionSet {
         cards.add(new SetCardInfo("Fevered Visions", 244, Rarity.RARE, mage.cards.f.FeveredVisions.class));
         cards.add(new SetCardInfo("Fiery Temper", 156, Rarity.COMMON, mage.cards.f.FieryTemper.class));
         cards.add(new SetCardInfo("Flameblade Angel", 157, Rarity.RARE, mage.cards.f.FlamebladeAngel.class));
-        cards.add(new SetCardInfo("Flameheart Werewolf", 169, Rarity.UNCOMMON, mage.cards.f.FlameheartWerewolf.class));
         cards.add(new SetCardInfo("Fleeting Memories", 62, Rarity.UNCOMMON, mage.cards.f.FleetingMemories.class));
         cards.add(new SetCardInfo("Foreboding Ruins", 272, Rarity.RARE, mage.cards.f.ForebodingRuins.class));
         cards.add(new SetCardInfo("Forest", 295, Rarity.LAND, mage.cards.basiclands.Forest.class, NON_FULL_USE_VARIOUS));
@@ -342,7 +339,6 @@ public final class ShadowsOverInnistrad extends ExpansionSet {
         cards.add(new SetCardInfo("Voldaren Duelist", 191, Rarity.COMMON, mage.cards.v.VoldarenDuelist.class));
         cards.add(new SetCardInfo("Warped Landscape", 280, Rarity.COMMON, mage.cards.w.WarpedLandscape.class));
         cards.add(new SetCardInfo("Watcher in the Web", 239, Rarity.COMMON, mage.cards.w.WatcherInTheWeb.class));
-        cards.add(new SetCardInfo("Wayward Disciple", 34, Rarity.UNCOMMON, mage.cards.w.WaywardDisciple.class));
         cards.add(new SetCardInfo("Weirding Wood", 240, Rarity.UNCOMMON, mage.cards.w.WeirdingWood.class));
         cards.add(new SetCardInfo("Welcome to the Fold", 96, Rarity.RARE, mage.cards.w.WelcomeToTheFold.class));
         cards.add(new SetCardInfo("Werewolf of Ancient Hunger", 225, Rarity.RARE, mage.cards.w.WerewolfOfAncientHunger.class));

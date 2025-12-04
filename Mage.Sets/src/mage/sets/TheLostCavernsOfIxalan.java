@@ -196,7 +196,6 @@ public final class TheLostCavernsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("Growing Rites of Itlimoc", 188, Rarity.RARE, mage.cards.g.GrowingRitesOfItlimoc.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Growing Rites of Itlimoc", 380, Rarity.RARE, mage.cards.g.GrowingRitesOfItlimoc.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Guardian of the Great Door", 16, Rarity.UNCOMMON, mage.cards.g.GuardianOfTheGreatDoor.class));
-        cards.add(new SetCardInfo("Guidestone Compass", 62, Rarity.UNCOMMON, mage.cards.g.GuidestoneCompass.class));
         cards.add(new SetCardInfo("Helping Hand", 17, Rarity.UNCOMMON, mage.cards.h.HelpingHand.class));
         cards.add(new SetCardInfo("Hermitic Nautilus", 58, Rarity.UNCOMMON, mage.cards.h.HermiticNautilus.class));
         cards.add(new SetCardInfo("Hidden Cataract", 273, Rarity.COMMON, mage.cards.h.HiddenCataract.class));
@@ -217,7 +216,6 @@ public final class TheLostCavernsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("Hulking Raptor", 327, Rarity.RARE, mage.cards.h.HulkingRaptor.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Hunter's Blowgun", 255, Rarity.COMMON, mage.cards.h.HuntersBlowgun.class));
         cards.add(new SetCardInfo("Hurl into History", 59, Rarity.UNCOMMON, mage.cards.h.HurlIntoHistory.class));
-        cards.add(new SetCardInfo("Iceberg Titan", 60, Rarity.COMMON, mage.cards.i.IcebergTitan.class));
         cards.add(new SetCardInfo("Idol of the Deep King", 155, Rarity.COMMON, mage.cards.i.IdolOfTheDeepKing.class));
         cards.add(new SetCardInfo("In the Presence of Ages", 192, Rarity.COMMON, mage.cards.i.InThePresenceOfAges.class));
         cards.add(new SetCardInfo("Inti, Seneschal of the Sun", 156, Rarity.RARE, mage.cards.i.IntiSeneschalOfTheSun.class, NON_FULL_USE_VARIOUS));
@@ -233,13 +231,11 @@ public final class TheLostCavernsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("Itzquinth, Firstborn of Gishath", 331, Rarity.UNCOMMON, mage.cards.i.ItzquinthFirstbornOfGishath.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ixalli's Lorekeeper", 194, Rarity.UNCOMMON, mage.cards.i.IxallisLorekeeper.class));
         cards.add(new SetCardInfo("Jade Seedstones", 195, Rarity.UNCOMMON, mage.cards.j.JadeSeedstones.class));
-        cards.add(new SetCardInfo("Jadeheart Attendant", 195, Rarity.UNCOMMON, mage.cards.j.JadeheartAttendant.class));
         cards.add(new SetCardInfo("Jadelight Spelunker", 196, Rarity.RARE, mage.cards.j.JadelightSpelunker.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Jadelight Spelunker", 382, Rarity.RARE, mage.cards.j.JadelightSpelunker.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Jadelight Spelunker", 403, Rarity.RARE, mage.cards.j.JadelightSpelunker.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Join the Dead", 110, Rarity.COMMON, mage.cards.j.JoinTheDead.class));
         cards.add(new SetCardInfo("Kaslem's Stonetree", 197, Rarity.COMMON, mage.cards.k.KaslemsStonetree.class));
-        cards.add(new SetCardInfo("Kaslem's Strider", 197, Rarity.COMMON, mage.cards.k.KaslemsStrider.class));
         cards.add(new SetCardInfo("Kellan, Daring Traveler", 231, Rarity.RARE, mage.cards.k.KellanDaringTraveler.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Kellan, Daring Traveler", 341, Rarity.RARE, mage.cards.k.KellanDaringTraveler.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Kinjalli's Dawnrunner", 19, Rarity.UNCOMMON, mage.cards.k.KinjallisDawnrunner.class));
@@ -265,7 +261,6 @@ public final class TheLostCavernsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("Marauding Brinefang", 64, Rarity.COMMON, mage.cards.m.MaraudingBrinefang.class));
         cards.add(new SetCardInfo("Market Gnome", 22, Rarity.UNCOMMON, mage.cards.m.MarketGnome.class));
         cards.add(new SetCardInfo("Master's Guide-Mural", 233, Rarity.UNCOMMON, mage.cards.m.MastersGuideMural.class));
-        cards.add(new SetCardInfo("Master's Manufactory", 233, Rarity.UNCOMMON, mage.cards.m.MastersManufactory.class));
         cards.add(new SetCardInfo("Mastercraft Raptor", 164, Rarity.UNCOMMON, mage.cards.m.MastercraftRaptor.class));
         cards.add(new SetCardInfo("Matzalantli, the Great Door", 256, Rarity.RARE, mage.cards.m.MatzalantliTheGreatDoor.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Matzalantli, the Great Door", 387, Rarity.RARE, mage.cards.m.MatzalantliTheGreatDoor.class, NON_FULL_USE_VARIOUS));
@@ -297,7 +292,6 @@ public final class TheLostCavernsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("Oltec Cloud Guard", 28, Rarity.COMMON, mage.cards.o.OltecCloudGuard.class));
         cards.add(new SetCardInfo("Orazca Puzzle-Door", 68, Rarity.COMMON, mage.cards.o.OrazcaPuzzleDoor.class));
         cards.add(new SetCardInfo("Oteclan Landmark", 29, Rarity.COMMON, mage.cards.o.OteclanLandmark.class));
-        cards.add(new SetCardInfo("Oteclan Levitator", 29, Rarity.COMMON, mage.cards.o.OteclanLevitator.class));
         cards.add(new SetCardInfo("Out of Air", 69, Rarity.COMMON, mage.cards.o.OutOfAir.class));
         cards.add(new SetCardInfo("Over the Edge", 205, Rarity.COMMON, mage.cards.o.OverTheEdge.class));
         cards.add(new SetCardInfo("Palani's Hatcher", 237, Rarity.RARE, mage.cards.p.PalanisHatcher.class, NON_FULL_USE_VARIOUS));
@@ -378,7 +372,6 @@ public final class TheLostCavernsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("Souls of the Lost", 369, Rarity.RARE, mage.cards.s.SoulsOfTheLost.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sovereign Okinec Ahau", 240, Rarity.MYTHIC, mage.cards.s.SovereignOkinecAhau.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sovereign Okinec Ahau", 309, Rarity.MYTHIC, mage.cards.s.SovereignOkinecAhau.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Sovereign's Macuahuitl", 155, Rarity.COMMON, mage.cards.s.SovereignsMacuahuitl.class));
         cards.add(new SetCardInfo("Spelunking", 213, Rarity.UNCOMMON, mage.cards.s.Spelunking.class));
         cards.add(new SetCardInfo("Spring-Loaded Sawblades", 36, Rarity.UNCOMMON, mage.cards.s.SpringLoadedSawblades.class));
         cards.add(new SetCardInfo("Spyglass Siren", 405, Rarity.UNCOMMON, mage.cards.s.SpyglassSiren.class, NON_FULL_USE_VARIOUS));
@@ -410,14 +403,6 @@ public final class TheLostCavernsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("Tarrian's Soulcleaver", 264, Rarity.RARE, mage.cards.t.TarriansSoulcleaver.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Tarrian's Soulcleaver", 389, Rarity.RARE, mage.cards.t.TarriansSoulcleaver.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Tectonic Hazard", 169, Rarity.COMMON, mage.cards.t.TectonicHazard.class));
-        cards.add(new SetCardInfo("Temple of Civilization", 26, Rarity.MYTHIC, mage.cards.t.TempleOfCivilization.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Temple of Civilization", 314, Rarity.MYTHIC, mage.cards.t.TempleOfCivilization.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Temple of Cultivation", 204, Rarity.MYTHIC, mage.cards.t.TempleOfCultivation.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Temple of Cultivation", 318, Rarity.MYTHIC, mage.cards.t.TempleOfCultivation.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Temple of Cyclical Time", 315, Rarity.MYTHIC, mage.cards.t.TempleOfCyclicalTime.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Temple of Cyclical Time", 67, Rarity.MYTHIC, mage.cards.t.TempleOfCyclicalTime.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Temple of Power", 158, Rarity.MYTHIC, mage.cards.t.TempleOfPower.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Temple of Power", 317, Rarity.MYTHIC, mage.cards.t.TempleOfPower.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Tendril of the Mycotyrant", 215, Rarity.UNCOMMON, mage.cards.t.TendrilOfTheMycotyrant.class));
         cards.add(new SetCardInfo("Terror Tide", 127, Rarity.RARE, mage.cards.t.TerrorTide.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Terror Tide", 372, Rarity.RARE, mage.cards.t.TerrorTide.class, NON_FULL_USE_VARIOUS));
@@ -425,8 +410,6 @@ public final class TheLostCavernsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("The Ancient One", 319, Rarity.MYTHIC, mage.cards.t.TheAncientOne.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Belligerent", 225, Rarity.RARE, mage.cards.t.TheBelligerent.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Belligerent", 384, Rarity.RARE, mage.cards.t.TheBelligerent.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("The Core", 256, Rarity.RARE, mage.cards.t.TheCore.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("The Core", 387, Rarity.RARE, mage.cards.t.TheCore.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Enigma Jewel", 362, Rarity.MYTHIC, mage.cards.t.TheEnigmaJewel.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Enigma Jewel", 55, Rarity.MYTHIC, mage.cards.t.TheEnigmaJewel.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("The Everflowing Well", 363, Rarity.RARE, mage.cards.t.TheEverflowingWell.class, NON_FULL_USE_VARIOUS));
@@ -558,15 +541,15 @@ class TheLostCavernsOfIxalanCollator implements BoosterCollator {
     // 1.3875 B uncommons (111 / 80)
     // 1.3875 C uncommons (111 / 80)
     private final RarityConfiguration uncommonRuns = new RarityConfiguration(
-            BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC, 
-            BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC, 
-            BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC, 
-            BCC, 
-            BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC, 
-            BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC, 
-            BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC, 
+            BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC,
+            BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC,
+            BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC, BCC,
+            BCC,
+            BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC,
+            BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC,
+            BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC, BBC,
             BBC,
-            ABC, ABC, ABC, ABC, ABC, ABC, ABC, ABC, ABC, ABC, 
+            ABC, ABC, ABC, ABC, ABC, ABC, ABC, ABC, ABC, ABC,
             ABC, ABC, ABC, ABC, ABC, ABC, ABC, ABC
     );
 

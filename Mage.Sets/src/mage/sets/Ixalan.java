@@ -36,7 +36,6 @@ public final class Ixalan extends ExpansionSet {
         this.numBoosterDoubleFaced = -1;
         this.maxCardNumberInBooster = 279;
 
-        cards.add(new SetCardInfo("Adanto, the First Fort", 22, Rarity.RARE, mage.cards.a.AdantoTheFirstFort.class));
         cards.add(new SetCardInfo("Adanto Vanguard", 1, Rarity.UNCOMMON, mage.cards.a.AdantoVanguard.class));
         cards.add(new SetCardInfo("Admiral Beckett Brass", 217, Rarity.MYTHIC, mage.cards.a.AdmiralBeckettBrass.class));
         cards.add(new SetCardInfo("Air Elemental", 45, Rarity.UNCOMMON, mage.cards.a.AirElemental.class));
@@ -209,7 +208,6 @@ public final class Ixalan extends ExpansionSet {
         cards.add(new SetCardInfo("Pounce", 200, Rarity.COMMON, mage.cards.p.Pounce.class));
         cards.add(new SetCardInfo("Priest of the Wakening Sun", 27, Rarity.RARE, mage.cards.p.PriestOfTheWakeningSun.class));
         cards.add(new SetCardInfo("Primal Amulet", 243, Rarity.RARE, mage.cards.p.PrimalAmulet.class));
-        cards.add(new SetCardInfo("Primal Wellspring", 243, Rarity.RARE, mage.cards.p.PrimalWellspring.class));
         cards.add(new SetCardInfo("Prosperous Pirates", 69, Rarity.COMMON, mage.cards.p.ProsperousPirates.class));
         cards.add(new SetCardInfo("Prying Blade", 244, Rarity.COMMON, mage.cards.p.PryingBlade.class));
         cards.add(new SetCardInfo("Pterodon Knight", 28, Rarity.COMMON, mage.cards.p.PterodonKnight.class));

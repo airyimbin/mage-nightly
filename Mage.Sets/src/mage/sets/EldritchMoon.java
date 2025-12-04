@@ -153,7 +153,6 @@ public final class EldritchMoon extends ExpansionSet {
         cards.add(new SetCardInfo("Ironwright's Cleansing", 32, Rarity.COMMON, mage.cards.i.IronwrightsCleansing.class));
         cards.add(new SetCardInfo("Ishkanah, Grafwidow", 162, Rarity.MYTHIC, mage.cards.i.IshkanahGrafwidow.class));
         cards.add(new SetCardInfo("It of the Horrid Swarm", 8, Rarity.COMMON, mage.cards.i.ItOfTheHorridSwarm.class));
-        cards.add(new SetCardInfo("It That Rides as One", 33, Rarity.UNCOMMON, mage.cards.i.ItThatRidesAsOne.class));
         cards.add(new SetCardInfo("Kessig Prowler", 163, Rarity.UNCOMMON, mage.cards.k.KessigProwler.class));
         cards.add(new SetCardInfo("Laboratory Brute", 67, Rarity.COMMON, mage.cards.l.LaboratoryBrute.class));
         cards.add(new SetCardInfo("Lashweed Lurker", 9, Rarity.UNCOMMON, mage.cards.l.LashweedLurker.class));
@@ -202,7 +201,6 @@ public final class EldritchMoon extends ExpansionSet {
         cards.add(new SetCardInfo("Shrill Howler", 168, Rarity.UNCOMMON, mage.cards.s.ShrillHowler.class));
         cards.add(new SetCardInfo("Sigarda's Aid", 41, Rarity.RARE, mage.cards.s.SigardasAid.class));
         cards.add(new SetCardInfo("Sigardian Priest", 42, Rarity.COMMON, mage.cards.s.SigardianPriest.class));
-        cards.add(new SetCardInfo("Sinuous Predator", 163, Rarity.UNCOMMON, mage.cards.s.SinuousPredator.class));
         cards.add(new SetCardInfo("Skirsdag Supplicant", 104, Rarity.COMMON, mage.cards.s.SkirsdagSupplicant.class));
         cards.add(new SetCardInfo("Slayer's Cleaver", 198, Rarity.UNCOMMON, mage.cards.s.SlayersCleaver.class));
         cards.add(new SetCardInfo("Smoldering Werewolf", 142, Rarity.UNCOMMON, mage.cards.s.SmolderingWerewolf.class));

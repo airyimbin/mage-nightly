@@ -39,7 +39,6 @@ public class ShadowsOverInnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Apothecary Geist", 12, Rarity.COMMON, mage.cards.a.ApothecaryGeist.class));
         cards.add(new SetCardInfo("Archangel Avacyn", 13, Rarity.MYTHIC, mage.cards.a.ArchangelAvacyn.class));
         cards.add(new SetCardInfo("Arlinn Kord", 230, Rarity.MYTHIC, mage.cards.a.ArlinnKord.class));
-        cards.add(new SetCardInfo("Ashmouth Blade", 256, Rarity.UNCOMMON, mage.cards.a.AshmouthBlade.class));
         cards.add(new SetCardInfo("Assembled Alphas", 141, Rarity.RARE, mage.cards.a.AssembledAlphas.class));
         cards.add(new SetCardInfo("Avacyn's Judgment", 142, Rarity.RARE, mage.cards.a.AvacynsJudgment.class));
         cards.add(new SetCardInfo("Awoken Horror", 95, Rarity.RARE, mage.cards.a.AwokenHorror.class));
@@ -88,7 +87,6 @@ public class ShadowsOverInnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Deathcap Cultivator", 193, Rarity.UNCOMMON, mage.cards.d.DeathcapCultivator.class));
         cards.add(new SetCardInfo("Decimator of the Provinces", 2, Rarity.MYTHIC, mage.cards.d.DecimatorOfTheProvinces.class));
         cards.add(new SetCardInfo("Declaration in Stone", 23, Rarity.RARE, mage.cards.d.DeclarationInStone.class));
-        cards.add(new SetCardInfo("Demon-Possessed Witch", 107, Rarity.UNCOMMON, mage.cards.d.DemonPossessedWitch.class));
         cards.add(new SetCardInfo("Deny Existence", 60, Rarity.COMMON, mage.cards.d.DenyExistence.class));
         cards.add(new SetCardInfo("Deranged Whelp", 150, Rarity.COMMON, mage.cards.d.DerangedWhelp.class));
         cards.add(new SetCardInfo("Descend upon the Sinful", 24, Rarity.MYTHIC, mage.cards.d.DescendUponTheSinful.class));
@@ -187,7 +185,6 @@ public class ShadowsOverInnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Island", 280, Rarity.LAND, mage.cards.basiclands.Island.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Island", 281, Rarity.LAND, mage.cards.basiclands.Island.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Island", 282, Rarity.LAND, mage.cards.basiclands.Island.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("It That Rides as One", 36, Rarity.UNCOMMON, mage.cards.i.ItThatRidesAsOne.class));
         cards.add(new SetCardInfo("Jace's Scrutiny", 78, Rarity.COMMON, mage.cards.j.JacesScrutiny.class));
         cards.add(new SetCardInfo("Jace, Unraveler of Secrets", 77, Rarity.MYTHIC, mage.cards.j.JaceUnravelerOfSecrets.class));
         cards.add(new SetCardInfo("Kindly Stranger", 107, Rarity.UNCOMMON, mage.cards.k.KindlyStranger.class));

@@ -63,7 +63,6 @@ public class ShadowsOfThePast extends ExpansionSet {
         cards.add(new SetCardInfo("Havengul Lich", 63, Rarity.MYTHIC, mage.cards.h.HavengulLich.class));
         cards.add(new SetCardInfo("Havengul Runebinder", 16, Rarity.RARE, mage.cards.h.HavengulRunebinder.class));
         cards.add(new SetCardInfo("Hollowhenge Scavenger", 52, Rarity.COMMON, mage.cards.h.HollowhengeScavenger.class));
-        cards.add(new SetCardInfo("Howlpack Alpha", 53, Rarity.RARE, mage.cards.h.HowlpackAlpha.class));
         cards.add(new SetCardInfo("Huntmaster of the Fells", 64, Rarity.MYTHIC, mage.cards.h.HuntmasterOfTheFells.class));
         cards.add(new SetCardInfo("Immerwolf", 65, Rarity.UNCOMMON, mage.cards.i.Immerwolf.class));
         cards.add(new SetCardInfo("Increasing Ambition", 32, Rarity.RARE, mage.cards.i.IncreasingAmbition.class));
@@ -90,7 +89,6 @@ public class ShadowsOfThePast extends ExpansionSet {
         cards.add(new SetCardInfo("Spider Spawning", 56, Rarity.UNCOMMON, mage.cards.s.SpiderSpawning.class));
         cards.add(new SetCardInfo("Stitcher's Apprentice", 24, Rarity.COMMON, mage.cards.s.StitchersApprentice.class));
         cards.add(new SetCardInfo("Stromkirk Captain", 67, Rarity.UNCOMMON, mage.cards.s.StromkirkCaptain.class));
-        cards.add(new SetCardInfo("Terror of Kruin Pass", 42, Rarity.RARE, mage.cards.t.TerrorOfKruinPass.class));
         cards.add(new SetCardInfo("Tragic Slip", 35, Rarity.COMMON, mage.cards.t.TragicSlip.class));
         cards.add(new SetCardInfo("Traitorous Blood", 45, Rarity.COMMON, mage.cards.t.TraitorousBlood.class));
         cards.add(new SetCardInfo("Travel Preparations", 57, Rarity.COMMON, mage.cards.t.TravelPreparations.class));
