@@ -22,6 +22,8 @@ public final class LorwynEclipsed extends ExpansionSet {
 
         cards.add(new SetCardInfo("Ashling's Command", 205, Rarity.RARE, mage.cards.a.AshlingsCommand.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ashling's Command", 330, Rarity.RARE, mage.cards.a.AshlingsCommand.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Ashling, Rekindled", 124, Rarity.RARE, mage.cards.a.AshlingRekindled.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Ashling, Rekindled", 290, Rarity.RARE, mage.cards.a.AshlingRekindled.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Bitterbloom Bearer", 310, Rarity.MYTHIC, mage.cards.b.BitterbloomBearer.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Bitterbloom Bearer", 352, Rarity.MYTHIC, mage.cards.b.BitterbloomBearer.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Bitterbloom Bearer", 88, Rarity.MYTHIC, mage.cards.b.BitterbloomBearer.class, NON_FULL_USE_VARIOUS));
@@ -47,8 +49,6 @@ public final class LorwynEclipsed extends ExpansionSet {
         cards.add(new SetCardInfo("Overgrown Tomb", 350, Rarity.RARE, mage.cards.o.OvergrownTomb.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Steam Vents", 267, Rarity.RARE, mage.cards.s.SteamVents.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Steam Vents", 348, Rarity.RARE, mage.cards.s.SteamVents.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Sygg, Wanderbrine Shield", 288, Rarity.RARE, mage.cards.s.SyggWanderbrineShield.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Sygg, Wanderbrine Shield", 76, Rarity.RARE, mage.cards.s.SyggWanderbrineShield.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sygg, Wanderwine Wisdom", 288, Rarity.RARE, mage.cards.s.SyggWanderwineWisdom.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sygg, Wanderwine Wisdom", 76, Rarity.RARE, mage.cards.s.SyggWanderwineWisdom.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Temple Garden", 268, Rarity.RARE, mage.cards.t.TempleGarden.class, NON_FULL_USE_VARIOUS));
