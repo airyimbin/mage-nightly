@@ -73,7 +73,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Blood Mist", 143, Rarity.UNCOMMON, mage.cards.b.BloodMist.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Blood Mist", 395, Rarity.UNCOMMON, mage.cards.b.BloodMist.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Blood Petal Celebrant", 144, Rarity.COMMON, mage.cards.b.BloodPetalCelebrant.class));
-        cards.add(new SetCardInfo("Bloodbat Summoner", 138, Rarity.RARE, mage.cards.b.BloodbatSummoner.class));
         cards.add(new SetCardInfo("Bloodhall Priest", 232, Rarity.RARE, mage.cards.b.BloodhallPriest.class));
         cards.add(new SetCardInfo("Bloodline Keeper", 327, Rarity.MYTHIC, mage.cards.b.BloodlineKeeper.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Bloodline Keeper", 461, Rarity.MYTHIC, mage.cards.b.BloodlineKeeper.class, RETRO_ART_USE_VARIOUS));
@@ -193,7 +192,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Fiend Hunter", 22, Rarity.UNCOMMON, mage.cards.f.FiendHunter.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Fiend Hunter", 340, Rarity.UNCOMMON, mage.cards.f.FiendHunter.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Fiery Temper", 154, Rarity.UNCOMMON, mage.cards.f.FieryTemper.class));
-        cards.add(new SetCardInfo("Final Iteration", 62, Rarity.RARE, mage.cards.f.FinalIteration.class));
         cards.add(new SetCardInfo("Fleshtaker", 235, Rarity.UNCOMMON, mage.cards.f.Fleshtaker.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Fleshtaker", 429, Rarity.UNCOMMON, mage.cards.f.Fleshtaker.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Forbidden Alchemy", 355, Rarity.UNCOMMON, mage.cards.f.ForbiddenAlchemy.class, RETRO_ART_USE_VARIOUS));
@@ -258,7 +256,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Honeymoon Hearse", 159, Rarity.UNCOMMON, mage.cards.h.HoneymoonHearse.class));
         cards.add(new SetCardInfo("Hopeful Initiate", 27, Rarity.RARE, mage.cards.h.HopefulInitiate.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Hopeful Initiate", 343, Rarity.RARE, mage.cards.h.HopefulInitiate.class, RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Howlpack of Estwald", 224, Rarity.COMMON, mage.cards.h.HowlpackOfEstwald.class));
         cards.add(new SetCardInfo("Howlpack Resurgence", 204, Rarity.UNCOMMON, mage.cards.h.HowlpackResurgence.class));
         cards.add(new SetCardInfo("Hullbreaker Horror", 303, Rarity.RARE, mage.cards.h.HullbreakerHorror.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Hullbreaker Horror", 357, Rarity.RARE, mage.cards.h.HullbreakerHorror.class, RETRO_ART_USE_VARIOUS));
@@ -330,8 +327,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Mist Raven", 76, Rarity.UNCOMMON, mage.cards.m.MistRaven.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Moldgraf Millipede", 208, Rarity.COMMON, mage.cards.m.MoldgrafMillipede.class));
         cards.add(new SetCardInfo("Moonlight Hunt", 209, Rarity.UNCOMMON, mage.cards.m.MoonlightHunt.class));
-        cards.add(new SetCardInfo("Moonrise Intruder", 179, Rarity.COMMON, mage.cards.m.MoonriseIntruder.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Moonrise Intruder", 466, Rarity.COMMON, mage.cards.m.MoonriseIntruder.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Morbid Opportunist", 124, Rarity.UNCOMMON, mage.cards.m.MorbidOpportunist.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Morbid Opportunist", 388, Rarity.UNCOMMON, mage.cards.m.MorbidOpportunist.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Morkrut Banshee", 125, Rarity.UNCOMMON, mage.cards.m.MorkrutBanshee.class));
@@ -356,8 +351,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Olivia Voldaren", 246, Rarity.MYTHIC, mage.cards.o.OliviaVoldaren.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Olivia Voldaren", 490, Rarity.MYTHIC, mage.cards.o.OliviaVoldaren.class, FULL_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Olivia's Dragoon", 127, Rarity.COMMON, mage.cards.o.OliviasDragoon.class));
-        cards.add(new SetCardInfo("Ormendahl, Profane Prince", 287, Rarity.RARE, mage.cards.o.OrmendahlProfanePrince.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Ormendahl, Profane Prince", 474, Rarity.RARE, mage.cards.o.OrmendahlProfanePrince.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Overcharged Amalgam", 80, Rarity.RARE, mage.cards.o.OverchargedAmalgam.class));
         cards.add(new SetCardInfo("Overgrown Farmland", 281, Rarity.RARE, mage.cards.o.OvergrownFarmland.class));
         cards.add(new SetCardInfo("Pack Guardian", 211, Rarity.UNCOMMON, mage.cards.p.PackGuardian.class, NON_FULL_USE_VARIOUS));
@@ -509,8 +502,6 @@ public class InnistradRemastered extends ExpansionSet {
         cards.add(new SetCardInfo("Wandering Mind", 437, Rarity.UNCOMMON, mage.cards.w.WanderingMind.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Wedding Announcement", 453, Rarity.RARE, mage.cards.w.WeddingAnnouncement.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Wedding Announcement", 51, Rarity.RARE, mage.cards.w.WeddingAnnouncement.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Wedding Festivity", 453, Rarity.RARE, mage.cards.w.WeddingFestivity.class, RETRO_ART_USE_VARIOUS));
-        cards.add(new SetCardInfo("Wedding Festivity", 51, Rarity.RARE, mage.cards.w.WeddingFestivity.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Westvale Abbey", 287, Rarity.RARE, mage.cards.w.WestvaleAbbey.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Westvale Abbey", 474, Rarity.RARE, mage.cards.w.WestvaleAbbey.class, RETRO_ART_USE_VARIOUS));
         cards.add(new SetCardInfo("Wild Hunger", 225, Rarity.UNCOMMON, mage.cards.w.WildHunger.class, NON_FULL_USE_VARIOUS));

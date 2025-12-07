@@ -198,10 +198,6 @@ public final class FinalFantasy extends ExpansionSet {
         cards.add(new SetCardInfo("Gaelicat", 22, Rarity.COMMON, mage.cards.g.Gaelicat.class));
         cards.add(new SetCardInfo("Gaius van Baelsar", 102, Rarity.UNCOMMON, mage.cards.g.GaiusVanBaelsar.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Gaius van Baelsar", 447, Rarity.UNCOMMON, mage.cards.g.GaiusVanBaelsar.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Galian Beast", 125, Rarity.RARE, mage.cards.g.GalianBeast.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Galian Beast", 383, Rarity.RARE, mage.cards.g.GalianBeast.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Galian Beast", 454, Rarity.RARE, mage.cards.g.GalianBeast.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Galian Beast", 528, Rarity.RARE, mage.cards.g.GalianBeast.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Galuf's Final Act", 186, Rarity.UNCOMMON, mage.cards.g.GalufsFinalAct.class));
         cards.add(new SetCardInfo("Garland, Knight of Cornelia", 221, Rarity.UNCOMMON, mage.cards.g.GarlandKnightOfCornelia.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Garland, Knight of Cornelia", 486, Rarity.UNCOMMON, mage.cards.g.GarlandKnightOfCornelia.class, NON_FULL_USE_VARIOUS));
@@ -237,9 +233,6 @@ public final class FinalFantasy extends ExpansionSet {
         cards.add(new SetCardInfo("Hope Estheim", 396, Rarity.RARE, mage.cards.h.HopeEstheim.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Hope Estheim", 491, Rarity.RARE, mage.cards.h.HopeEstheim.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Hope Estheim", 541, Rarity.RARE, mage.cards.h.HopeEstheim.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Hydaelyn, the Mothercrystal", 329, Rarity.RARE, mage.cards.h.HydaelynTheMothercrystal.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Hydaelyn, the Mothercrystal", 39, Rarity.RARE, mage.cards.h.HydaelynTheMothercrystal.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Hydaelyn, the Mothercrystal", 434, Rarity.RARE, mage.cards.h.HydaelynTheMothercrystal.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ice Flan", 55, Rarity.COMMON, mage.cards.i.IceFlan.class));
         cards.add(new SetCardInfo("Ice Magic", 56, Rarity.COMMON, mage.cards.i.IceMagic.class));
         cards.add(new SetCardInfo("Ignis Scientia", 227, Rarity.UNCOMMON, mage.cards.i.IgnisScientia.class, NON_FULL_USE_VARIOUS));
@@ -428,10 +421,6 @@ public final class FinalFantasy extends ExpansionSet {
         cards.add(new SetCardInfo("Shantotto, Tactician Magician", 507, Rarity.UNCOMMON, mage.cards.s.ShantottoTacticianMagician.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sharlayan, Nation of Scholars", 288, Rarity.COMMON, mage.cards.s.SharlayanNationOfScholars.class));
         cards.add(new SetCardInfo("Shinra Reinforcements", 118, Rarity.COMMON, mage.cards.s.ShinraReinforcements.class));
-        cards.add(new SetCardInfo("Shinryu, Transcendent Rival", 127, Rarity.RARE, mage.cards.s.ShinryuTranscendentRival.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Shinryu, Transcendent Rival", 384, Rarity.RARE, mage.cards.s.ShinryuTranscendentRival.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Shinryu, Transcendent Rival", 455, Rarity.RARE, mage.cards.s.ShinryuTranscendentRival.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Shinryu, Transcendent Rival", 529, Rarity.RARE, mage.cards.s.ShinryuTranscendentRival.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sidequest: Card Collection", 73, Rarity.UNCOMMON, mage.cards.s.SidequestCardCollection.class));
         cards.add(new SetCardInfo("Sidequest: Catch a Fish", 31, Rarity.UNCOMMON, mage.cards.s.SidequestCatchAFish.class));
         cards.add(new SetCardInfo("Sidequest: Hunt the Mark", 119, Rarity.UNCOMMON, mage.cards.s.SidequestHuntTheMark.class, NON_FULL_USE_VARIOUS));
@@ -560,8 +549,6 @@ public final class FinalFantasy extends ExpansionSet {
         cards.add(new SetCardInfo("Ultima, Origin of Oblivion", 2, Rarity.RARE, mage.cards.u.UltimaOriginOfOblivion.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ultima, Origin of Oblivion", 324, Rarity.RARE, mage.cards.u.UltimaOriginOfOblivion.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ultima, Origin of Oblivion", 421, Rarity.RARE, mage.cards.u.UltimaOriginOfOblivion.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Ultimecia, Omnipotent", 247, Rarity.UNCOMMON, mage.cards.u.UltimeciaOmnipotent.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Ultimecia, Omnipotent", 513, Rarity.UNCOMMON, mage.cards.u.UltimeciaOmnipotent.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ultimecia, Temporal Threat", 441, Rarity.RARE, mage.cards.u.UltimeciaTemporalThreat.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ultimecia, Temporal Threat", 556, Rarity.RARE, mage.cards.u.UltimeciaTemporalThreat.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ultimecia, Time Sorceress", 247, Rarity.UNCOMMON, mage.cards.u.UltimeciaTimeSorceress.class, NON_FULL_USE_VARIOUS));

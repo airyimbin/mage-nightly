@@ -659,7 +659,6 @@ public class MagicOnlinePromos extends ExpansionSet {
         cards.add(new SetCardInfo("Dimir Guildmage", 32579, Rarity.UNCOMMON, mage.cards.d.DimirGuildmage.class));
         cards.add(new SetCardInfo("Dimir Signet", 46924, Rarity.UNCOMMON, mage.cards.d.DimirSignet.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Dimir Signet", 62435, Rarity.COMMON, mage.cards.d.DimirSignet.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Dire-Strain Anarchist", 95397, Rarity.MYTHIC, mage.cards.d.DireStrainAnarchist.class));
         cards.add(new SetCardInfo("Dire-Strain Rampage", 94070, Rarity.RARE, mage.cards.d.DireStrainRampage.class));
         cards.add(new SetCardInfo("Diregraf Ghoul", 42882, Rarity.UNCOMMON, mage.cards.d.DiregrafGhoul.class));
         cards.add(new SetCardInfo("Dirge Bat", 80935, Rarity.RARE, mage.cards.d.DirgeBat.class, NON_FULL_USE_VARIOUS));
@@ -2890,7 +2889,6 @@ public class MagicOnlinePromos extends ExpansionSet {
         cards.add(new SetCardInfo("Uktabi Orangutan", 36016, Rarity.UNCOMMON, mage.cards.u.UktabiOrangutan.class, RETRO_ART));
         cards.add(new SetCardInfo("Ulamog, the Infinite Gyre", 102345, Rarity.MYTHIC, mage.cards.u.UlamogTheInfiniteGyre.class));
         cards.add(new SetCardInfo("Ultimate Price", 58269, Rarity.UNCOMMON, mage.cards.u.UltimatePrice.class));
-        cards.add(new SetCardInfo("Ulvenwald Behemoth", 95421, Rarity.RARE, mage.cards.u.UlvenwaldBehemoth.class));
         cards.add(new SetCardInfo("Ulvenwald Observer", 61553, Rarity.RARE, mage.cards.u.UlvenwaldObserver.class));
         cards.add(new SetCardInfo("Ulvenwald Oddity", 95421, Rarity.RARE, mage.cards.u.UlvenwaldOddity.class));
         cards.add(new SetCardInfo("Umezawa's Jitte", 36210, Rarity.RARE, mage.cards.u.UmezawasJitte.class));
@@ -3024,7 +3022,6 @@ public class MagicOnlinePromos extends ExpansionSet {
         cards.add(new SetCardInfo("Weathered Wayfarer", 102223, Rarity.RARE, mage.cards.w.WeatheredWayfarer.class));
         cards.add(new SetCardInfo("Weaver of Harmony", 98031, Rarity.RARE, mage.cards.w.WeaverOfHarmony.class));
         cards.add(new SetCardInfo("Wedding Announcement", 95267, Rarity.RARE, mage.cards.w.WeddingAnnouncement.class));
-        cards.add(new SetCardInfo("Wedding Festivity", 95267, Rarity.RARE, mage.cards.w.WeddingFestivity.class));
         cards.add(new SetCardInfo("Wee Dragonauts", 35174, Rarity.COMMON, mage.cards.w.WeeDragonauts.class));
         cards.add(new SetCardInfo("Werewolf Pack Leader", 92760, Rarity.RARE, mage.cards.w.WerewolfPackLeader.class));
         cards.add(new SetCardInfo("Wheel and Deal", 62411, Rarity.RARE, mage.cards.w.WheelAndDeal.class));

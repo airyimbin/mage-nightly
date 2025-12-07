@@ -151,7 +151,6 @@ public final class TheLostCavernsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("Disruptor Wanderglyph", 253, Rarity.COMMON, mage.cards.d.DisruptorWanderglyph.class));
         cards.add(new SetCardInfo("Disturbed Slumber", 182, Rarity.COMMON, mage.cards.d.DisturbedSlumber.class));
         cards.add(new SetCardInfo("Dowsing Device", 146, Rarity.UNCOMMON, mage.cards.d.DowsingDevice.class));
-        cards.add(new SetCardInfo("Dread Osseosaur", 129, Rarity.UNCOMMON, mage.cards.d.DreadOsseosaur.class));
         cards.add(new SetCardInfo("Dreadmaw's Ire", 147, Rarity.UNCOMMON, mage.cards.d.DreadmawsIre.class));
         cards.add(new SetCardInfo("Dusk Rose Reliquary", 10, Rarity.UNCOMMON, mage.cards.d.DuskRoseReliquary.class));
         cards.add(new SetCardInfo("Earthshaker Dreadmaw", 183, Rarity.UNCOMMON, mage.cards.e.EarthshakerDreadmaw.class, NON_FULL_USE_VARIOUS));
@@ -341,8 +340,6 @@ public final class TheLostCavernsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("Saheeli's Lattice", 164, Rarity.UNCOMMON, mage.cards.s.SaheelisLattice.class));
         cards.add(new SetCardInfo("Saheeli, the Sun's Brilliance", 239, Rarity.MYTHIC, mage.cards.s.SaheeliTheSunsBrilliance.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Saheeli, the Sun's Brilliance", 308, Rarity.MYTHIC, mage.cards.s.SaheeliTheSunsBrilliance.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Sandswirl Wanderglyph", 358, Rarity.RARE, mage.cards.s.SandswirlWanderglyph.class, NON_FULL_USE_VARIOUS));
-        cards.add(new SetCardInfo("Sandswirl Wanderglyph", 41, Rarity.RARE, mage.cards.s.SandswirlWanderglyph.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sanguine Evangelist", 34, Rarity.RARE, mage.cards.s.SanguineEvangelist.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sanguine Evangelist", 356, Rarity.RARE, mage.cards.s.SanguineEvangelist.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Scampering Surveyor", 260, Rarity.UNCOMMON, mage.cards.s.ScamperingSurveyor.class));
@@ -450,7 +447,6 @@ public final class TheLostCavernsOfIxalan extends ExpansionSet {
         cards.add(new SetCardInfo("Warden of the Inner Sky", 359, Rarity.RARE, mage.cards.w.WardenOfTheInnerSky.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Warden of the Inner Sky", 43, Rarity.RARE, mage.cards.w.WardenOfTheInnerSky.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Waterlogged Hulk", 83, Rarity.UNCOMMON, mage.cards.w.WaterloggedHulk.class));
-        cards.add(new SetCardInfo("Watertight Gondola", 83, Rarity.UNCOMMON, mage.cards.w.WatertightGondola.class));
         cards.add(new SetCardInfo("Waterwind Scout", 84, Rarity.COMMON, mage.cards.w.WaterwindScout.class));
         cards.add(new SetCardInfo("Waylaying Pirates", 85, Rarity.COMMON, mage.cards.w.WaylayingPirates.class));
         cards.add(new SetCardInfo("Zoetic Glyph", 86, Rarity.UNCOMMON, mage.cards.z.ZoeticGlyph.class));
