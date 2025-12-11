@@ -45,6 +45,7 @@ public enum SubType {
     CASE("Case", SubTypeSet.EnchantmentType),
     CLASS("Class", SubTypeSet.EnchantmentType),
     CURSE("Curse", SubTypeSet.EnchantmentType),
+    PLAN("Plan", SubTypeSet.EnchantmentType),
     ROLE("Role", SubTypeSet.EnchantmentType),
     ROOM("Room", SubTypeSet.EnchantmentType),
     RUNE("Rune", SubTypeSet.EnchantmentType),
@@ -193,6 +194,7 @@ public enum SubType {
     FUNGUS("Fungus", SubTypeSet.CreatureType),
     // G
     GAMER("Gamer", SubTypeSet.CreatureType),
+    GAMMA("Gamma", SubTypeSet.CreatureType),
     GAMORREAN("Gamorrean", SubTypeSet.CreatureType, true), // Star Wars
     GAND("Gand", SubTypeSet.CreatureType, true), // Star Wars
     GARGOYLE("Gargoyle", SubTypeSet.CreatureType),
