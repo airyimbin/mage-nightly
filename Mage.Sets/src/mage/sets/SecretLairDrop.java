@@ -2169,6 +2169,7 @@ public class SecretLairDrop extends ExpansionSet {
         cards.add(new SetCardInfo("Teferi's Ageless Insight", 2214, Rarity.RARE, mage.cards.t.TeferisAgelessInsight.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Teferi's Ageless Insight", "2214b", Rarity.RARE, mage.cards.t.TeferisAgelessInsight.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Iroas, God of Victory", 2215, Rarity.MYTHIC, mage.cards.i.IroasGodOfVictory.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Nathan Drake, Treasure Hunter", 2216, Rarity.MYTHIC, mage.cards.n.NathanDrakeTreasureHunter.class));
         cards.add(new SetCardInfo("Midnight Clock", 2217, Rarity.RARE, mage.cards.m.MidnightClock.class));
         cards.add(new SetCardInfo("Whip of Erebos", 2218, Rarity.RARE, mage.cards.w.WhipOfErebos.class));
         cards.add(new SetCardInfo("Chain Reaction", 2219, Rarity.RARE, mage.cards.c.ChainReaction.class));
@@ -2178,6 +2179,7 @@ public class SecretLairDrop extends ExpansionSet {
         cards.add(new SetCardInfo("Blightsteel Colossus", 2223, Rarity.MYTHIC, mage.cards.b.BlightsteelColossus.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Tarrian's Soulcleaver", 2224, Rarity.RARE, mage.cards.t.TarriansSoulcleaver.class));
         cards.add(new SetCardInfo("Meteor Golem", 2225, Rarity.RARE, mage.cards.m.MeteorGolem.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Jin Sakai, Ghost of Tsushima", 2226, Rarity.MYTHIC, mage.cards.j.JinSakaiGhostOfTsushima.class));
         cards.add(new SetCardInfo("Path to Exile", 2227, Rarity.RARE, mage.cards.p.PathToExile.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Borne Upon a Wind", 2228, Rarity.RARE, mage.cards.b.BorneUponAWind.class));
         cards.add(new SetCardInfo("Ghostly Flicker", 2229, Rarity.RARE, mage.cards.g.GhostlyFlicker.class));
