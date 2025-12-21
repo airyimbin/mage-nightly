@@ -86,6 +86,7 @@ public final class FinalFantasyCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Champion's Helm", 337, Rarity.RARE, mage.cards.c.ChampionsHelm.class));
         cards.add(new SetCardInfo("Champions from Beyond", 101, Rarity.RARE, mage.cards.c.ChampionsFromBeyond.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Champions from Beyond", 11, Rarity.RARE, mage.cards.c.ChampionsFromBeyond.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Chaos Shrine's Black Crystal", 445, Rarity.RARE, mage.cards.c.ChaosShrinesBlackCrystal.class));
         cards.add(new SetCardInfo("Chaos Warp", 291, Rarity.RARE, mage.cards.c.ChaosWarp.class));
         cards.add(new SetCardInfo("Chasm Skulker", 262, Rarity.RARE, mage.cards.c.ChasmSkulker.class));
         cards.add(new SetCardInfo("Chocobo Camp", 462, Rarity.RARE, mage.cards.c.ChocoboCamp.class));
@@ -141,6 +142,7 @@ public final class FinalFantasyCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Drowned Catacomb", 388, Rarity.RARE, mage.cards.d.DrownedCatacomb.class));
         cards.add(new SetCardInfo("Duelist's Flame", 452, Rarity.RARE, mage.cards.d.DuelistsFlame.class));
         cards.add(new SetCardInfo("Duskshell Crawler", 301, Rarity.COMMON, mage.cards.d.DuskshellCrawler.class));
+        cards.add(new SetCardInfo("Edea, Possessed Sorceress", 448, Rarity.RARE, mage.cards.e.EdeaPossessedSorceress.class));
         cards.add(new SetCardInfo("Edgar, Master Machinist", 169, Rarity.RARE, mage.cards.e.EdgarMasterMachinist.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Edgar, Master Machinist", 80, Rarity.RARE, mage.cards.e.EdgarMasterMachinist.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Elena, Turk Recruit", 133, Rarity.RARE, mage.cards.e.ElenaTurkRecruit.class, NON_FULL_USE_VARIOUS));
@@ -232,6 +234,7 @@ public final class FinalFantasyCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Into the Story", 266, Rarity.UNCOMMON, mage.cards.i.IntoTheStory.class));
         cards.add(new SetCardInfo("Island", 479, Rarity.LAND, mage.cards.basiclands.Island.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Isolated Chapel", 405, Rarity.RARE, mage.cards.i.IsolatedChapel.class));
+        cards.add(new SetCardInfo("Judgment of Alexander", 455, Rarity.RARE, mage.cards.j.JudgmentOfAlexander.class));
         cards.add(new SetCardInfo("Jungle Shrine", 406, Rarity.UNCOMMON, mage.cards.j.JungleShrine.class));
         cards.add(new SetCardInfo("Kefka, Dancing Mad", 174, Rarity.RARE, mage.cards.k.KefkaDancingMad.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Kefka, Dancing Mad", 84, Rarity.RARE, mage.cards.k.KefkaDancingMad.class, NON_FULL_USE_VARIOUS));
@@ -317,6 +320,7 @@ public final class FinalFantasyCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Rikku, Resourceful Guardian", 145, Rarity.RARE, mage.cards.r.RikkuResourcefulGuardian.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Rikku, Resourceful Guardian", 41, Rarity.RARE, mage.cards.r.RikkuResourcefulGuardian.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Rikku, Resourceful Guardian", 468, Rarity.RARE, mage.cards.r.RikkuResourcefulGuardian.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Rinoa, Angel Wing", 450, Rarity.RARE, mage.cards.r.RinoaAngelWing.class));
         cards.add(new SetCardInfo("Rise of the Dark Realms", 283, Rarity.MYTHIC, mage.cards.r.RiseOfTheDarkRealms.class));
         cards.add(new SetCardInfo("Rite of Replication", 270, Rarity.RARE, mage.cards.r.RiteOfReplication.class));
         cards.add(new SetCardInfo("Rogue's Passage", 415, Rarity.UNCOMMON, mage.cards.r.RoguesPassage.class));
