@@ -39,6 +39,7 @@ public enum MageIdentifier {
     ThundermanDragonWatcher,
     LockeTreasureHunterWatcher,
     TheFourthDoctorWatcher,
+    AccessMazeWatcher,
 
     // ----------------------------//
     //       alternate casts       //
@@ -65,6 +66,7 @@ public enum MageIdentifier {
     FireLordOzaiAlternateCast,
     HelbruteAlternateCast,
     IntoThePitAlternateCast,
+    LeonardoSewerSamuraiAlternateCast,
     MaestrosAscendencyAlternateCast,
     NashiMoonSagesScionAlternateCast,
     NoctisPrinceOfLucisAlternateCast,

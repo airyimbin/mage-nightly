@@ -78,6 +78,7 @@ public final class DuskmournHouseOfHorrorCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Convert to Slime", 37, Rarity.RARE, mage.cards.c.ConvertToSlime.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Convert to Slime", 64, Rarity.RARE, mage.cards.c.ConvertToSlime.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Counterspell", 114, Rarity.UNCOMMON, mage.cards.c.Counterspell.class));
+        cards.add(new SetCardInfo("Cramped Vents // Access Maze", 17, Rarity.RARE, mage.cards.c.CrampedVentsAccessMaze.class));
         cards.add(new SetCardInfo("Crawling Sensation", 173, Rarity.UNCOMMON, mage.cards.c.CrawlingSensation.class));
         cards.add(new SetCardInfo("Crypt Ghast", 368, Rarity.MYTHIC, mage.cards.c.CryptGhast.class));
         cards.add(new SetCardInfo("Culling Ritual", 85, Rarity.RARE, mage.cards.c.CullingRitual.class));
@@ -219,6 +220,7 @@ public final class DuskmournHouseOfHorrorCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Persistent Constrictor", 52, Rarity.RARE, mage.cards.p.PersistentConstrictor.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Phenomenon Investigators", 38, Rarity.RARE, mage.cards.p.PhenomenonInvestigators.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Phenomenon Investigators", 65, Rarity.RARE, mage.cards.p.PhenomenonInvestigators.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Polluted Cistern // Dim Oubliette", 23, Rarity.RARE, mage.cards.p.PollutedCisternDimOubliette.class));
         cards.add(new SetCardInfo("Ponder", 73, Rarity.COMMON, mage.cards.p.Ponder.class));
         cards.add(new SetCardInfo("Portent", 74, Rarity.COMMON, mage.cards.p.Portent.class));
         cards.add(new SetCardInfo("Primordial Mist", 123, Rarity.RARE, mage.cards.p.PrimordialMist.class));
@@ -250,6 +252,7 @@ public final class DuskmournHouseOfHorrorCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Scute Swarm", 197, Rarity.RARE, mage.cards.s.ScuteSwarm.class));
         cards.add(new SetCardInfo("Seance Board", 40, Rarity.RARE, mage.cards.s.SeanceBoard.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Seance Board", 67, Rarity.RARE, mage.cards.s.SeanceBoard.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Secret Arcade // Dusty Parlor", 10, Rarity.RARE, mage.cards.s.SecretArcadeDustyParlor.class));
         cards.add(new SetCardInfo("Shadowblood Ridge", 296, Rarity.RARE, mage.cards.s.ShadowbloodRidge.class));
         cards.add(new SetCardInfo("Shark Typhoon", 127, Rarity.RARE, mage.cards.s.SharkTyphoon.class));
         cards.add(new SetCardInfo("Shigeki, Jukai Visionary", 198, Rarity.RARE, mage.cards.s.ShigekiJukaiVisionary.class));
