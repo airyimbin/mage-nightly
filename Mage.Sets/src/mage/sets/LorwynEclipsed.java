@@ -33,6 +33,7 @@ public final class LorwynEclipsed extends ExpansionSet {
         cards.add(new SetCardInfo("Deceit", 212, Rarity.MYTHIC, mage.cards.d.Deceit.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Deceit", 293, Rarity.MYTHIC, mage.cards.d.Deceit.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Dose of Dawnglow", 100, Rarity.UNCOMMON, mage.cards.d.DoseOfDawnglow.class));
+        cards.add(new SetCardInfo("Dream Seizer", 101, Rarity.COMMON, mage.cards.d.DreamSeizer.class));
         cards.add(new SetCardInfo("Eirdu, Carrier of Dawn", 13, Rarity.MYTHIC, mage.cards.e.EirduCarrierOfDawn.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Eirdu, Carrier of Dawn", 286, Rarity.MYTHIC, mage.cards.e.EirduCarrierOfDawn.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Emptiness", 222, Rarity.MYTHIC, mage.cards.e.Emptiness.class, NON_FULL_USE_VARIOUS));
@@ -56,6 +57,7 @@ public final class LorwynEclipsed extends ExpansionSet {
         cards.add(new SetCardInfo("Overgrown Tomb", 266, Rarity.RARE, mage.cards.o.OvergrownTomb.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Overgrown Tomb", 350, Rarity.RARE, mage.cards.o.OvergrownTomb.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Perfect Intimidation", 115, Rarity.UNCOMMON, mage.cards.p.PerfectIntimidation.class));
+        cards.add(new SetCardInfo("Silvergill Mentor", 403, Rarity.UNCOMMON, mage.cards.s.SilvergillMentor.class));
         cards.add(new SetCardInfo("Steam Vents", "348b", Rarity.RARE, mage.cards.s.SteamVents.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Steam Vents", 267, Rarity.RARE, mage.cards.s.SteamVents.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Steam Vents", 348, Rarity.RARE, mage.cards.s.SteamVents.class, NON_FULL_USE_VARIOUS));
