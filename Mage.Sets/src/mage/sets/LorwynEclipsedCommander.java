@@ -19,6 +19,8 @@ public final class LorwynEclipsedCommander extends ExpansionSet {
         super("Lorwyn Eclipsed Commander", "ECC", ExpansionSet.buildDate(2026, 1, 23), SetType.SUPPLEMENTAL);
         this.hasBasicLands = false; // temporary
 
+        cards.add(new SetCardInfo("Abundant Countryside", 22, Rarity.RARE, mage.cards.a.AbundantCountryside.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Abundant Countryside", 42, Rarity.RARE, mage.cards.a.AbundantCountryside.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Abundant Growth", 97, Rarity.COMMON, mage.cards.a.AbundantGrowth.class));
         cards.add(new SetCardInfo("Ancient Ziggurat", 144, Rarity.UNCOMMON, mage.cards.a.AncientZiggurat.class));
         cards.add(new SetCardInfo("Arcane Signet", 55, Rarity.UNCOMMON, mage.cards.a.ArcaneSignet.class, NON_FULL_USE_VARIOUS));
@@ -108,6 +110,8 @@ public final class LorwynEclipsedCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Necroskitter", 48, Rarity.RARE, mage.cards.n.Necroskitter.class));
         cards.add(new SetCardInfo("Nesting Grounds", 155, Rarity.RARE, mage.cards.n.NestingGrounds.class));
         cards.add(new SetCardInfo("Night's Whisper", 81, Rarity.COMMON, mage.cards.n.NightsWhisper.class));
+        cards.add(new SetCardInfo("Oft-Nabbed Goat", 11, Rarity.RARE, mage.cards.o.OftNabbedGoat.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Oft-Nabbed Goat", 31, Rarity.RARE, mage.cards.o.OftNabbedGoat.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Omnath, Locus of Rage", 129, Rarity.MYTHIC, mage.cards.o.OmnathLocusOfRage.class));
         cards.add(new SetCardInfo("Omnath, Locus of the Roil", 130, Rarity.MYTHIC, mage.cards.o.OmnathLocusOfTheRoil.class));
         cards.add(new SetCardInfo("Opal Palace", 156, Rarity.COMMON, mage.cards.o.OpalPalace.class));
@@ -150,6 +154,7 @@ public final class LorwynEclipsedCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Soul Snuffers", 87, Rarity.UNCOMMON, mage.cards.s.SoulSnuffers.class));
         cards.add(new SetCardInfo("Terminate", 134, Rarity.COMMON, mage.cards.t.Terminate.class));
         cards.add(new SetCardInfo("Terramorphic Expanse", 169, Rarity.COMMON, mage.cards.t.TerramorphicExpanse.class));
+        cards.add(new SetCardInfo("The Reaper, King No More", 4, Rarity.MYTHIC, mage.cards.t.TheReaperKingNoMore.class));
         cards.add(new SetCardInfo("The Scorpion God", 133, Rarity.MYTHIC, mage.cards.t.TheScorpionGod.class));
         cards.add(new SetCardInfo("Thriving Bluff", 170, Rarity.COMMON, mage.cards.t.ThrivingBluff.class));
         cards.add(new SetCardInfo("Thriving Grove", 171, Rarity.COMMON, mage.cards.t.ThrivingGrove.class));
