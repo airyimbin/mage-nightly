@@ -56,7 +56,11 @@ public final class LorwynEclipsedCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Devoted Druid", 104, Rarity.UNCOMMON, mage.cards.d.DevotedDruid.class));
         cards.add(new SetCardInfo("Distant Melody", 45, Rarity.COMMON, mage.cards.d.DistantMelody.class));
         cards.add(new SetCardInfo("Dragonskull Summit", 147, Rarity.RARE, mage.cards.d.DragonskullSummit.class));
+        cards.add(new SetCardInfo("Dread Tiller", 20, Rarity.RARE, mage.cards.d.DreadTiller.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Dread Tiller", 40, Rarity.RARE, mage.cards.d.DreadTiller.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Dusk Urchins", 73, Rarity.RARE, mage.cards.d.DuskUrchins.class));
+        cards.add(new SetCardInfo("Elemental Spectacle", 15, Rarity.RARE, mage.cards.e.ElementalSpectacle.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Elemental Spectacle", 35, Rarity.RARE, mage.cards.e.ElementalSpectacle.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Endurance", 51, Rarity.MYTHIC, mage.cards.e.Endurance.class));
         cards.add(new SetCardInfo("Everlasting Torment", 121, Rarity.RARE, mage.cards.e.EverlastingTorment.class));
         cards.add(new SetCardInfo("Evolution Sage", 105, Rarity.UNCOMMON, mage.cards.e.EvolutionSage.class));
@@ -75,6 +79,8 @@ public final class LorwynEclipsedCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Glissa Sunslayer", 122, Rarity.RARE, mage.cards.g.GlissaSunslayer.class));
         cards.add(new SetCardInfo("Golgari Rot Farm", 151, Rarity.UNCOMMON, mage.cards.g.GolgariRotFarm.class));
         cards.add(new SetCardInfo("Grave Titan", 74, Rarity.MYTHIC, mage.cards.g.GraveTitan.class));
+        cards.add(new SetCardInfo("Grave Venerations", 29, Rarity.RARE, mage.cards.g.GraveVenerations.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Grave Venerations", 9, Rarity.RARE, mage.cards.g.GraveVenerations.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Greenwarden of Murasa", 110, Rarity.MYTHIC, mage.cards.g.GreenwardenOfMurasa.class));
         cards.add(new SetCardInfo("Grim Poppet", 142, Rarity.RARE, mage.cards.g.GrimPoppet.class));
         cards.add(new SetCardInfo("Gruul Turf", 152, Rarity.UNCOMMON, mage.cards.g.GruulTurf.class));
@@ -103,6 +109,7 @@ public final class LorwynEclipsedCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Lamentation", 30, Rarity.RARE, mage.cards.l.Lamentation.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Liliana, Death Wielder", 78, Rarity.MYTHIC, mage.cards.l.LilianaDeathWielder.class));
         cards.add(new SetCardInfo("Maelstrom Wanderer", 127, Rarity.RARE, mage.cards.m.MaelstromWanderer.class));
+        cards.add(new SetCardInfo("Mass of Mysteries", 3, Rarity.MYTHIC, mage.cards.m.MassOfMysteries.class));
         cards.add(new SetCardInfo("Massacre Girl, Known Killer", 79, Rarity.MYTHIC, mage.cards.m.MassacreGirlKnownKiller.class));
         cards.add(new SetCardInfo("Midnight Banshee", 80, Rarity.RARE, mage.cards.m.MidnightBanshee.class));
         cards.add(new SetCardInfo("Muldrotha, the Gravetide", 128, Rarity.MYTHIC, mage.cards.m.MuldrothaTheGravetide.class));
@@ -152,6 +159,8 @@ public final class LorwynEclipsedCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Sol Ring", 57, Rarity.UNCOMMON, mage.cards.s.SolRing.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Sol Ring", 58, Rarity.UNCOMMON, mage.cards.s.SolRing.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Soul Snuffers", 87, Rarity.UNCOMMON, mage.cards.s.SoulSnuffers.class));
+        cards.add(new SetCardInfo("Springleaf Parade", 19, Rarity.RARE, mage.cards.s.SpringleafParade.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Springleaf Parade", 39, Rarity.RARE, mage.cards.s.SpringleafParade.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Terminate", 134, Rarity.COMMON, mage.cards.t.Terminate.class));
         cards.add(new SetCardInfo("Terramorphic Expanse", 169, Rarity.COMMON, mage.cards.t.TerramorphicExpanse.class));
         cards.add(new SetCardInfo("The Reaper, King No More", 4, Rarity.MYTHIC, mage.cards.t.TheReaperKingNoMore.class));
@@ -171,6 +180,8 @@ public final class LorwynEclipsedCommander extends ExpansionSet {
         cards.add(new SetCardInfo("Village Pillagers", 34, Rarity.RARE, mage.cards.v.VillagePillagers.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Vraska, Betrayal's Sting", 88, Rarity.MYTHIC, mage.cards.v.VraskaBetrayalsSting.class));
         cards.add(new SetCardInfo("Wickerbough Elder", 118, Rarity.COMMON, mage.cards.w.WickerboughElder.class));
+        cards.add(new SetCardInfo("Wickersmith's Tools", 21, Rarity.RARE, mage.cards.w.WickersmithsTools.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Wickersmith's Tools", 41, Rarity.RARE, mage.cards.w.WickersmithsTools.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Woodland Cemetery", 176, Rarity.RARE, mage.cards.w.WoodlandCemetery.class));
         cards.add(new SetCardInfo("Yarok, the Desecrated", 136, Rarity.MYTHIC, mage.cards.y.YarokTheDesecrated.class));
     }
