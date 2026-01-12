@@ -205,6 +205,7 @@ public final class LorwynEclipsed extends ExpansionSet {
         cards.add(new SetCardInfo("Luminollusk", 179, Rarity.UNCOMMON, mage.cards.l.Luminollusk.class));
         cards.add(new SetCardInfo("Lys Alana Dignitary", 180, Rarity.UNCOMMON, mage.cards.l.LysAlanaDignitary.class));
         cards.add(new SetCardInfo("Lys Alana Informant", 181, Rarity.COMMON, mage.cards.l.LysAlanaInformant.class));
+        cards.add(new SetCardInfo("Meanders Guide", 25, Rarity.UNCOMMON, mage.cards.m.MeandersGuide.class));
         cards.add(new SetCardInfo("Meek Attack", 151, Rarity.MYTHIC, mage.cards.m.MeekAttack.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Meek Attack", 319, Rarity.MYTHIC, mage.cards.m.MeekAttack.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Meek Attack", 388, Rarity.MYTHIC, mage.cards.m.MeekAttack.class, NON_FULL_USE_VARIOUS));
@@ -305,6 +306,8 @@ public final class LorwynEclipsed extends ExpansionSet {
         cards.add(new SetCardInfo("Stratosoarer", 72, Rarity.COMMON, mage.cards.s.Stratosoarer.class));
         cards.add(new SetCardInfo("Summit Sentinel", 73, Rarity.COMMON, mage.cards.s.SummitSentinel.class));
         cards.add(new SetCardInfo("Sun-Dappled Celebrant", 37, Rarity.COMMON, mage.cards.s.SunDappledCelebrant.class));
+        cards.add(new SetCardInfo("Sunderflock", 309, Rarity.RARE, mage.cards.s.Sunderflock.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Sunderflock", 74, Rarity.RARE, mage.cards.s.Sunderflock.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Surly Farrier", 196, Rarity.COMMON, mage.cards.s.SurlyFarrier.class));
         cards.add(new SetCardInfo("Swamp", 271, Rarity.LAND, mage.cards.basiclands.Swamp.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Swamp", 276, Rarity.LAND, mage.cards.basiclands.Swamp.class, FULL_ART_BFZ_VARIOUS));
@@ -327,6 +330,8 @@ public final class LorwynEclipsed extends ExpansionSet {
         cards.add(new SetCardInfo("Thoughtweft Lieutenant", 343, Rarity.UNCOMMON, mage.cards.t.ThoughtweftLieutenant.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Timid Shieldbearer", 39, Rarity.COMMON, mage.cards.t.TimidShieldbearer.class));
         cards.add(new SetCardInfo("Tributary Vaulter", 40, Rarity.COMMON, mage.cards.t.TributaryVaulter.class));
+        cards.add(new SetCardInfo("Trystan's Command", 247, Rarity.RARE, mage.cards.t.TrystansCommand.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Trystan's Command", 344, Rarity.RARE, mage.cards.t.TrystansCommand.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Trystan, Callous Cultivator", 199, Rarity.RARE, mage.cards.t.TrystanCallousCultivator.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Trystan, Callous Cultivator", 291, Rarity.RARE, mage.cards.t.TrystanCallousCultivator.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Tweeze", 162, Rarity.COMMON, mage.cards.t.Tweeze.class));
