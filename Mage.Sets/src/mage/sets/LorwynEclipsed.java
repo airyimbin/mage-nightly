@@ -20,6 +20,9 @@ public final class LorwynEclipsed extends ExpansionSet {
         this.blockName = "Lorwyn Eclipsed"; // for sorting in GUI
         this.hasBasicLands = true;
 
+        this.enablePlayBooster(Integer.MAX_VALUE);
+        this.numBoosterDoubleFaced = -1;
+
         cards.add(new SetCardInfo("Abigale, Eloquent First-Year", 204, Rarity.RARE, mage.cards.a.AbigaleEloquentFirstYear.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Abigale, Eloquent First-Year", 368, Rarity.RARE, mage.cards.a.AbigaleEloquentFirstYear.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Adept Watershaper", 297, Rarity.RARE, mage.cards.a.AdeptWatershaper.class, NON_FULL_USE_VARIOUS));
@@ -37,6 +40,7 @@ public final class LorwynEclipsed extends ExpansionSet {
         cards.add(new SetCardInfo("Aurora Awakener", 165, Rarity.MYTHIC, mage.cards.a.AuroraAwakener.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Aurora Awakener", 323, Rarity.MYTHIC, mage.cards.a.AuroraAwakener.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Barbed Bloodletter", 86, Rarity.COMMON, mage.cards.b.BarbedBloodletter.class));
+        cards.add(new SetCardInfo("Bark of Doran", 6, Rarity.UNCOMMON, mage.cards.b.BarkOfDoran.class));
         cards.add(new SetCardInfo("Bile-Vial Boggart", 87, Rarity.COMMON, mage.cards.b.BileVialBoggart.class));
         cards.add(new SetCardInfo("Bitterbloom Bearer", 310, Rarity.MYTHIC, mage.cards.b.BitterbloomBearer.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Bitterbloom Bearer", 352, Rarity.MYTHIC, mage.cards.b.BitterbloomBearer.class, NON_FULL_USE_VARIOUS));
@@ -85,6 +89,8 @@ public final class LorwynEclipsed extends ExpansionSet {
         cards.add(new SetCardInfo("Champion of the Weird", 95, Rarity.RARE, mage.cards.c.ChampionOfTheWeird.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Champions of the Perfect", 171, Rarity.RARE, mage.cards.c.ChampionsOfThePerfect.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Champions of the Perfect", 365, Rarity.RARE, mage.cards.c.ChampionsOfThePerfect.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Champions of the Shoal", 356, Rarity.RARE, mage.cards.c.ChampionsOfTheShoal.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Champions of the Shoal", 46, Rarity.RARE, mage.cards.c.ChampionsOfTheShoal.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Changeling Wayfinder", 1, Rarity.COMMON, mage.cards.c.ChangelingWayfinder.class));
         cards.add(new SetCardInfo("Chaos Spewer", 210, Rarity.COMMON, mage.cards.c.ChaosSpewer.class));
         cards.add(new SetCardInfo("Chitinous Graspling", 211, Rarity.COMMON, mage.cards.c.ChitinousGraspling.class));
@@ -93,9 +99,15 @@ public final class LorwynEclipsed extends ExpansionSet {
         cards.add(new SetCardInfo("Chronicle of Victory", 346, Rarity.MYTHIC, mage.cards.c.ChronicleOfVictory.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Cinder Strike", 131, Rarity.COMMON, mage.cards.c.CinderStrike.class));
         cards.add(new SetCardInfo("Clachan Festival", 10, Rarity.UNCOMMON, mage.cards.c.ClachanFestival.class));
+        cards.add(new SetCardInfo("Collective Inferno", 132, Rarity.RARE, mage.cards.c.CollectiveInferno.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Collective Inferno", 363, Rarity.RARE, mage.cards.c.CollectiveInferno.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Collective Inferno", 387, Rarity.MYTHIC, mage.cards.c.CollectiveInferno.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Collective Inferno", 397, Rarity.MYTHIC, mage.cards.c.CollectiveInferno.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Creakwood Safewright", 96, Rarity.UNCOMMON, mage.cards.c.CreakwoodSafewright.class));
         cards.add(new SetCardInfo("Crib Swap", 11, Rarity.UNCOMMON, mage.cards.c.CribSwap.class));
         cards.add(new SetCardInfo("Crossroads Watcher", 173, Rarity.COMMON, mage.cards.c.CrossroadsWatcher.class));
+        cards.add(new SetCardInfo("Curious Colossus", 12, Rarity.MYTHIC, mage.cards.c.CuriousColossus.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Curious Colossus", 298, Rarity.MYTHIC, mage.cards.c.CuriousColossus.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Darkness Descends", 97, Rarity.UNCOMMON, mage.cards.d.DarknessDescends.class));
         cards.add(new SetCardInfo("Dawn's Light Archer", 174, Rarity.COMMON, mage.cards.d.DawnsLightArcher.class));
         cards.add(new SetCardInfo("Dawnhand Eulogist", 99, Rarity.COMMON, mage.cards.d.DawnhandEulogist.class));
@@ -103,6 +115,8 @@ public final class LorwynEclipsed extends ExpansionSet {
         cards.add(new SetCardInfo("Deceit", 293, Rarity.MYTHIC, mage.cards.d.Deceit.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Deepchannel Duelist", 213, Rarity.UNCOMMON, mage.cards.d.DeepchannelDuelist.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Deepchannel Duelist", 333, Rarity.UNCOMMON, mage.cards.d.DeepchannelDuelist.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Deepway Navigator", 214, Rarity.RARE, mage.cards.d.DeepwayNavigator.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Deepway Navigator", 370, Rarity.RARE, mage.cards.d.DeepwayNavigator.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Disruptor of Currents", 303, Rarity.RARE, mage.cards.d.DisruptorOfCurrents.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Disruptor of Currents", 47, Rarity.RARE, mage.cards.d.DisruptorOfCurrents.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Doran, Besieged by Time", 215, Rarity.RARE, mage.cards.d.DoranBesiegedByTime.class, NON_FULL_USE_VARIOUS));
@@ -141,6 +155,8 @@ public final class LorwynEclipsed extends ExpansionSet {
         cards.add(new SetCardInfo("Flamebraider", 139, Rarity.UNCOMMON, mage.cards.f.Flamebraider.class));
         cards.add(new SetCardInfo("Flamekin Gildweaver", 140, Rarity.COMMON, mage.cards.f.FlamekinGildweaver.class));
         cards.add(new SetCardInfo("Flaring Cinder", 225, Rarity.COMMON, mage.cards.f.FlaringCinder.class));
+        cards.add(new SetCardInfo("Flitterwing Nuisance", 304, Rarity.RARE, mage.cards.f.FlitterwingNuisance.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Flitterwing Nuisance", 48, Rarity.RARE, mage.cards.f.FlitterwingNuisance.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Flock Impostor", 16, Rarity.UNCOMMON, mage.cards.f.FlockImpostor.class));
         cards.add(new SetCardInfo("Forest", 273, Rarity.LAND, mage.cards.basiclands.Forest.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Forest", 278, Rarity.LAND, mage.cards.basiclands.Forest.class, FULL_ART_BFZ_VARIOUS));
@@ -195,6 +211,9 @@ public final class LorwynEclipsed extends ExpansionSet {
         cards.add(new SetCardInfo("Island", 275, Rarity.LAND, mage.cards.basiclands.Island.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Island", 280, Rarity.LAND, mage.cards.basiclands.Island.class, FULL_ART_BFZ_VARIOUS));
         cards.add(new SetCardInfo("Keep Out", 19, Rarity.COMMON, mage.cards.k.KeepOut.class));
+        cards.add(new SetCardInfo("Kinbinding", 20, Rarity.RARE, mage.cards.k.Kinbinding.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Kinbinding", 299, Rarity.RARE, mage.cards.k.Kinbinding.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Kinbinding", 407, Rarity.RARE, mage.cards.k.Kinbinding.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Kindle the Inner Flame", 147, Rarity.UNCOMMON, mage.cards.k.KindleTheInnerFlame.class));
         cards.add(new SetCardInfo("Kinsbaile Aspirant", 21, Rarity.UNCOMMON, mage.cards.k.KinsbaileAspirant.class));
         cards.add(new SetCardInfo("Kinscaer Sentry", 22, Rarity.RARE, mage.cards.k.KinscaerSentry.class, NON_FULL_USE_VARIOUS));
@@ -319,6 +338,8 @@ public final class LorwynEclipsed extends ExpansionSet {
         cards.add(new SetCardInfo("Spell Snare", 71, Rarity.UNCOMMON, mage.cards.s.SpellSnare.class));
         cards.add(new SetCardInfo("Spiral into Solitude", 36, Rarity.COMMON, mage.cards.s.SpiralIntoSolitude.class));
         cards.add(new SetCardInfo("Springleaf Drum", 260, Rarity.UNCOMMON, mage.cards.s.SpringleafDrum.class));
+        cards.add(new SetCardInfo("Spry and Mighty", 195, Rarity.RARE, mage.cards.s.SpryAndMighty.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Spry and Mighty", 329, Rarity.RARE, mage.cards.s.SpryAndMighty.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Squawkroaster", 160, Rarity.UNCOMMON, mage.cards.s.Squawkroaster.class));
         cards.add(new SetCardInfo("Stalactite Dagger", 261, Rarity.COMMON, mage.cards.s.StalactiteDagger.class));
         cards.add(new SetCardInfo("Steam Vents", "348b", Rarity.RARE, mage.cards.s.SteamVents.class, NON_FULL_USE_VARIOUS));
