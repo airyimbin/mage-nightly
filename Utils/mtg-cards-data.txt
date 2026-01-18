@@ -61317,10 +61317,18 @@ Leonardo, Sewer Samurai|Teenage Mutant Ninja Turtles|17|M|{3}{W}|Legendary Creat
 Turtles Forever|Teenage Mutant Ninja Turtles|27|R|{3}{W}|Instant|||Search your library and/or outside the game for exactly four legendary creature cards you own with different names, then reveal those cards. An opponent chooses two of them. Put the chosen cards into your hand and shuffle the rest into your library.|
 April O'Neil, Hacktivist|Teenage Mutant Ninja Turtles|29|R|{3}{U}|Legendary Creature - Human Scientist|1|5|At the beginning of your end step, draw a card for each card type among spells you've cast this turn.|
 Krang, Master Mind|Teenage Mutant Ninja Turtles|43|R|{6}{U}{U}|Legendary Artifact Creature - Utrom Warrior|1|4|Affinity for artifacts$When Krang enters, if you have fewer than four cards in hand, draw cards equal to the difference.$Krang gets +1/+0 for each other artifact you control.|
+Shark Shredder, Killer Clone|Teenage Mutant Ninja Turtles|73|R|{2}{B}{B}|Legendary Creature - Shark Octopus Ninja|4|4|Sneak {3}{B}{B}$First strike$Whenever Shark Shredder deals combat damage to a player, put up to one target creature card from that player's graveyard onto the battlefield under your control. It enters tapped and attacking that player.|
+Splinter's Technique|Teenage Mutant Ninja Turtles|80|R|{3}{B}|Sorcery|||Sneak {1}{B}$Search your library for a card, put that card into your hand, then shuffle.|
 Super Shredder|Teenage Mutant Ninja Turtles|83|M|{1}{B}|Legendary Creature - Mutant Ninja Human|1|1|Menace$Whenever another permanent leaves the battlefield, put a +1/+1 counter on Super Shredder.|
+Broadcast Takeover|Teenage Mutant Ninja Turtles|86|M|{2}{R}{R}{R}|Sorcery|||Gain control of all artifacts your opponents control until end of turn. Untap them. They gain haste until end of turn.|
 Casey Jones, Jury-Rig Justiciar|Teenage Mutant Ninja Turtles|87|U|{1}{R}|Legendary Creature Human Berserker|2|1|Haste$When Casey Jones enters, look at the top four cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.|
 Raphael's Technique|Teenage Mutant Ninja Turtles|105|R|{4}{R}{R}|Instant|||Sneak {2}{R}$Each player may discard their hand and draw seven cards.|
+Groundchuck & Dirtbag|Teenage Mutant Ninja Turtles|115|R|{4}{G}{G}|Legendary Creature - Ox Mole Mutant|8|8|Trample$Whenever you tap a land for mana, add {G}.|
+Transdimensional Bovine|Teenage Mutant Ninja Turtles|134|R|{2}{G}|Creature - Ox Avatar|0|4|Flying${T}: Add two mana of any one color.|
+Turtle Power!|Teenage Mutant Ninja Turtles|135|R|{2}{G}|Enchantment|||Flash$Turtles you control get +2/+2.|
 Bebop & Rocksteady|Teenage Mutant Ninja Turtles|140|R|{1}{B/G}{B/G}|Legendary Creature - Boar Rhino Mutant|7|5|Whenever Bebop & Rocksteady attack or block, sacrifice a permanent unless you discard a card.|
+North Wind Avatar|Teenage Mutant Ninja Turtles|162|M|{2}{U}{U}{R}|Creature - Dragon Spirit Avatar|5|5|Flying$When this creature enters, if you cast it, you may put a card you own from outside the game into your hand.|
+Splinter, Radical Rat|Teenage Mutant Ninja Turtles|169|R|{1}{W/B}{W/B}|Legendary Creature - Mutant Ninja Rat|2|4|If any ability of a Ninja creature you control triggers, that ability triggers an additional time.${1}{U}: Target Ninja can't be blocked this turn.|
 Plains|Teenage Mutant Ninja Turtles|253|C||Basic Land - Plains|||({T}: Add {W}.)|
 Island|Teenage Mutant Ninja Turtles|254|C||Basic Land - Island|||({T}: Add {U}.)|
 Swamp|Teenage Mutant Ninja Turtles|255|C||Basic Land - Swamp|||({T}: Add {B}.)|
