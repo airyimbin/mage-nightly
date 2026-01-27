@@ -615,8 +615,10 @@ public class ScryfallImageSupportCards {
             add("MAR"); // Marvel Universe
             add("TLA"); // Avatar: The Last Airbender
             add("TLE"); // Avatar: The Last Airbender Eternal
+            add("PF26"); // MagicFest 2026
             add("ECL"); // Lorwyn Eclipsed
             add("ECC"); // Lorwyn Eclipsed Commander
+            add("PL26"); // Year of the Horse 2026
             add("TMT"); // Teenage Mutant Ninja Turtles
             add("TMC"); // Teenage Mutant Ninja Turtles Eternal
             add("MSH"); // Marvel Super Heroes
@@ -744,7 +746,7 @@ public class ScryfallImageSupportCards {
             // LTR - 0 number for tokens only
             // Scryfall has a bug, for some reason this link doesn't work with ?format=image even though it works with ?format=json
             // and ?format=text. Base url fails because language is qya and not en and alternate url fails because of this bug
-            // TODO: This should be reverted when Scryfall fixes the bug 
+            // TODO: This should be reverted when Scryfall fixes the bug
             // put("LTR/The One Ring/001", "https://api.scryfall.com/cards/ltr/0/");
             put("LTR/The One Ring/001", "https://api.scryfall.com/cards/ltr/0/qya?format=image");
 
