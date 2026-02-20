@@ -31,6 +31,7 @@ public final class TeenageMutantNinjaTurtlesEternal extends ExpansionSet {
         cards.add(new SetCardInfo("City of Brass", 62, Rarity.RARE, mage.cards.c.CityOfBrass.class));
         cards.add(new SetCardInfo("Command Tower", 63, Rarity.COMMON, mage.cards.c.CommandTower.class));
         cards.add(new SetCardInfo("Commander's Plate", 135, Rarity.MYTHIC, mage.cards.c.CommandersPlate.class));
+        cards.add(new SetCardInfo("Containment Protocol", 108, Rarity.COMMON, mage.cards.c.ContainmentProtocol.class));
         cards.add(new SetCardInfo("Corpsejack Menace", 56, Rarity.RARE, mage.cards.c.CorpsejackMenace.class));
         cards.add(new SetCardInfo("Cultivate", 50, Rarity.COMMON, mage.cards.c.Cultivate.class));
         cards.add(new SetCardInfo("Dark Ritual", 131, Rarity.MYTHIC, mage.cards.d.DarkRitual.class));
@@ -43,6 +44,7 @@ public final class TeenageMutantNinjaTurtlesEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Evolving Wilds", 65, Rarity.COMMON, mage.cards.e.EvolvingWilds.class));
         cards.add(new SetCardInfo("Exotic Orchard", 66, Rarity.RARE, mage.cards.e.ExoticOrchard.class));
         cards.add(new SetCardInfo("Fabled Passage", 67, Rarity.RARE, mage.cards.f.FabledPassage.class));
+        cards.add(new SetCardInfo("Foe-liage", 122, Rarity.COMMON, mage.cards.f.FoeLiage.class));
         cards.add(new SetCardInfo("Food Chain", 133, Rarity.MYTHIC, mage.cards.f.FoodChain.class));
         cards.add(new SetCardInfo("Grand Coliseum", 68, Rarity.RARE, mage.cards.g.GrandColiseum.class));
         cards.add(new SetCardInfo("Harmonize", 51, Rarity.UNCOMMON, mage.cards.h.Harmonize.class));
@@ -56,10 +58,13 @@ public final class TeenageMutantNinjaTurtlesEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Michelangelo, On the Scene", 124, Rarity.MYTHIC, mage.cards.m.MichelangeloOnTheScene.class));
         cards.add(new SetCardInfo("Michelangelo, the Heart", 5, Rarity.MYTHIC, mage.cards.m.MichelangeloTheHeart.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Michelangelo, the Heart", 92, Rarity.MYTHIC, mage.cards.m.MichelangeloTheHeart.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Mona Lisa, Ever Adaptable", 126, Rarity.RARE, mage.cards.m.MonaLisaEverAdaptable.class));
         cards.add(new SetCardInfo("Ninja Pizza", 32, Rarity.RARE, mage.cards.n.NinjaPizza.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Ninja Pizza", 93, Rarity.RARE, mage.cards.n.NinjaPizza.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Path of Ancestry", 70, Rarity.COMMON, mage.cards.p.PathOfAncestry.class));
+        cards.add(new SetCardInfo("Prehistoric Turtlesaurus", 127, Rarity.COMMON, mage.cards.p.PrehistoricTurtlesaurus.class));
         cards.add(new SetCardInfo("Rain-Slicked Copse", 71, Rarity.RARE, mage.cards.r.RainSlickedCopse.class));
+        cards.add(new SetCardInfo("Raph's Bravado", 119, Rarity.UNCOMMON, mage.cards.r.RaphsBravado.class));
         cards.add(new SetCardInfo("Raphael, Tag Team Tough", 118, Rarity.MYTHIC, mage.cards.r.RaphaelTagTeamTough.class));
         cards.add(new SetCardInfo("Raphael, the Muscle", 4, Rarity.MYTHIC, mage.cards.r.RaphaelTheMuscle.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Raphael, the Muscle", 91, Rarity.MYTHIC, mage.cards.r.RaphaelTheMuscle.class, NON_FULL_USE_VARIOUS));
@@ -78,7 +83,9 @@ public final class TeenageMutantNinjaTurtlesEternal extends ExpansionSet {
         cards.add(new SetCardInfo("Thriving Isle", 78, Rarity.COMMON, mage.cards.t.ThrivingIsle.class));
         cards.add(new SetCardInfo("Thriving Moor", 79, Rarity.COMMON, mage.cards.t.ThrivingMoor.class));
         cards.add(new SetCardInfo("Together Forever", 44, Rarity.RARE, mage.cards.t.TogetherForever.class));
+        cards.add(new SetCardInfo("Triceraton Regenta", 105, Rarity.COMMON, mage.cards.t.TriceratonRegenta.class));
         cards.add(new SetCardInfo("Undergrowth Stadium", 80, Rarity.RARE, mage.cards.u.UndergrowthStadium.class));
+        cards.add(new SetCardInfo("Utrom Monitor", 113, Rarity.COMMON, mage.cards.u.UtromMonitor.class));
         cards.add(new SetCardInfo("Vanquish the Horde", 45, Rarity.RARE, mage.cards.v.VanquishTheHorde.class));
         cards.add(new SetCardInfo("Vernal Fen", 81, Rarity.RARE, mage.cards.v.VernalFen.class));
         cards.add(new SetCardInfo("Vibrant Cityscape", 82, Rarity.COMMON, mage.cards.v.VibrantCityscape.class));
