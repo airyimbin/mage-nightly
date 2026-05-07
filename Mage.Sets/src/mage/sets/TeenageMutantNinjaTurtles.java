@@ -179,6 +179,8 @@ public final class TeenageMutantNinjaTurtles extends ExpansionSet {
         cards.add(new SetCardInfo("Michelangelo, Weirdness to 11", 288, Rarity.MYTHIC, mage.cards.m.MichelangeloWeirdnessTo11.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Michelangelo, Weirdness to 11", 298, Rarity.MYTHIC, mage.cards.m.MichelangeloWeirdnessTo11.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mighty Mutanimals", 21, Rarity.UNCOMMON, mage.cards.m.MightyMutanimals.class));
+        cards.add(new SetCardInfo("Mikey & Don, Party Planners", 157, Rarity.RARE, mage.cards.m.MikeyAndDonPartyPlanners.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Mikey & Don, Party Planners", 246, Rarity.RARE, mage.cards.m.MikeyAndDonPartyPlanners.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mikey & Leo, Chaos & Order", 158, Rarity.RARE, mage.cards.m.MikeyAndLeoChaosAndOrder.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mikey & Leo, Chaos & Order", 200, Rarity.RARE, mage.cards.m.MikeyAndLeoChaosAndOrder.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Mikey & Leo, Chaos & Order", 247, Rarity.RARE, mage.cards.m.MikeyAndLeoChaosAndOrder.class, NON_FULL_USE_VARIOUS));
@@ -236,6 +238,8 @@ public final class TeenageMutantNinjaTurtles extends ExpansionSet {
         cards.add(new SetCardInfo("Raph & Mikey, Troublemakers", 250, Rarity.RARE, mage.cards.r.RaphAndMikeyTroublemakers.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Raphael's Technique", 105, Rarity.RARE, mage.cards.r.RaphaelsTechnique.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Raphael's Technique", 237, Rarity.RARE, mage.cards.r.RaphaelsTechnique.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Raphael, Most Attitude", 101, Rarity.UNCOMMON, mage.cards.r.RaphaelMostAttitude.class, NON_FULL_USE_VARIOUS));
+        cards.add(new SetCardInfo("Raphael, Most Attitude", 199, Rarity.UNCOMMON, mage.cards.r.RaphaelMostAttitude.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Raphael, Ninja Destroyer", 102, Rarity.MYTHIC, mage.cards.r.RaphaelNinjaDestroyer.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Raphael, Ninja Destroyer", 218, Rarity.MYTHIC, mage.cards.r.RaphaelNinjaDestroyer.class, NON_FULL_USE_VARIOUS));
         cards.add(new SetCardInfo("Raphael, Ninja Destroyer", 303, Rarity.MYTHIC, mage.cards.r.RaphaelNinjaDestroyer.class, NON_FULL_USE_VARIOUS));
